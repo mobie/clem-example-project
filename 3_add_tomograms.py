@@ -56,6 +56,12 @@ def add_tomograms():
         tomo_name = os.path.splitext(os.path.split(tomo)[1])[0]
         affine = affines[tomo_name]
 
+        # low mag tomograms are at 5nm, high mac ones at 1.25 nm
+        if 'lm' in tomo_name:
+            resolution = (0.005, 0.005, 0.005)
+        else:
+            resolution = (0.00125, 0.00125, 0.00125)
+
         tmp_folder = f'tmp_{tomo_name}'
         os.makedirs(tmp_folder, exist_ok=True)
         tmp_path = os.path.join(tmp_folder, 'vol.h5')
@@ -68,7 +74,7 @@ def add_tomograms():
                              root='./data',
                              dataset_name='yeast',
                              image_name=tomo_name,
-                             resolution=(0.005, 0.005, 0.005),
+                             resolution=resolution,
                              chunks=chunks,
                              scale_factors=scale_factors,
                              transformation=affine,

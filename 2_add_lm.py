@@ -13,7 +13,7 @@ def add_lm():
                          resolution=(10., 0.01, 0.01),  # artificially thick plane
                          chunks=(1, 512, 512),
                          scale_factors=4 * [[1, 2, 2]],
-                         settings={'Color': 'Green'},
+                         settings={'color': 'green'},
                          target='local',
                          max_jobs=16,
                          unit='micrometer')

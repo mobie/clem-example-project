@@ -1,0 +1,12 @@
+{
+  "default": {
+    "layers": {
+      "em-raw-overview": {
+        "contrastLimits": [
+          0.0,
+          255.0
+        ]
+      }
+    }
+  }
+}

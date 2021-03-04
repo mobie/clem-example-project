@@ -1,0 +1,38 @@
+<SpimData version="0.2">
+  <BasePath type="relative">.</BasePath>
+  <SequenceDescription>
+    <ImageLoader format="bdv.n5">
+      <n5 type="relative">em-tomogram-31_lm.n5</n5>
+    </ImageLoader>
+    <ViewSetups>
+      <Attributes name="channel">
+        <Channel>
+          <id>0</id>
+        </Channel>
+      </Attributes>
+      <ViewSetup>
+        <id>0</id>
+        <name>Setup0</name>
+        <size>2048 2048 100</size>
+        <voxelSize>
+          <unit>micrometer</unit>
+          <size>0.005 0.005 0.005</size>
+        </voxelSize>
+        <attributes>
+          <channel>0</channel>
+        </attributes>
+      </ViewSetup>
+    </ViewSetups>
+    <Timepoints type="range">
+      <first>0</first>
+      <last>0</last>
+    </Timepoints>
+  </SequenceDescription>
+  <ViewRegistrations>
+    <ViewRegistration timepoint="0" setup="0">
+      <ViewTransform type="affine">
+        <affine>0.0050980003356933595 0.0 0.0 18.077663945007323 0.0 0.0050980003356933595 0.0 76.01246376876831 0.0 0.0 0.0050980003356933595 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+  </ViewRegistrations>
+</SpimData>

@@ -1,0 +1,145 @@
+{
+  "em-raw-overview": {
+    "color": "white",
+    "contrastLimits": [
+      0.0,
+      255.0
+    ],
+    "storage": {
+      "local": "local/em-raw-overview.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-25_hm": {
+    "color": "white",
+    "contrastLimits": [
+      23765,
+      38051
+    ],
+    "storage": {
+      "local": "local/em-tomogram-25_hm.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-25_lm": {
+    "color": "white",
+    "contrastLimits": [
+      128,
+      65407
+    ],
+    "storage": {
+      "local": "local/em-tomogram-25_lm.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-26_hm": {
+    "color": "white",
+    "contrastLimits": [
+      23153,
+      38747
+    ],
+    "storage": {
+      "local": "local/em-tomogram-26_hm.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-26_lm": {
+    "color": "white",
+    "contrastLimits": [
+      128,
+      65407
+    ],
+    "storage": {
+      "local": "local/em-tomogram-26_lm.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-27_lm": {
+    "color": "white",
+    "contrastLimits": [
+      128,
+      65407
+    ],
+    "storage": {
+      "local": "local/em-tomogram-27_lm.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-28_lm": {
+    "color": "white",
+    "contrastLimits": [
+      128,
+      65407
+    ],
+    "storage": {
+      "local": "local/em-tomogram-28_lm.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-29_lm": {
+    "color": "white",
+    "contrastLimits": [
+      128,
+      65407
+    ],
+    "storage": {
+      "local": "local/em-tomogram-29_lm.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-30_hm": {
+    "color": "white",
+    "contrastLimits": [
+      24194,
+      38863
+    ],
+    "storage": {
+      "local": "local/em-tomogram-30_hm.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-30_lm": {
+    "color": "white",
+    "contrastLimits": [
+      128,
+      65407
+    ],
+    "storage": {
+      "local": "local/em-tomogram-30_lm.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-31_hm": {
+    "color": "white",
+    "contrastLimits": [
+      23541,
+      42095
+    ],
+    "storage": {
+      "local": "local/em-tomogram-31_hm.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-31_lm": {
+    "color": "white",
+    "contrastLimits": [
+      0,
+      255
+    ],
+    "storage": {
+      "local": "local/em-tomogram-31_lm.xml"
+    },
+    "type": "image"
+  },
+  "lm-fluorescence-overview": {
+    "color": "green",
+    "contrastLimits": [
+      0.0,
+      255.0
+    ],
+    "storage": {
+      "local": "local/lm-fluorescence-overview.xml"
+    },
+    "type": "image"
+  }
+}
