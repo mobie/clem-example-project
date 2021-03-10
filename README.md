@@ -1,4 +1,4 @@
-# clem-yeast-datasets
+# yeast-clem-datasets
 
 MoBIE project with data from the publication
 [Seipin and Nem1 establish discrete ER subdomains to initiate yeast lipid droplet biogenesis](https://doi.org/10.1083/jcb.201910177).
