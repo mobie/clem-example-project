@@ -9,7 +9,7 @@
       </Attributes>
       <ViewSetup>
         <id>0</id>
-        <name>Setup0</name>
+        <name>em-tomogram-25_lm</name>
         <size>2048 2048 100</size>
         <voxelSize>
           <unit>micrometer</unit>
@@ -29,11 +29,10 @@
       <SigningRegion>us-west-2</SigningRegion>
       <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
       <BucketName>yeast-clem</BucketName>
-      <Authentication>Anonymous</Authentication>
     </ImageLoader>
   </SequenceDescription>
   <ViewRegistrations>
-    <ViewRegistration timepoint="0" setup="0">
+    <ViewRegistration setup="0" timepoint="0">
       <ViewTransform type="affine">
         <affine>0.0050980003356933595 0.0 0.0 51.60460784301758 0.0 0.0050980003356933595 0.0 43.388399868011476 0.0 0.0 0.0050980003356933595 0.0</affine>
       </ViewTransform>

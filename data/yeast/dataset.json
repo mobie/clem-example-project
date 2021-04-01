@@ -1,0 +1,391 @@
+{
+  "is2d": false,
+  "sources": {
+    "em-raw-overview": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-raw-overview.xml",
+          "remote": "images/remote/em-raw-overview.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  0.0,
+                  255.0
+                ],
+                "name": "em-raw-overview",
+                "opacity": 1.0,
+                "sources": [
+                  "em-raw-overview"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-25_hm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-25_hm.xml",
+          "remote": "images/remote/em-tomogram-25_hm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  23765,
+                  38051
+                ],
+                "name": "em-tomogram-25_hm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-25_hm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-25_lm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-25_lm.xml",
+          "remote": "images/remote/em-tomogram-25_lm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  128,
+                  65407
+                ],
+                "name": "em-tomogram-25_lm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-25_lm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-26_hm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-26_hm.xml",
+          "remote": "images/remote/em-tomogram-26_hm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  23153,
+                  38747
+                ],
+                "name": "em-tomogram-26_hm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-26_hm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-26_lm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-26_lm.xml",
+          "remote": "images/remote/em-tomogram-26_lm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  128,
+                  65407
+                ],
+                "name": "em-tomogram-26_lm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-26_lm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-27_lm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-27_lm.xml",
+          "remote": "images/remote/em-tomogram-27_lm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  128,
+                  65407
+                ],
+                "name": "em-tomogram-27_lm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-27_lm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-28_lm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-28_lm.xml",
+          "remote": "images/remote/em-tomogram-28_lm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  128,
+                  65407
+                ],
+                "name": "em-tomogram-28_lm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-28_lm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-29_lm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-29_lm.xml",
+          "remote": "images/remote/em-tomogram-29_lm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  128,
+                  65407
+                ],
+                "name": "em-tomogram-29_lm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-29_lm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-30_hm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-30_hm.xml",
+          "remote": "images/remote/em-tomogram-30_hm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  24194,
+                  38863
+                ],
+                "name": "em-tomogram-30_hm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-30_hm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-30_lm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-30_lm.xml",
+          "remote": "images/remote/em-tomogram-30_lm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  128,
+                  65407
+                ],
+                "name": "em-tomogram-30_lm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-30_lm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-31_hm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-31_hm.xml",
+          "remote": "images/remote/em-tomogram-31_hm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  23541,
+                  42095
+                ],
+                "name": "em-tomogram-31_hm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-31_hm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "em-tomogram-31_lm": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/em-tomogram-31_lm.xml",
+          "remote": "images/remote/em-tomogram-31_lm.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "white",
+                "contrastLimits": [
+                  0,
+                  255
+                ],
+                "name": "em-tomogram-31_lm",
+                "opacity": 1.0,
+                "sources": [
+                  "em-tomogram-31_lm"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "em"
+        }
+      }
+    },
+    "lm-fluorescence-overview": {
+      "image": {
+        "imageDataLocations": {
+          "local": "images/local/lm-fluorescence-overview.xml",
+          "remote": "images/remote/lm-fluorescence-overview.xml"
+        },
+        "view": {
+          "isExclusive": false,
+          "sourceDisplays": [
+            {
+              "imageDisplay": {
+                "color": "green",
+                "contrastLimits": [
+                  0.0,
+                  255.0
+                ],
+                "name": "lm-fluorescence-overview",
+                "opacity": 1.0,
+                "sources": [
+                  "lm-fluorescence-overview"
+                ]
+              }
+            }
+          ],
+          "uiSelectionGroup": "lm"
+        }
+      }
+    }
+  },
+  "views": {
+    "default": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "em-raw-overview",
+            "opacity": 1.0,
+            "sources": [
+              "em-raw-overview"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    }
+  }
+}

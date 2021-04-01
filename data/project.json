@@ -1,0 +1,7 @@
+{
+  "datasets": [
+    "yeast"
+  ],
+  "defaultDataset": "yeast",
+  "specVersion": "0.2.0"
+}
