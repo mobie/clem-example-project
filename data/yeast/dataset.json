@@ -4,8 +4,8 @@
     "em-raw-overview": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-raw-overview.xml",
-          "remote": "images/remote/em-raw-overview.xml"
+          "fileSystem": "images/local/em-raw-overview.xml",
+          "s3store": "images/remote/em-raw-overview.xml"
         },
         "view": {
           "isExclusive": false,
@@ -32,8 +32,8 @@
     "em-tomogram-25_hm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-25_hm.xml",
-          "remote": "images/remote/em-tomogram-25_hm.xml"
+          "fileSystem": "images/local/em-tomogram-25_hm.xml",
+          "s3store": "images/remote/em-tomogram-25_hm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -60,8 +60,8 @@
     "em-tomogram-25_lm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-25_lm.xml",
-          "remote": "images/remote/em-tomogram-25_lm.xml"
+          "fileSystem": "images/local/em-tomogram-25_lm.xml",
+          "s3store": "images/remote/em-tomogram-25_lm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -88,8 +88,8 @@
     "em-tomogram-26_hm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-26_hm.xml",
-          "remote": "images/remote/em-tomogram-26_hm.xml"
+          "fileSystem": "images/local/em-tomogram-26_hm.xml",
+          "s3store": "images/remote/em-tomogram-26_hm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -116,8 +116,8 @@
     "em-tomogram-26_lm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-26_lm.xml",
-          "remote": "images/remote/em-tomogram-26_lm.xml"
+          "fileSystem": "images/local/em-tomogram-26_lm.xml",
+          "s3store": "images/remote/em-tomogram-26_lm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -144,8 +144,8 @@
     "em-tomogram-27_lm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-27_lm.xml",
-          "remote": "images/remote/em-tomogram-27_lm.xml"
+          "fileSystem": "images/local/em-tomogram-27_lm.xml",
+          "s3store": "images/remote/em-tomogram-27_lm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -172,8 +172,8 @@
     "em-tomogram-28_lm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-28_lm.xml",
-          "remote": "images/remote/em-tomogram-28_lm.xml"
+          "fileSystem": "images/local/em-tomogram-28_lm.xml",
+          "s3store": "images/remote/em-tomogram-28_lm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -200,8 +200,8 @@
     "em-tomogram-29_lm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-29_lm.xml",
-          "remote": "images/remote/em-tomogram-29_lm.xml"
+          "fileSystem": "images/local/em-tomogram-29_lm.xml",
+          "s3store": "images/remote/em-tomogram-29_lm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -228,8 +228,8 @@
     "em-tomogram-30_hm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-30_hm.xml",
-          "remote": "images/remote/em-tomogram-30_hm.xml"
+          "fileSystem": "images/local/em-tomogram-30_hm.xml",
+          "s3store": "images/remote/em-tomogram-30_hm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -256,8 +256,8 @@
     "em-tomogram-30_lm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-30_lm.xml",
-          "remote": "images/remote/em-tomogram-30_lm.xml"
+          "fileSystem": "images/local/em-tomogram-30_lm.xml",
+          "s3store": "images/remote/em-tomogram-30_lm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -284,8 +284,8 @@
     "em-tomogram-31_hm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-31_hm.xml",
-          "remote": "images/remote/em-tomogram-31_hm.xml"
+          "fileSystem": "images/local/em-tomogram-31_hm.xml",
+          "s3store": "images/remote/em-tomogram-31_hm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -312,8 +312,8 @@
     "em-tomogram-31_lm": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/em-tomogram-31_lm.xml",
-          "remote": "images/remote/em-tomogram-31_lm.xml"
+          "fileSystem": "images/local/em-tomogram-31_lm.xml",
+          "s3store": "images/remote/em-tomogram-31_lm.xml"
         },
         "view": {
           "isExclusive": false,
@@ -340,8 +340,8 @@
     "lm-fluorescence-overview": {
       "image": {
         "imageDataLocations": {
-          "local": "images/local/lm-fluorescence-overview.xml",
-          "remote": "images/remote/lm-fluorescence-overview.xml"
+          "fileSystem": "images/local/lm-fluorescence-overview.xml",
+          "s3store": "images/remote/lm-fluorescence-overview.xml"
         },
         "view": {
           "isExclusive": false,
