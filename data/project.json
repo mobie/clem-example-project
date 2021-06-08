@@ -3,5 +3,9 @@
     "yeast"
   ],
   "defaultDataset": "yeast",
+  "imageDataFormats": [
+    "bdv.n5",
+    "bdv.n5.s3"
+  ],
   "specVersion": "0.2.0"
 }
