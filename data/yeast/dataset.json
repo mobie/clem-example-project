@@ -211,6 +211,7 @@
             ],
             "name": "em-tomogram-25_hm",
             "opacity": 1.0,
+            "blendingMode": "averageOccluding",
             "sources": [
               "em-tomogram-25_hm"
             ]
@@ -231,6 +232,7 @@
             ],
             "name": "em-tomogram-25_lm",
             "opacity": 1.0,
+            "blendingMode": "averageOccluding",
             "sources": [
               "em-tomogram-25_lm"
             ]
