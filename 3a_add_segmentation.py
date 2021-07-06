@@ -2,7 +2,7 @@ import mobie
 
 
 def add_segmentation():
-    path = '/home/pape/Work/data/mobie/mobie-example-data/em_segmentation.tif'
+    path = '/g/kreshuk/pape/Work/data/mobie/mobie-example-data/em_segmentation.tif'
 
     resolution = [2., 0.03, 0.03]
     chunks = [1, 256, 256]

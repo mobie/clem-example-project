@@ -13,6 +13,23 @@
         }
       }
     },
+    "em-segmentation": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-segmentation.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-segmentation.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/em-segmentation"
+          }
+        }
+      }
+    },
     "em-tomogram-25_hm": {
       "image": {
         "imageData": {
@@ -199,11 +216,31 @@
       ],
       "uiSelectionGroup": "em"
     },
+    "em-segmentation": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "em-segmentation",
+            "opacity": 0.5,
+            "sources": [
+              "em-segmentation"
+            ],
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "segmentations"
+    },
     "em-tomogram-25_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "averageOccluding",
             "color": "white",
             "contrastLimits": [
               23765,
@@ -211,7 +248,6 @@
             ],
             "name": "em-tomogram-25_hm",
             "opacity": 1.0,
-            "blendingMode": "averageOccluding",
             "sources": [
               "em-tomogram-25_hm"
             ]
@@ -225,6 +261,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "averageOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -232,7 +269,6 @@
             ],
             "name": "em-tomogram-25_lm",
             "opacity": 1.0,
-            "blendingMode": "averageOccluding",
             "sources": [
               "em-tomogram-25_lm"
             ]
@@ -386,6 +422,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "averageOccluding",
             "color": "white",
             "contrastLimits": [
               23541,
@@ -393,7 +430,6 @@
             ],
             "name": "em-tomogram-31_hm",
             "opacity": 1.0,
-            "blendingMode": "averageOccluding",
             "sources": [
               "em-tomogram-31_hm"
             ]
@@ -407,6 +443,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "averageOccluding",
             "color": "white",
             "contrastLimits": [
               0,
@@ -414,7 +451,6 @@
             ],
             "name": "em-tomogram-31_lm",
             "opacity": 1.0,
-            "blendingMode": "averageOccluding",
             "sources": [
               "em-tomogram-31_lm"
             ]
