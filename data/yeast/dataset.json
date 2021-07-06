@@ -391,6 +391,7 @@
             ],
             "name": "em-tomogram-31_hm",
             "opacity": 1.0,
+            "blendingMode": "averageOccluding",
             "sources": [
               "em-tomogram-31_hm"
             ]
@@ -411,6 +412,7 @@
             ],
             "name": "em-tomogram-31_lm",
             "opacity": 1.0,
+            "blendingMode": "averageOccluding",
             "sources": [
               "em-tomogram-31_lm"
             ]
