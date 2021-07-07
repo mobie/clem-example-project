@@ -240,7 +240,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "averageOccluding",
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               23765,
@@ -261,7 +261,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "averageOccluding",
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -282,6 +282,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               23153,
@@ -302,6 +303,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -322,6 +324,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -342,6 +345,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -362,6 +366,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -382,6 +387,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               24194,
@@ -402,6 +408,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -422,7 +429,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "averageOccluding",
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               23541,
@@ -443,7 +450,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "averageOccluding",
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               0,
