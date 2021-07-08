@@ -51,7 +51,8 @@ def add_tomograms():
     for tomo in tomo_paths:
         im = imageio.volread(tomo).astype('uint16')
         settings = {
-            'contrastLimits': [im.min(), im.max()]
+            'contrastLimits': [im.min(), im.max()],
+            'blendingMode': 'sumOccluding'
         }
         tomo_name = os.path.splitext(os.path.split(tomo)[1])[0]
         affine = affines[tomo_name]

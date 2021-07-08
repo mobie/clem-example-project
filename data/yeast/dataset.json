@@ -13,6 +13,23 @@
         }
       }
     },
+    "em-segmentation": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-segmentation.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-segmentation.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/em-segmentation"
+          }
+        }
+      }
+    },
     "em-tomogram-25_hm": {
       "image": {
         "imageData": {
@@ -199,11 +216,31 @@
       ],
       "uiSelectionGroup": "em"
     },
+    "em-segmentation": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "em-segmentation",
+            "opacity": 0.5,
+            "sources": [
+              "em-segmentation"
+            ],
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "segmentations"
+    },
     "em-tomogram-25_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               23765,
@@ -224,6 +261,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -244,6 +282,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               23153,
@@ -264,6 +303,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -284,6 +324,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -304,6 +345,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -324,6 +366,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -344,6 +387,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               24194,
@@ -364,6 +408,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               128,
@@ -384,6 +429,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               23541,
@@ -404,6 +450,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               0,
