@@ -31,7 +31,7 @@
   <ViewRegistrations>
     <ViewRegistration setup="0" timepoint="0">
       <ViewTransform type="affine">
-        <affine>0.01 0.0 0.0 0.0 0.0 0.01 0.0 0.0 0.0 0.0 1.0 -0.5</affine>
+        <affine>0.01 0.0 0.0 0.0 0.0 0.01 0.0 0.0 0.0 0.0 1.0 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>
