@@ -19,7 +19,7 @@
         <size>3444 3533 1</size>
         <voxelSize>
           <unit>micrometer</unit>
-          <size>0.03 0.03 2.0</size>
+          <size>0.03 0.03 1.0</size>
         </voxelSize>
         <attributes>
           <channel>0</channel>
@@ -34,7 +34,7 @@
   <ViewRegistrations>
     <ViewRegistration timepoint="0" setup="0">
       <ViewTransform type="affine">
-        <affine>0.03 0.0 0.0 0.0 0.0 0.03 0.0 0.0 0.0 0.0 2.0 0.0</affine>
+        <affine>0.03 0.0 0.0 0.0 0.0 0.03 0.0 0.0 0.0 0.0 1.0 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>
