@@ -400,6 +400,55 @@
       ],
       "uiSelectionGroup": "em"
     },
+    "hm_tomograms": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              27588.000000000004,
+              34279.200000000004
+            ],
+            "name": "hm_tomograms",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-25_hm",
+              "em-tomogram-26_hm",
+              "em-tomogram-30_hm"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "hm_tomograms",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "em-tomogram-25_hm"
+              ],
+              "1": [
+                "em-tomogram-26_hm"
+              ],
+              "2": [
+                "em-tomogram-30_hm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/hm_tomograms"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmarks"
+    },
     "lm-fluorescence-overview": {
       "isExclusive": false,
       "sourceDisplays": [
@@ -419,6 +468,67 @@
         }
       ],
       "uiSelectionGroup": "lm"
+    },
+    "lm_tomograms": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              723.8000000000001,
+              58028.4
+            ],
+            "name": "lm_tomograms",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-25_lm",
+              "em-tomogram-26_lm",
+              "em-tomogram-27_lm",
+              "em-tomogram-28_lm",
+              "em-tomogram-29_lm",
+              "em-tomogram-30_lm"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "lm_tomograms",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "em-tomogram-25_lm"
+              ],
+              "1": [
+                "em-tomogram-26_lm"
+              ],
+              "2": [
+                "em-tomogram-27_lm"
+              ],
+              "3": [
+                "em-tomogram-28_lm"
+              ],
+              "4": [
+                "em-tomogram-29_lm"
+              ],
+              "5": [
+                "em-tomogram-30_lm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/lm_tomograms"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmarks"
     }
   }
 }
