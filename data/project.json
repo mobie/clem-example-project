@@ -1,6 +1,7 @@
 {
   "datasets": [
-    "yeast"
+    "yeast",
+    "yeast2"
   ],
   "defaultDataset": "yeast",
   "imageDataFormats": [

@@ -1,0 +1,725 @@
+{
+  "is2D": false,
+  "sources": {
+    "em-detail-a1-A": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/em-detail-a1-A.xml"
+          }
+        }
+      }
+    },
+    "em-detail-a2-A": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/em-detail-a2-A.xml"
+          }
+        }
+      }
+    },
+    "em-detail-a3-A": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/em-detail-a3-A.xml"
+          }
+        }
+      }
+    },
+    "em-overview": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/em-overview.xml"
+          }
+        }
+      }
+    },
+    "fluorescence-a2-FMR-c0": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/fluorescence-a2-FMR-c0.xml"
+          }
+        }
+      }
+    },
+    "fluorescence-a2-FMR-c1": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/fluorescence-a2-FMR-c1.xml"
+          }
+        }
+      }
+    },
+    "fluorescence-a2-FMR-c2": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/fluorescence-a2-FMR-c2.xml"
+          }
+        }
+      }
+    },
+    "fluorescence-a3-FMR-c0": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c0.xml"
+          }
+        }
+      }
+    },
+    "fluorescence-a3-FMR-c1": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c1.xml"
+          }
+        }
+      }
+    },
+    "fluorescence-a3-FMR-c2": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c2.xml"
+          }
+        }
+      }
+    }
+  },
+  "timepoints": 1,
+  "views": {
+    "default": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              35928
+            ],
+            "name": "em-overview",
+            "opacity": 1.0,
+            "sources": [
+              "em-overview"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    },
+    "em-detail-a1-A": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              46713
+            ],
+            "name": "em-detail-a1-A",
+            "opacity": 1.0,
+            "sources": [
+              "em-detail-a1-A"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              37.7088,
+              0.0,
+              1.0,
+              0.0,
+              -87.641,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a1-A"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-detail-a2-A": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              43620
+            ],
+            "name": "em-detail-a2-A",
+            "opacity": 1.0,
+            "sources": [
+              "em-detail-a2-A"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              154.465,
+              0.0,
+              1.0,
+              0.0,
+              -45.5198,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a2-A"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-detail-a3-A": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              45563
+            ],
+            "name": "em-detail-a3-A",
+            "opacity": 1.0,
+            "sources": [
+              "em-detail-a3-A"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-overview": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              35928
+            ],
+            "name": "em-overview",
+            "opacity": 1.0,
+            "sources": [
+              "em-overview"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "fluorescence-a2-FMR-c0": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=0,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "fluorescence-a2-FMR-c0",
+            "opacity": 1.0,
+            "sources": [
+              "fluorescence-a2-FMR-c0"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              154.465,
+              0.0,
+              1.0,
+              0.0,
+              -45.5198,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a2-FMR-c0"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "CLEMRegistration",
+            "parameters": [
+              6.4887,
+              0.8804,
+              0.0,
+              1065.9478,
+              -0.8804,
+              6.4887,
+              0.0,
+              3815.0542,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a2-FMR-c0"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "fluorescence"
+    },
+    "fluorescence-a2-FMR-c1": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "fluorescence-a2-FMR-c1",
+            "opacity": 1.0,
+            "sources": [
+              "fluorescence-a2-FMR-c1"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              154.465,
+              0.0,
+              1.0,
+              0.0,
+              -45.5198,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a2-FMR-c1"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "CLEMRegistration",
+            "parameters": [
+              6.4887,
+              0.8804,
+              0.0,
+              1065.9478,
+              -0.8804,
+              6.4887,
+              0.0,
+              3815.0542,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a2-FMR-c1"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "fluorescence"
+    },
+    "fluorescence-a2-FMR-c2": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "fluorescence-a2-FMR-c2",
+            "opacity": 1.0,
+            "sources": [
+              "fluorescence-a2-FMR-c2"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              154.465,
+              0.0,
+              1.0,
+              0.0,
+              -45.5198,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a2-FMR-c2"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "CLEMRegistration",
+            "parameters": [
+              6.4887,
+              0.8804,
+              0.0,
+              1065.9478,
+              -0.8804,
+              6.4887,
+              0.0,
+              3815.0542,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a2-FMR-c2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "fluorescence"
+    },
+    "fluorescence-a3-FMR-c0": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=0,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "fluorescence-a3-FMR-c0",
+            "opacity": 1.0,
+            "sources": [
+              "fluorescence-a3-FMR-c0"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-FMR-c0"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "CLEMRegistration",
+            "parameters": [
+              6.4987,
+              0.8615,
+              0.0,
+              165.3568,
+              -0.8615,
+              6.4987,
+              -0.0,
+              2243.2063,
+              -0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-FMR-c0"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "fluorescence"
+    },
+    "fluorescence-a3-FMR-c1": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "fluorescence-a3-FMR-c1",
+            "opacity": 1.0,
+            "sources": [
+              "fluorescence-a3-FMR-c1"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-FMR-c1"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "CLEMRegistration",
+            "parameters": [
+              6.4987,
+              0.8615,
+              0.0,
+              165.3568,
+              -0.8615,
+              6.4987,
+              -0.0,
+              2243.2063,
+              -0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-FMR-c1"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "fluorescence"
+    },
+    "fluorescence-a3-FMR-c2": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "fluorescence-a3-FMR-c2",
+            "opacity": 1.0,
+            "sources": [
+              "fluorescence-a3-FMR-c2"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-FMR-c2"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "CLEMRegistration",
+            "parameters": [
+              6.4987,
+              0.8615,
+              0.0,
+              165.3568,
+              -0.8615,
+              6.4987,
+              -0.0,
+              2243.2063,
+              -0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-FMR-c2"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "fluorescence"
+    }
+  }
+}
