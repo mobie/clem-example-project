@@ -3,7 +3,7 @@
     "yeast",
     "yeast2"
   ],
-  "defaultDataset": "yeast",
+  "defaultDataset": "yeast2",
   "imageDataFormats": [
     "bdv.n5",
     "bdv.n5.s3"

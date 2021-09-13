@@ -338,52 +338,6 @@
           }
         }
       ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              154.465,
-              0.0,
-              1.0,
-              0.0,
-              -45.5198,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-FMR-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              6.4887,
-              0.8804,
-              0.0,
-              1065.9478,
-              -0.8804,
-              6.4887,
-              0.0,
-              3815.0542,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-FMR-c0"
-            ]
-          }
-        }
-      ],
       "uiSelectionGroup": "fluorescence"
     },
     "fluorescence-a2-FMR-c1": {
@@ -399,52 +353,6 @@
             ],
             "name": "fluorescence-a2-FMR-c1",
             "opacity": 1.0,
-            "sources": [
-              "fluorescence-a2-FMR-c1"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              154.465,
-              0.0,
-              1.0,
-              0.0,
-              -45.5198,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-FMR-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              6.4887,
-              0.8804,
-              0.0,
-              1065.9478,
-              -0.8804,
-              6.4887,
-              0.0,
-              3815.0542,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
             "sources": [
               "fluorescence-a2-FMR-c1"
             ]
@@ -472,52 +380,6 @@
           }
         }
       ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              154.465,
-              0.0,
-              1.0,
-              0.0,
-              -45.5198,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-FMR-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              6.4887,
-              0.8804,
-              0.0,
-              1065.9478,
-              -0.8804,
-              6.4887,
-              0.0,
-              3815.0542,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-FMR-c2"
-            ]
-          }
-        }
-      ],
       "uiSelectionGroup": "fluorescence"
     },
     "fluorescence-a3-FMR-c0": {
@@ -533,52 +395,6 @@
             ],
             "name": "fluorescence-a3-FMR-c0",
             "opacity": 1.0,
-            "sources": [
-              "fluorescence-a3-FMR-c0"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-FMR-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              6.4987,
-              0.8615,
-              0.0,
-              165.3568,
-              -0.8615,
-              6.4987,
-              -0.0,
-              2243.2063,
-              -0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
             "sources": [
               "fluorescence-a3-FMR-c0"
             ]
@@ -606,52 +422,6 @@
           }
         }
       ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-FMR-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              6.4987,
-              0.8615,
-              0.0,
-              165.3568,
-              -0.8615,
-              6.4987,
-              -0.0,
-              2243.2063,
-              -0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-FMR-c1"
-            ]
-          }
-        }
-      ],
       "uiSelectionGroup": "fluorescence"
     },
     "fluorescence-a3-FMR-c2": {
@@ -667,52 +437,6 @@
             ],
             "name": "fluorescence-a3-FMR-c2",
             "opacity": 1.0,
-            "sources": [
-              "fluorescence-a3-FMR-c2"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-FMR-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              6.4987,
-              0.8615,
-              0.0,
-              165.3568,
-              -0.8615,
-              6.4987,
-              -0.0,
-              2243.2063,
-              -0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
             "sources": [
               "fluorescence-a3-FMR-c2"
             ]

@@ -55,7 +55,7 @@ def add_fm(input_sources, added_sources, names):
         if all(nn in added_sources for nn in im_names):
             continue
         mobie.add_bdv_image(xml_path, OUT, DS_NAME, image_name=im_names, menu_name="fluorescence",
-                            trafos_for_mobie=["Translation", "CLEMRegistration"], scale_factors=scale_factors)
+                            trafos_for_mobie=None, scale_factors=scale_factors)
 
 
 def add_tomos(input_sources, added_sources):
@@ -85,8 +85,6 @@ def check_sources():
                 napari.run()
 
 
-# TODO average blending not supported!
-# FIXME negative values in tomograms!
 def add_new_dataset():
     # add all the sources from the existing, but not valid, mobie project
     input_sources = _get_sources()
@@ -101,7 +99,8 @@ def add_new_dataset():
     fm_names = ["a2-FMR", "a3-FMR"]
     add_fm(input_sources, added_sources, fm_names)
 
-    add_tomos(input_sources, added_sources)
+    # TODO: wait till Martin converts to uint8
+    # add_tomos(input_sources, added_sources)
 
 
 if __name__ == '__main__':
