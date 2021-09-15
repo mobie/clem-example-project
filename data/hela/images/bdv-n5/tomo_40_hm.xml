@@ -1,0 +1,39 @@
+<SpimData version="0.2">
+  <BasePath type="relative">.</BasePath>
+  <SequenceDescription>
+    <ImageLoader format="bdv.n5">
+      <n5 type="relative">tomo_40_hm.n5</n5>
+    </ImageLoader>
+    <ViewSetups>
+      <Attributes name="channel">
+        <Channel>
+          <id>0</id>
+        </Channel>
+      </Attributes>
+      <ViewSetup>
+        <id>0</id>
+        <name>tomo_40_hm</name>
+        <size>2024 2024 108</size>
+        <voxelSize>
+          <unit>um</unit>
+          <size>0.0015578 0.0015578 0.0015578</size>
+        </voxelSize>
+        <attributes>
+          <channel>0</channel>
+        </attributes>
+      </ViewSetup>
+    </ViewSetups>
+    <Timepoints type="range">
+      <first>0</first>
+      <last>0</last>
+    </Timepoints>
+  </SequenceDescription>
+  <ViewRegistrations>
+    <ViewRegistration timepoint="0" setup="0">
+      <ViewTransform type="affine">
+        <affine>2.063329299403922e-05 0.0015639682342169817 -2.4001709338931488e-35 210.88814494422707 0.0015899979026560375 -5.399497224742461e-05 -9.600683735572598e-36 309.76654920034923 1.0117024845790412e-35 2.3763976326318768e-35 0.0015577999999999998 -0.05456108458253092</affine>
+        <name>affine0</name>
+      </ViewTransform>
+    </ViewRegistration>
+  </ViewRegistrations>
+</SpimData>

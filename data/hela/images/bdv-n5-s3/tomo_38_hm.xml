@@ -1,0 +1,42 @@
+<SpimData version="0.2">
+  <BasePath type="relative">.</BasePath>
+  <SequenceDescription>
+    <ViewSetups>
+      <Attributes name="channel">
+        <Channel>
+          <id>0</id>
+        </Channel>
+      </Attributes>
+      <ViewSetup>
+        <id>0</id>
+        <name>tomo_38_hm</name>
+        <size>2024 2024 90</size>
+        <voxelSize>
+          <unit>um</unit>
+          <size>0.0015578 0.0015578 0.0015578</size>
+        </voxelSize>
+        <attributes>
+          <channel>0</channel>
+        </attributes>
+      </ViewSetup>
+    </ViewSetups>
+    <Timepoints type="range">
+      <first>0</first>
+      <last>0</last>
+    </Timepoints>
+    <ImageLoader format="bdv.n5.s3">
+      <Key>hela/images/bdv-n5/tomo_38_hm.n5</Key>
+      <SigningRegion>us-west-2</SigningRegion>
+      <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
+      <BucketName>yeast-clem</BucketName>
+    </ImageLoader>
+  </SequenceDescription>
+  <ViewRegistrations>
+    <ViewRegistration timepoint="0" setup="0">
+      <ViewTransform type="affine">
+        <affine>2.0633292994039228e-05 0.0015639682342169824 0.0 243.59201639109855 0.0015899979026560381 -5.399497224742463e-05 0.0 303.91519667035317 0.0 0.0 0.0015578000000000005 -0.07010100000000001</affine>
+        <name>affine0</name>
+      </ViewTransform>
+    </ViewRegistration>
+  </ViewRegistrations>
+</SpimData>

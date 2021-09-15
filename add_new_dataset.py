@@ -66,6 +66,18 @@ def add_tomos(input_sources, added_sources):
         mobie.add_bdv_image(xml_path, OUT, DS_NAME, menu_name="tomograms")
 
 
+def add_to_s3():
+    from subprocess import run
+    bucket_name = "yeast-clem"
+    service_endpoint = "https://s3.embl.de"
+    mobie.metadata.add_remote_dataset_metadata(
+        OUT, DS_NAME, bucket_name, service_endpoint
+    )
+
+    cmd = ["mc", "cp", "-r", "data/hela/", f"embl/{bucket_name}/hela/"]
+    run(cmd)
+
+
 def check_sources():
     import napari
     sources = _get_sources()
@@ -99,8 +111,9 @@ def add_new_dataset():
     fm_names = ["a2-FMR", "a3-FMR"]
     add_fm(input_sources, added_sources, fm_names)
 
-    # TODO: wait till Martin converts to uint8
-    # add_tomos(input_sources, added_sources)
+    add_tomos(input_sources, added_sources)
+
+    add_to_s3()
 
 
 if __name__ == '__main__':

@@ -6,6 +6,9 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/em-detail-a1-A.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/em-detail-a1-A.xml"
           }
         }
       }
@@ -15,6 +18,9 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/em-detail-a2-A.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/em-detail-a2-A.xml"
           }
         }
       }
@@ -24,6 +30,9 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/em-detail-a3-A.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/em-detail-a3-A.xml"
           }
         }
       }
@@ -33,6 +42,9 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/em-overview.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/em-overview.xml"
           }
         }
       }
@@ -42,6 +54,9 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/fluorescence-a2-FMR-c0.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/fluorescence-a2-FMR-c0.xml"
           }
         }
       }
@@ -51,6 +66,9 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/fluorescence-a2-FMR-c1.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/fluorescence-a2-FMR-c1.xml"
           }
         }
       }
@@ -60,6 +78,9 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/fluorescence-a2-FMR-c2.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/fluorescence-a2-FMR-c2.xml"
           }
         }
       }
@@ -69,6 +90,9 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c0.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/fluorescence-a3-FMR-c0.xml"
           }
         }
       }
@@ -78,6 +102,9 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c1.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/fluorescence-a3-FMR-c1.xml"
           }
         }
       }
@@ -87,6 +114,153 @@
         "imageData": {
           "bdv.n5": {
             "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c2.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/fluorescence-a3-FMR-c2.xml"
+          }
+        }
+      }
+    },
+    "tomo_37_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_37_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_37_hm.xml"
+          }
+        }
+      }
+    },
+    "tomo_37_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_37_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_37_lm.xml"
+          }
+        }
+      }
+    },
+    "tomo_38_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_38_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_38_hm.xml"
+          }
+        }
+      }
+    },
+    "tomo_38_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_38_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_38_lm.xml"
+          }
+        }
+      }
+    },
+    "tomo_40_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_40_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_40_hm.xml"
+          }
+        }
+      }
+    },
+    "tomo_40_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_40_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_40_lm.xml"
+          }
+        }
+      }
+    },
+    "tomo_41_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_41_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_41_hm.xml"
+          }
+        }
+      }
+    },
+    "tomo_41_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_41_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_41_lm.xml"
+          }
+        }
+      }
+    },
+    "tomo_53_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_53_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_53_hm.xml"
+          }
+        }
+      }
+    },
+    "tomo_53_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_53_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_53_lm.xml"
+          }
+        }
+      }
+    },
+    "tomo_54_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_54_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_54_hm.xml"
+          }
+        }
+      }
+    },
+    "tomo_54_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_54_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_54_lm.xml"
           }
         }
       }
@@ -444,6 +618,268 @@
         }
       ],
       "uiSelectionGroup": "fluorescence"
+    },
+    "tomo_37_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_37_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_37_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_37_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_37_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_37_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_38_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_38_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_38_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_38_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_38_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_40_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_40_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_40_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_40_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "tomo_40_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_40_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_41_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_41_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_41_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_41_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_41_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_41_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_53_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_53_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_53_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_53_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "tomo_53_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_53_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_54_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_54_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_54_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_54_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_54_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_54_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
     }
   }
 }

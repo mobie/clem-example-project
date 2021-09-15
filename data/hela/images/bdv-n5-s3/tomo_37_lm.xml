@@ -1,0 +1,46 @@
+<SpimData version="0.2">
+  <BasePath type="relative">.</BasePath>
+  <SequenceDescription>
+    <ViewSetups>
+      <Attributes name="channel">
+        <Channel>
+          <id>0</id>
+        </Channel>
+      </Attributes>
+      <ViewSetup>
+        <id>0</id>
+        <name>tomo_37_lm</name>
+        <size>2024 2024 69</size>
+        <voxelSize>
+          <unit>um</unit>
+          <size>0.005106 0.005106 0.005106</size>
+        </voxelSize>
+        <attributes>
+          <channel>0</channel>
+        </attributes>
+      </ViewSetup>
+    </ViewSetups>
+    <Timepoints type="range">
+      <first>0</first>
+      <last>0</last>
+    </Timepoints>
+    <ImageLoader format="bdv.n5.s3">
+      <Key>hela/images/bdv-n5/tomo_37_lm.n5</Key>
+      <SigningRegion>us-west-2</SigningRegion>
+      <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
+      <BucketName>yeast-clem</BucketName>
+    </ImageLoader>
+  </SequenceDescription>
+  <ViewRegistrations>
+    <ViewRegistration timepoint="0" setup="0">
+      <ViewTransform type="affine">
+        <affine>1.0 0.0 0.0 228.04282648432743 0.0 1.0 0.0 302.40902957105 0.0 0.0 1.0 0.0</affine>
+        <name>Translation</name>
+      </ViewTransform>
+      <ViewTransform type="affine">
+        <affine>6.762973040670452e-05 0.005126217617095847 0.0 0.0 0.0052115350436267366 -0.00017697928379467847 0.0 0.0 0.0 0.0 0.005106 -0.176157</affine>
+        <name>RotScale</name>
+      </ViewTransform>
+    </ViewRegistration>
+  </ViewRegistrations>
+</SpimData>
