@@ -1,9 +1,9 @@
 {
   "datasets": [
     "yeast",
-    "yeast2"
+    "hela"
   ],
-  "defaultDataset": "yeast2",
+  "defaultDataset": "hela",
   "imageDataFormats": [
     "bdv.n5",
     "bdv.n5.s3"

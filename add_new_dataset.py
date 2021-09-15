@@ -8,7 +8,7 @@ from pybdv.metadata import get_data_path, get_setup_ids
 
 ROOT = "/g/emcf/Mizzon/projects/2021/CLEM_course_2021/MoBIE/clem"
 OUT = "./data"
-DS_NAME = "yeast2"
+DS_NAME = "hela"
 
 
 def _get_sources():
