@@ -325,7 +325,7 @@
               41500
             ],
             "name": "em-detail-a1",
-            "opacity": 1.0,
+            "opacity": 0.7,
             "sources": [
               "em-detail-a1-A"
             ]
@@ -370,7 +370,7 @@
               38000
             ],
             "name": "em-detail-a2",
-            "opacity": 1.0,
+            "opacity": 0.7,
             "sources": [
               "em-detail-a2-A"
             ]
@@ -415,7 +415,7 @@
               39000
             ],
             "name": "em-detail-a3",
-            "opacity": 1.0,
+            "opacity": 0.7,
             "sources": [
               "em-detail-a3-A"
             ]
@@ -501,8 +501,8 @@
             "blendingMode": "sum",
             "color": "r=255,g=0,b=0,a=255",
             "contrastLimits": [
-              0,
-              255
+              40,
+              400
             ],
             "name": "fluorescence-a2-c0",
             "opacity": 1.0,
@@ -522,8 +522,8 @@
             "blendingMode": "sum",
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
-              0,
-              255
+              40,
+              400
             ],
             "name": "fluorescence-a2-c1",
             "opacity": 1.0,
@@ -543,8 +543,8 @@
             "blendingMode": "sum",
             "color": "r=0,g=0,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              40,
+              400
             ],
             "name": "fluorescence-a2-c2",
             "opacity": 1.0,
@@ -564,8 +564,8 @@
             "blendingMode": "sum",
             "color": "r=255,g=0,b=0,a=255",
             "contrastLimits": [
-              0,
-              255
+              40,
+              400
             ],
             "name": "fluorescence-a3-c0",
             "opacity": 1.0,
@@ -585,8 +585,8 @@
             "blendingMode": "sum",
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
-              0,
-              255
+              40,
+              400
             ],
             "name": "fluorescence-a3-c1",
             "opacity": 1.0,
@@ -606,8 +606,8 @@
             "blendingMode": "sum",
             "color": "r=0,g=0,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              40,
+              400
             ],
             "name": "fluorescence-a3-c2",
             "opacity": 1.0,
