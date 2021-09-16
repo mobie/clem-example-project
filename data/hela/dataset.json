@@ -49,7 +49,7 @@
         }
       }
     },
-    "fluorescence-a2-FMR-c0": {
+    "fluorescence-a2-c0": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -61,7 +61,7 @@
         }
       }
     },
-    "fluorescence-a2-FMR-c1": {
+    "fluorescence-a2-c1": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -73,7 +73,7 @@
         }
       }
     },
-    "fluorescence-a2-FMR-c2": {
+    "fluorescence-a2-c2": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -85,7 +85,7 @@
         }
       }
     },
-    "fluorescence-a3-FMR-c0": {
+    "fluorescence-a3-c0": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -97,7 +97,7 @@
         }
       }
     },
-    "fluorescence-a3-FMR-c1": {
+    "fluorescence-a3-c1": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -109,7 +109,7 @@
         }
       }
     },
-    "fluorescence-a3-FMR-c2": {
+    "fluorescence-a3-c2": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -276,8 +276,8 @@
             "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              35928
+              290,
+              23000
             ],
             "name": "em-overview",
             "opacity": 1.0,
@@ -313,7 +313,7 @@
       ],
       "uiSelectionGroup": "bookmark"
     },
-    "em-detail-a1-A": {
+    "em-detail-a1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -321,10 +321,10 @@
             "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              46713
+              10,
+              41500
             ],
-            "name": "em-detail-a1-A",
+            "name": "em-detail-a1",
             "opacity": 1.0,
             "sources": [
               "em-detail-a1-A"
@@ -358,7 +358,7 @@
       ],
       "uiSelectionGroup": "em"
     },
-    "em-detail-a2-A": {
+    "em-detail-a2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -366,10 +366,10 @@
             "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              43620
+              10,
+              38000
             ],
-            "name": "em-detail-a2-A",
+            "name": "em-detail-a2",
             "opacity": 1.0,
             "sources": [
               "em-detail-a2-A"
@@ -403,7 +403,7 @@
       ],
       "uiSelectionGroup": "em"
     },
-    "em-detail-a3-A": {
+    "em-detail-a3": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -411,10 +411,10 @@
             "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              45563
+              150,
+              39000
             ],
-            "name": "em-detail-a3-A",
+            "name": "em-detail-a3",
             "opacity": 1.0,
             "sources": [
               "em-detail-a3-A"
@@ -456,8 +456,8 @@
             "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              35928
+              290,
+              23000
             ],
             "name": "em-overview",
             "opacity": 1.0,
@@ -493,7 +493,7 @@
       ],
       "uiSelectionGroup": "em"
     },
-    "fluorescence-a2-FMR-c0": {
+    "fluorescence-a2-c0": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -504,17 +504,17 @@
               0,
               255
             ],
-            "name": "fluorescence-a2-FMR-c0",
+            "name": "fluorescence-a2-c0",
             "opacity": 1.0,
             "sources": [
-              "fluorescence-a2-FMR-c0"
+              "fluorescence-a2-c0"
             ]
           }
         }
       ],
       "uiSelectionGroup": "fluorescence"
     },
-    "fluorescence-a2-FMR-c1": {
+    "fluorescence-a2-c1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -525,17 +525,17 @@
               0,
               255
             ],
-            "name": "fluorescence-a2-FMR-c1",
+            "name": "fluorescence-a2-c1",
             "opacity": 1.0,
             "sources": [
-              "fluorescence-a2-FMR-c1"
+              "fluorescence-a2-c1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "fluorescence"
     },
-    "fluorescence-a2-FMR-c2": {
+    "fluorescence-a2-c2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -546,17 +546,17 @@
               0,
               255
             ],
-            "name": "fluorescence-a2-FMR-c2",
+            "name": "fluorescence-a2-c2",
             "opacity": 1.0,
             "sources": [
-              "fluorescence-a2-FMR-c2"
+              "fluorescence-a2-c2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "fluorescence"
     },
-    "fluorescence-a3-FMR-c0": {
+    "fluorescence-a3-c0": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -567,17 +567,17 @@
               0,
               255
             ],
-            "name": "fluorescence-a3-FMR-c0",
+            "name": "fluorescence-a3-c0",
             "opacity": 1.0,
             "sources": [
-              "fluorescence-a3-FMR-c0"
+              "fluorescence-a3-c0"
             ]
           }
         }
       ],
       "uiSelectionGroup": "fluorescence"
     },
-    "fluorescence-a3-FMR-c1": {
+    "fluorescence-a3-c1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -588,17 +588,17 @@
               0,
               255
             ],
-            "name": "fluorescence-a3-FMR-c1",
+            "name": "fluorescence-a3-c1",
             "opacity": 1.0,
             "sources": [
-              "fluorescence-a3-FMR-c1"
+              "fluorescence-a3-c1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "fluorescence"
     },
-    "fluorescence-a3-FMR-c2": {
+    "fluorescence-a3-c2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -609,10 +609,10 @@
               0,
               255
             ],
-            "name": "fluorescence-a3-FMR-c2",
+            "name": "fluorescence-a3-c2",
             "opacity": 1.0,
             "sources": [
-              "fluorescence-a3-FMR-c2"
+              "fluorescence-a3-c2"
             ]
           }
         }
@@ -649,8 +649,8 @@
             "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              32500,
+              33800
             ],
             "name": "tomo_37_lm",
             "opacity": 1.0,
@@ -693,8 +693,8 @@
             "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              32400,
+              33800
             ],
             "name": "tomo_38_lm",
             "opacity": 1.0,
@@ -736,8 +736,8 @@
           "imageDisplay": {
             "color": "white",
             "contrastLimits": [
-              0.0,
-              255.0
+              32400.0,
+              33900.0
             ],
             "name": "tomo_40_lm",
             "opacity": 1.0,
@@ -780,8 +780,8 @@
             "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              32100,
+              33900
             ],
             "name": "tomo_41_lm",
             "opacity": 1.0,
@@ -823,8 +823,8 @@
           "imageDisplay": {
             "color": "white",
             "contrastLimits": [
-              0.0,
-              255.0
+              32300.0,
+              33900.0
             ],
             "name": "tomo_53_lm",
             "opacity": 1.0,
@@ -867,8 +867,8 @@
             "blendingMode": "sum",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              32400,
+              33900
             ],
             "name": "tomo_54_lm",
             "opacity": 1.0,
