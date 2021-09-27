@@ -619,6 +619,104 @@
       ],
       "uiSelectionGroup": "fluorescence"
     },
+    "lm-tomograms": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "em-overview",
+            "opacity": 1.0,
+            "sources": [
+              "em-overview"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "lm-tomograms",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_37_lm",
+              "tomo_38_lm",
+              "tomo_40_lm",
+              "tomo_41_lm",
+              "tomo_53_lm",
+              "tomo_54_lm"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "lm-tomogram-table",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "tomo_37_lm"
+              ],
+              "1": [
+                "tomo_38_lm"
+              ],
+              "2": [
+                "tomo_40_lm"
+              ],
+              "3": [
+                "tomo_41_lm"
+              ],
+              "4": [
+                "tomo_53_lm"
+              ],
+              "5": [
+                "tomo_54_lm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/lm-tomogram-table"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "composite"
+    },
     "tomo_37_hm": {
       "isExclusive": false,
       "sourceDisplays": [
@@ -794,6 +892,194 @@
       "sourceTransforms": [],
       "uiSelectionGroup": "tomograms"
     },
+    "tomo_53": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              290.0,
+              23000.0
+            ],
+            "name": "em-overview",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "em-overview"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              10.0,
+              38000.0
+            ],
+            "name": "em-detail-a2",
+            "opacity": 0.7,
+            "showImagesIn3d": false,
+            "sources": [
+              "em-detail-a2-A"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30585.1845,
+              35192.295
+            ],
+            "name": "tomo_53_lm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "tomo_53_lm"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              68.85,
+              218.64999999999998
+            ],
+            "name": "tomo_53_hm",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "tomo_53_hm"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "name": "fluorescence-a2-c0",
+            "opacity": 0.6,
+            "showImagesIn3d": false,
+            "sources": [
+              "fluorescence-a2-FMR-c0"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              61.6,
+              330.0
+            ],
+            "name": "fluorescence-a2-c1",
+            "opacity": 0.6,
+            "showImagesIn3d": false,
+            "sources": [
+              "fluorescence-a2-FMR-c1"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "name": "fluorescence-a2-c2",
+            "opacity": 0.75,
+            "showImagesIn3d": false,
+            "sources": [
+              "fluorescence-a2-FMR-c2"
+            ],
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              154.465,
+              0.0,
+              1.0,
+              0.0,
+              -45.5198,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a2-A"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "detail_area",
+      "viewerTransform": {
+        "normalizedAffine": [
+          -0.00021210966202477006,
+          0.04737636450982802,
+          2.4434695564488833e-21,
+          -0.8796614377553436,
+          0.04737636450982802,
+          0.00021210966202477006,
+          1.2755661896839528e-20,
+          -9.712102154471536,
+          1.2744594461259755e-20,
+          2.5005531223717795e-21,
+          -0.047376839327637824,
+          -0.0014683901840664081
+        ],
+        "timepoint": 0
+      }
+    },
     "tomo_53_hm": {
       "isExclusive": false,
       "sourceDisplays": [
@@ -880,194 +1166,6 @@
       ],
       "sourceTransforms": [],
       "uiSelectionGroup": "tomograms"
-    },
-    "tomo_53": {
-      "uiSelectionGroup": "detail_area",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "em-overview"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              290.0,
-              23000.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "em-overview",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "em-detail-a2-A"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              10.0,
-              38000.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "em-detail-a2",
-            "opacity": 0.7,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_53_lm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30585.1845,
-              35192.295
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_53_lm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_53_hm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              68.85,
-              218.64999999999998
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_53_hm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "fluorescence-a2-FMR-c0"
-            ],
-            "color": "r=255,g=0,b=0,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "blendingMode": "sum",
-            "showImagesIn3d": false,
-            "name": "fluorescence-a2-c0",
-            "opacity": 0.6,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "fluorescence-a2-FMR-c1"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              61.6,
-              330.0
-            ],
-            "blendingMode": "sum",
-            "showImagesIn3d": false,
-            "name": "fluorescence-a2-c1",
-            "opacity": 0.6,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "fluorescence-a2-FMR-c2"
-            ],
-            "color": "r=0,g=0,b=255,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "blendingMode": "sum",
-            "showImagesIn3d": false,
-            "name": "fluorescence-a2-c2",
-            "opacity": 0.75,
-            "visible": true
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              481.249,
-              0.0,
-              1.0,
-              0.0,
-              493.667,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ],
-            "name": "Translation"
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              154.465,
-              0.0,
-              1.0,
-              0.0,
-              -45.5198,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a2-A"
-            ],
-            "name": "Translation"
-          }
-        }
-      ],
-      "viewerTransform": {
-        "normalizedAffine": [
-          -2.1210966202477006E-4,
-          0.04737636450982802,
-          2.4434695564488833E-21,
-          -0.8796614377553436,
-          0.04737636450982802,
-          2.1210966202477006E-4,
-          1.2755661896839528E-20,
-          -9.712102154471536,
-          1.2744594461259755E-20,
-          2.5005531223717795E-21,
-          -0.047376839327637824,
-          -0.0014683901840664081
-        ],
-        "timepoint": 0
-      },
-      "isExclusive": true
     }
   }
 }
