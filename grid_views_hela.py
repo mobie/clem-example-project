@@ -19,6 +19,17 @@ def get_lm_tomos():
     return lm_tomos
 
 
+def _get_contrast_limits(source_names, views):
+    cmin, cmax = None, None
+    for name in source_names:
+        tmin, tmax = views[name]["sourceDisplays"][0]["imageDisplay"]["contrastLimits"]
+        if cmin is None or tmin < cmin:
+            cmin = tmin
+        if cmax is None or tmax > cmax:
+            cmax = tmax
+    return [cmin, cmax]
+
+
 # add a view that shows raw data and all lm tomograms
 def add_lm_view():
     lm_tomos = get_lm_tomos()
@@ -26,10 +37,18 @@ def add_lm_view():
     display_names = ["em-overview", "lm-tomograms"]
     source_types = ["image", "image"]
     sources = [["em-overview"], lm_tomos]
-    settings = [{}, {}]
 
-    overview = mobie.metadata.read_dataset_metadata(DS_FOLDER)["views"]["em-overview"]
-    overview_trafo = overview["sourceTransforms"]
+    views = mobie.metadata.read_dataset_metadata(DS_FOLDER)["views"]
+    em_overview = views["em-overview"]
+    overview_trafo = em_overview["sourceTransforms"]
+    em_overview = em_overview["sourceDisplays"][0]["imageDisplay"]
+
+    tomo_contrasts = _get_contrast_limits(lm_tomos, views)
+
+    settings = [
+        {"color": em_overview["color"], "contrastLimits": em_overview["contrastLimits"]},
+        {"color": "white", "contrastLimits": tomo_contrasts}
+    ]
 
     annotation_sources = {ii: [source] for ii, source in enumerate(lm_tomos)}
     annotation_displays = mobie.metadata.create_source_annotation_display(
