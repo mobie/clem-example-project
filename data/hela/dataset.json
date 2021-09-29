@@ -835,7 +835,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0,
@@ -880,7 +880,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               32500,
@@ -925,7 +925,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0,
@@ -939,7 +939,28 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [{
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_38_lm": {
@@ -947,7 +968,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               32400,
@@ -961,7 +982,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_40_hm": {
@@ -969,7 +1013,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0,
@@ -983,7 +1027,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_40_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_40_lm": {
@@ -991,6 +1058,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
               32400.0,
@@ -1004,7 +1072,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_40_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_41_hm": {
@@ -1012,7 +1103,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0,
@@ -1026,7 +1117,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_41_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_41_lm": {
@@ -1034,7 +1148,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               32100,
@@ -1048,7 +1162,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_41_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_53_hm": {
@@ -1144,7 +1281,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0,
@@ -1158,7 +1295,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_54_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_54_lm": {
@@ -1166,7 +1326,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               32400,
@@ -1180,7 +1340,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_54_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "area2_-_tomo_53": {
