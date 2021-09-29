@@ -822,7 +822,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0,
@@ -845,6 +845,7 @@
         {
           "imageDisplay": {
             "color": "white",
+            "blendingMode": "sumOccluding",
             "contrastLimits": [
               32300.0,
               33900.0
