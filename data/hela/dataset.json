@@ -919,8 +919,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              242
+              50,
+              220
             ],
             "name": "tomo_53_hm",
             "opacity": 1.0,
@@ -963,8 +963,8 @@
             "color": "white",
             "blendingMode": "sumOccluding",
             "contrastLimits": [
-              31300.0,
-              33900.0
+              30000.0,
+              35000.0
             ],
             "name": "tomo_53_lm",
             "opacity": 1.0,
