@@ -838,8 +838,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              30,
+              240
             ],
             "name": "tomo_37_hm",
             "opacity": 1.0,
@@ -883,8 +883,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              32500,
-              33800
+              30000.0,
+              35000.0
             ],
             "name": "tomo_37_lm",
             "opacity": 1.0,
@@ -928,8 +928,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              20,
+              240
             ],
             "name": "tomo_38_hm",
             "opacity": 1.0,
@@ -971,8 +971,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              32400,
-              33800
+              30000,
+              35000
             ],
             "name": "tomo_38_lm",
             "opacity": 1.0,
@@ -1016,8 +1016,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              20,
+              240
             ],
             "name": "tomo_40_hm",
             "opacity": 1.0,
@@ -1061,8 +1061,8 @@
             "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
-              32400.0,
-              33900.0
+              30000.0,
+              35000.0
             ],
             "name": "tomo_40_lm",
             "opacity": 1.0,
@@ -1106,8 +1106,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              20,
+              240
             ],
             "name": "tomo_41_hm",
             "opacity": 1.0,
@@ -1151,8 +1151,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              32100,
-              33900
+              30000,
+              35000
             ],
             "name": "tomo_41_lm",
             "opacity": 1.0,
@@ -1196,8 +1196,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              50,
-              220
+              20,
+              240
             ],
             "name": "tomo_53_hm",
             "opacity": 1.0,
@@ -1284,8 +1284,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              20,
+              240
             ],
             "name": "tomo_54_hm",
             "opacity": 1.0,
@@ -1329,8 +1329,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              32400,
-              33900
+              30000,
+              35000
             ],
             "name": "tomo_54_lm",
             "opacity": 1.0,
