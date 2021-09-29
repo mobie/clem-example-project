@@ -1042,8 +1042,7 @@
       ],
       "sourceTransforms": [],
       "uiSelectionGroup": "tomograms"
-    },
-    "tomo_53": {
+    },    
     "area2_-_tomo_53": {
       "uiSelectionGroup": "detail_area",
       "sourceDisplays": [
