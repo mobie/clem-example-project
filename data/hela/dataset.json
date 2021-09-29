@@ -389,8 +389,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-            17478.0,
-            57441.0
+            0.0,
+            48000.0
             ],
             "name": "em-detail-a2",
             "opacity": 1,
@@ -920,7 +920,7 @@
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0,
-              255
+              242
             ],
             "name": "tomo_53_hm",
             "opacity": 1.0,
@@ -930,7 +930,29 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [{
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "tomo_53_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_53_lm": {
@@ -941,7 +963,7 @@
             "color": "white",
             "blendingMode": "sumOccluding",
             "contrastLimits": [
-              32300.0,
+              31300.0,
               33900.0
             ],
             "name": "tomo_53_lm",
@@ -952,7 +974,29 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [{
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "tomo_53_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_54_hm": {
