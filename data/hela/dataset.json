@@ -318,14 +318,14 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               10,
               41500
             ],
             "name": "em-detail-a1",
-            "opacity": 0.7,
+            "opacity": 1,
             "sources": [
               "em-detail-a1-A"
             ]
@@ -354,7 +354,30 @@
               "em-detail-a1-A"
             ]
           }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9993908270190963,
+              -0.034899496702500976,
+              0.0,
+              0.3903355098501322,
+              0.034899496702500976,
+              0.9993908270190963,
+              0.0,
+              -11.545341271935712,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a1-A"
+            ],
+            "name": "manualTransform"
+          }
         }
+
       ],
       "uiSelectionGroup": "em"
     },
