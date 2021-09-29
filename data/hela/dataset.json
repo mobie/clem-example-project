@@ -453,14 +453,14 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150,
               39000
             ],
             "name": "em-detail-a3",
-            "opacity": 0.7,
+            "opacity": 1,
             "sources": [
               "em-detail-a3-A"
             ]
@@ -470,7 +470,6 @@
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               1.0,
               0.0,
@@ -487,7 +486,30 @@
             ],
             "sources": [
               "em-detail-a3-A"
-            ]
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "manualTransform"
           }
         }
       ],
@@ -1362,6 +1384,6 @@
         "timepoint": 0
       },
       "isExclusive": true
-    }    
+    }
   }
 }
