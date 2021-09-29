@@ -318,14 +318,14 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               10,
               41500
             ],
             "name": "em-detail-a1",
-            "opacity": 0.7,
+            "opacity": 1,
             "sources": [
               "em-detail-a1-A"
             ]
@@ -354,7 +354,30 @@
               "em-detail-a1-A"
             ]
           }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9993908270190963,
+              -0.034899496702500976,
+              0.0,
+              0.3903355098501322,
+              0.034899496702500976,
+              0.9993908270190963,
+              0.0,
+              -11.545341271935712,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a1-A"
+            ],
+            "name": "manualTransform"
+          }
         }
+
       ],
       "uiSelectionGroup": "em"
     },
@@ -363,14 +386,14 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              10,
-              38000
+            0.0,
+            48000.0
             ],
             "name": "em-detail-a2",
-            "opacity": 0.7,
+            "opacity": 1,
             "sources": [
               "em-detail-a2-A"
             ]
@@ -380,7 +403,6 @@
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               1.0,
               0.0,
@@ -397,7 +419,30 @@
             ],
             "sources": [
               "em-detail-a2-A"
-            ]
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "em-detail-a2-A"
+            ],
+            "name": "manualTransform"
           }
         }
       ],
@@ -408,14 +453,14 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150,
-              39000
+              45700
             ],
             "name": "em-detail-a3",
-            "opacity": 0.7,
+            "opacity": 1,
             "sources": [
               "em-detail-a3-A"
             ]
@@ -425,7 +470,6 @@
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               1.0,
               0.0,
@@ -442,7 +486,30 @@
             ],
             "sources": [
               "em-detail-a3-A"
-            ]
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "manualTransform"
           }
         }
       ],
@@ -512,6 +579,30 @@
           }
         }
       ],
+      "sourceTransforms": [
+      {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "fluorescence-a2-c0"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "fluorescence"
     },
     "fluorescence-a2-c1": {
@@ -530,6 +621,30 @@
             "sources": [
               "fluorescence-a2-c1"
             ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+      {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "fluorescence-a2-c1"
+            ],
+            "name": "manualTransform"
           }
         }
       ],
@@ -554,6 +669,30 @@
           }
         }
       ],
+      "sourceTransforms": [
+      {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "fluorescence-a2-c2"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "fluorescence"
     },
     "fluorescence-a3-c0": {
@@ -572,6 +711,30 @@
             "sources": [
               "fluorescence-a3-c0"
             ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "manualTransform"
           }
         }
       ],
@@ -596,6 +759,30 @@
           }
         }
       ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "fluorescence"
     },
     "fluorescence-a3-c2": {
@@ -614,6 +801,30 @@
             "sources": [
               "fluorescence-a3-c2"
             ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "manualTransform"
           }
         }
       ],
@@ -722,11 +933,11 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              30,
+              240
             ],
             "name": "tomo_37_hm",
             "opacity": 1.0,
@@ -736,7 +947,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_37_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_37_lm": {
@@ -744,11 +978,11 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              32500,
-              33800
+              30000.0,
+              35000.0
             ],
             "name": "tomo_37_lm",
             "opacity": 1.0,
@@ -758,7 +992,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_37_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_38_hm": {
@@ -766,11 +1023,11 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              20,
+              240
             ],
             "name": "tomo_38_hm",
             "opacity": 1.0,
@@ -780,7 +1037,28 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [{
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_38_lm": {
@@ -788,11 +1066,11 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              32400,
-              33800
+              30000,
+              35000
             ],
             "name": "tomo_38_lm",
             "opacity": 1.0,
@@ -802,7 +1080,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_40_hm": {
@@ -810,11 +1111,11 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              20,
+              240
             ],
             "name": "tomo_40_hm",
             "opacity": 1.0,
@@ -824,7 +1125,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_40_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_40_lm": {
@@ -832,10 +1156,11 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
-              32400.0,
-              33900.0
+              30000.0,
+              35000.0
             ],
             "name": "tomo_40_lm",
             "opacity": 1.0,
@@ -845,7 +1170,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_40_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_41_hm": {
@@ -853,11 +1201,11 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0,
-              255
+              20,
+              240
             ],
             "name": "tomo_41_hm",
             "opacity": 1.0,
@@ -867,7 +1215,30 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_41_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
     "tomo_41_lm": {
@@ -875,11 +1246,11 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              32100,
-              33900
+              30000,
+              35000
             ],
             "name": "tomo_41_lm",
             "opacity": 1.0,
@@ -889,11 +1260,212 @@
           }
         }
       ],
-      "sourceTransforms": [],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_41_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_53": {
-      "isExclusive": true,
+    "tomo_53_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20,
+              240
+            ],
+            "name": "tomo_53_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_53_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [{
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "tomo_53_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_53_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "blendingMode": "sumOccluding",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "name": "tomo_53_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_53_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [{
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "tomo_53_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_54_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20,
+              240
+            ],
+            "name": "tomo_54_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_54_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_54_hm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_54_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000,
+              35000
+            ],
+            "name": "tomo_54_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_54_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_54_lm"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
+      "uiSelectionGroup": "tomograms"
+    },
+    "area2_-_tomo_53": {
+      "uiSelectionGroup": "detail_area",
       "sourceDisplays": [
         {
           "imageDisplay": {
@@ -903,12 +1475,10 @@
               290.0,
               23000.0
             ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
             "name": "em-overview",
             "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-overview"
-            ],
             "visible": true
           }
         },
@@ -917,11 +1487,11 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              10.0,
-              38000.0
+              0.0,
+              48000.0
             ],
             "name": "em-detail-a2",
-            "opacity": 0.7,
+            "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
               "em-detail-a2-A"
@@ -934,8 +1504,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              30585.1845,
-              35192.295
+              30000.0,
+              35000.0
             ],
             "name": "tomo_53_lm",
             "opacity": 1.0,
@@ -951,8 +1521,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              68.85,
-              218.64999999999998
+              50.0,
+              220.0
             ],
             "name": "tomo_53_hm",
             "opacity": 1.0,
@@ -965,6 +1535,9 @@
         },
         {
           "imageDisplay": {
+            "sources": [
+              "fluorescence-a2-c0"
+            ],
             "blendingMode": "sum",
             "color": "r=255,g=0,b=0,a=255",
             "contrastLimits": [
@@ -972,7 +1545,7 @@
               400.0
             ],
             "name": "fluorescence-a2-c0",
-            "opacity": 0.6,
+            "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
               "fluorescence-a2-FMR-c0"
@@ -982,14 +1555,17 @@
         },
         {
           "imageDisplay": {
+            "sources": [
+              "fluorescence-a2-c1"
+            ],
             "blendingMode": "sum",
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
-              61.6,
-              330.0
+              40.0,
+              400.0
             ],
             "name": "fluorescence-a2-c1",
-            "opacity": 0.6,
+            "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
               "fluorescence-a2-FMR-c1"
@@ -999,6 +1575,9 @@
         },
         {
           "imageDisplay": {
+            "sources": [
+              "fluorescence-a2-c2"
+            ],
             "blendingMode": "sum",
             "color": "r=0,g=0,b=255,a=255",
             "contrastLimits": [
@@ -1006,7 +1585,7 @@
               400.0
             ],
             "name": "fluorescence-a2-c2",
-            "opacity": 0.75,
+            "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
               "fluorescence-a2-FMR-c2"
@@ -1059,23 +1638,963 @@
               "em-detail-a2-A"
             ]
           }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "em-detail-a2-A"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "tomo_53_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "tomo_53_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "fluorescence-a2-c0"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "fluorescence-a2-c1"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "fluorescence-a2-c2"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
+      "viewerTransform": {
+        "normalizedAffine": [
+          -7.409491996148565E-4,
+          0.009955350641424675,
+          5.148692542043453E-22,
+          -0.02511388731570759,
+          0.009955350641424675,
+          7.409491996148565E-4,
+          2.687775712357543E-21,
+          -2.1087658019364346,
+          2.6421475516485304E-21,
+          7.129410523891302E-22,
+          -0.00998288596098967,
+          -3.344022213848786E-4
+        ],
+        "timepoint": 0
+      },
+      "isExclusive": true
+    },
+    "area3_tomos_37_38_40_41_54": {
+      "uiSelectionGroup": "detail_area",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "sources": [
+              "em-overview"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              290.0,
+              23000.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "em-overview",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              150.0,
+              45700.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "em-detail-a3",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_37_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_37_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_37_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_37_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_38_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_38_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_40_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_40_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_40_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_40_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_41_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_41_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_41_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_41_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_54_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_54_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_54_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_54_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "color": "r=255,g=0,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c0",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c1",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c2",
+            "opacity": 1.0,
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_37_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_37_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_40_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_40_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_41_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_54_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_54_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_41_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              154.465,
+              0.0,
+              1.0,
+              0.0,
+              -45.5198,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a2-A"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "em-detail-a2-A"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "tomo_53_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "tomo_53_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "fluorescence-a2-c0"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "fluorescence-a2-c1"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.997564050259825,
+              -0.0697564737441254,
+              0.0,
+              2.1375132416970075,
+              0.0697564737441254,
+              0.997564050259825,
+              0.0,
+              -17.64047749690816,
+              0.0,
+              0.0,
+              1.0,
+              1.3877787807814457E-17
+            ],
+            "sources": [
+              "fluorescence-a2-c2"
+            ],
+            "name": "manualTransform"
+          }
         }
       ],
       "uiSelectionGroup": "detail_area",
       "viewerTransform": {
         "normalizedAffine": [
-          -0.00021210966202477006,
-          0.04737636450982802,
-          2.4434695564488833e-21,
-          -0.8796614377553436,
-          0.04737636450982802,
-          0.00021210966202477006,
-          1.2755661896839528e-20,
-          -9.712102154471536,
-          1.2744594461259755e-20,
-          2.5005531223717795e-21,
-          -0.047376839327637824,
-          -0.0014683901840664081
+          -3.7595444496991325E-4,
+          0.009541010263246791,
+          -1.3276635209327578E-22,
+          -2.7928539330418225,
+          0.009541010263246791,
+          3.7595444496991325E-4,
+          3.395078510142158E-23,
+          -2.2176581516647547,
+          3.915193366451312E-23,
+          -1.3132663913878306E-22,
+          -0.00954841445414228,
+          2.822522333182759E-4
         ],
         "timepoint": 0
       }
