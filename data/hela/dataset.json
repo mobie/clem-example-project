@@ -830,6 +830,104 @@
       ],
       "uiSelectionGroup": "fluorescence"
     },
+    "lm-tomograms": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              290,
+              23000
+            ],
+            "name": "em-overview",
+            "opacity": 1.0,
+            "sources": [
+              "em-overview"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              32100,
+              33900.0
+            ],
+            "name": "lm-tomograms",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_37_lm",
+              "tomo_38_lm",
+              "tomo_40_lm",
+              "tomo_41_lm",
+              "tomo_53_lm",
+              "tomo_54_lm"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "lm-tomogram-table",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "tomo_37_lm"
+              ],
+              "1": [
+                "tomo_38_lm"
+              ],
+              "2": [
+                "tomo_40_lm"
+              ],
+              "3": [
+                "tomo_41_lm"
+              ],
+              "4": [
+                "tomo_53_lm"
+              ],
+              "5": [
+                "tomo_54_lm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/lm-tomogram-table"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "composite"
+    },
     "tomo_37_hm": {
       "isExclusive": false,
       "sourceDisplays": [
@@ -1371,9 +1469,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "sources": [
-              "em-overview"
-            ],
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               290.0,
@@ -1388,52 +1484,52 @@
         },
         {
           "imageDisplay": {
-            "sources": [
-              "em-detail-a2-A"
-            ],
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
               48000.0
             ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
             "name": "em-detail-a2",
             "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "em-detail-a2-A"
+            ],
             "visible": true
           }
         },
         {
           "imageDisplay": {
-            "sources": [
-              "tomo_53_lm"
-            ],
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
               35000.0
             ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
             "name": "tomo_53_lm",
             "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "tomo_53_lm"
+            ],
             "visible": true
           }
         },
         {
           "imageDisplay": {
-            "sources": [
-              "tomo_53_hm"
-            ],
+            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               50.0,
               220.0
             ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
             "name": "tomo_53_hm",
             "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "tomo_53_hm"
+            ],
             "visible": true
           }
         },
@@ -1442,15 +1538,18 @@
             "sources": [
               "fluorescence-a2-c0"
             ],
+            "blendingMode": "sum",
             "color": "r=255,g=0,b=0,a=255",
             "contrastLimits": [
               40.0,
               400.0
             ],
-            "blendingMode": "sum",
-            "showImagesIn3d": false,
             "name": "fluorescence-a2-c0",
             "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "fluorescence-a2-FMR-c0"
+            ],
             "visible": true
           }
         },
@@ -1459,15 +1558,18 @@
             "sources": [
               "fluorescence-a2-c1"
             ],
+            "blendingMode": "sum",
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
               40.0,
               400.0
             ],
-            "blendingMode": "sum",
-            "showImagesIn3d": false,
             "name": "fluorescence-a2-c1",
             "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "fluorescence-a2-FMR-c1"
+            ],
             "visible": true
           }
         },
@@ -1476,15 +1578,18 @@
             "sources": [
               "fluorescence-a2-c2"
             ],
+            "blendingMode": "sum",
             "color": "r=0,g=0,b=255,a=255",
             "contrastLimits": [
               40.0,
               400.0
             ],
-            "blendingMode": "sum",
-            "showImagesIn3d": false,
             "name": "fluorescence-a2-c2",
             "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "fluorescence-a2-FMR-c2"
+            ],
             "visible": true
           }
         }
@@ -1492,6 +1597,7 @@
       "sourceTransforms": [
         {
           "affine": {
+            "name": "Translation",
             "parameters": [
               1.0,
               0.0,
@@ -1508,12 +1614,12 @@
             ],
             "sources": [
               "em-overview"
-            ],
-            "name": "Translation"
+            ]
           }
         },
         {
           "affine": {
+            "name": "Translation",
             "parameters": [
               1.0,
               0.0,
@@ -1530,8 +1636,7 @@
             ],
             "sources": [
               "em-detail-a2-A"
-            ],
-            "name": "Translation"
+            ]
           }
         },
         {
@@ -2475,6 +2580,7 @@
           }
         }
       ],
+      "uiSelectionGroup": "detail_area",
       "viewerTransform": {
         "normalizedAffine": [
           -3.7595444496991325E-4,
@@ -2491,8 +2597,94 @@
           2.822522333182759E-4
         ],
         "timepoint": 0
-      },
-      "isExclusive": true
+      }
+    },
+    "tomo_53_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_53_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_53_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_53_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              32300.0,
+              33900.0
+            ],
+            "name": "tomo_53_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_53_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_54_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0,
+              255
+            ],
+            "name": "tomo_54_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_54_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
+    },
+    "tomo_54_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              32400,
+              33900
+            ],
+            "name": "tomo_54_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_54_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "tomograms"
     }
   }
 }
