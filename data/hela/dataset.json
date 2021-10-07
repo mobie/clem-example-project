@@ -305,6 +305,9 @@
               1.0,
               0.0
             ],
+            "sourceNamesAfterTransform": [
+              "em-overview_translate"
+            ],
             "sources": [
               "em-overview"
             ]
@@ -326,7 +329,7 @@
               "em-overview_crop"
             ],
             "sources": [
-              "em-overview"
+              "em-overview_translate"
             ]
           }
         }
