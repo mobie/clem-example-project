@@ -309,7 +309,26 @@
               "em-overview"
             ]
           }
-        }
+        },
+        {
+          "crop": {
+            "max": [
+              370,
+              544,
+              2
+            ],
+            "min": [
+              -27.5,
+              -345.2,
+              -2
+            ],
+            "sourceNamesAfterTransform": [
+              "em-overview_crop"
+            ],
+            "sources": [
+              "em-overview"
+            ]
+          }
       ],
       "uiSelectionGroup": "bookmark"
     },
