@@ -57,7 +57,7 @@ for (sourcename,source) in meta['sources'].items():
             trafo_names.append(t)
             
         
-        trafos[0] = trafos[0]@np.linalg.inv(m_vox)
+        trafos[0][:3,:3] = trafos[0][:3,:3] @ np.linalg.inv(m_vox)
         
         voxs_mat = np.concatenate((m_vox,[[0],[0],[0]]),axis=1)
         voxs_mat = np.concatenate((voxs_mat,[[0,0,0,1]]))
@@ -67,5 +67,8 @@ for (sourcename,source) in meta['sources'].items():
         vt = ET.SubElement(vr, 'ViewTransform')
         ET.SubElement(vt,'name').text = 'Scaling'
         ET.SubElement(vt, 'affine').text = ' '.join(map(str,voxs_mat1))
-        
-        
+   
+    # write the xml
+        tf.indent_xml(root)
+        tree = ET.ElementTree(root)
+        tree.write(xmlfile+'new')
