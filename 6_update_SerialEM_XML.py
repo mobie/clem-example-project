@@ -21,6 +21,7 @@ meta = mobie.metadata.read_dataset_metadata(dataset)
 
 os.chdir(dataset)
 
+sourcetrafos = dict()
 
 for (sourcename,source) in meta['sources'].items():
     for xmlfile in [source['image']['imageData']['bdv.n5']['relativePath'],
@@ -54,8 +55,10 @@ for (sourcename,source) in meta['sources'].items():
             t = np.array(list(map(float,trafo1.split(' ')))).reshape([3,4])
             
             trafos[-ix-1] = t
-            trafo_names.append(t)
-            
+            trafo_names.append(t_name)
+           
+        
+        # update transformation to be written into XML
         
         trafos[0][:3,:3] = trafos[0][:3,:3] @ np.linalg.inv(m_vox)
         
@@ -72,3 +75,22 @@ for (sourcename,source) in meta['sources'].items():
         tf.indent_xml(root)
         tree = ET.ElementTree(root)
         tree.write(xmlfile+'new')
+        
+        sourcetrafos[sourcename]={'names':trafo_names, 'trafos':trafos}
+        
+        
+        # now deal with the views:
+            
+    for viewname, orig_view in meta['views'].items():
+        
+        for v_transform in orig_view['sourceTransforms']:
+            if 'affine' in v_transform.keys():
+                v_sources = v_transform['affine']['sources']
+                
+                for v_source in v_sources:
+                
+                    if v_source in sourcetrafos.keys():
+                        for ix,t_name in enumerate(sourcetrafos[v_source]['names']):
+                            print(t_name)
+        
+        
