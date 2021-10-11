@@ -9,7 +9,7 @@ Created on Fri Oct  8 12:12:38 2021
 import os
 import mobie
 from pybdv import transformations as tf
-
+import copy
 
 import xml.etree.ElementTree as ET
 
@@ -81,16 +81,32 @@ for (sourcename,source) in meta['sources'].items():
         
         # now deal with the views:
             
-    for viewname, orig_view in meta['views'].items():
-        
-        for v_transform in orig_view['sourceTransforms']:
-            if 'affine' in v_transform.keys():
-                v_sources = v_transform['affine']['sources']
-                
-                for v_source in v_sources:
-                
-                    if v_source in sourcetrafos.keys():
-                        for ix,t_name in enumerate(sourcetrafos[v_source]['names']):
-                            print(t_name)
+for viewname, orig_view in meta['views'].items():
+    
+    outview = copy.deepcopy(orig_view)
+    v_sources = []
+    
+    for v_transform in orig_view['sourceTransforms']:
+        if 'affine' in v_transform.keys():
+            v_sources.append(v_transform['affine']['sources'])
+        elif 'crop' in v_transform.keys():
+            v_sources.append(v_transform['crop']['sources'])
+ 
+    for xml_source in sourcetrafos.keys():
+       if [xml_source] in v_sources:   
+           
+           for t_idx,xml_trafo in enumerate(sourcetrafos[xml_source]['trafos']):
+               
+               t_view = mobie.metadata.get_affine_source_transform([xml_source],
+                                                                   tf.matrix_to_transformation(np.concatenate((xml_trafo,[[0,0,0,1]]))).tolist(),
+                                                                   name = sourcetrafos[xml_source]['names'][t_idx])
+               
+               outview['sourceTransforms'].insert(v_sources.index([xml_source]),t_view)
+               
+           
+                        
+                        
+                            
+                            
         
         
