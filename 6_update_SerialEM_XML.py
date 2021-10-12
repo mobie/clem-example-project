@@ -85,6 +85,7 @@ for (sourcename,source) in meta['sources'].items():
         vr_el.attrib = vr_attr
         
         vt = ET.SubElement(vr_el, 'ViewTransform')
+        vt.attrib = {type:'affine'}
         ET.SubElement(vt,'name').text = 'Scaling'
         ET.SubElement(vt, 'affine').text = ' '.join(map(str,voxs_mat1))
    
