@@ -12,14 +12,17 @@ from pybdv import transformations as tf
 import copy
 
 import xml.etree.ElementTree as ET
-
 import numpy as np
+import shutil
 
 dataset = "./data/hela"
+
+shutil.copy(dataset+'/dataset_orig.json',dataset+'/dataset.json')
 
 meta = mobie.metadata.read_dataset_metadata(dataset)
 
 os.chdir(dataset)
+
 
 
 #%%
