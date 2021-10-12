@@ -102,7 +102,7 @@ for viewname, orig_view in meta['views'].items():
     
     outview = copy.deepcopy(orig_view)
     v_sources = []
-    break
+
     for v_transform in orig_view['sourceTransforms']:
         if 'affine' in v_transform.keys():
             v_sources.append(v_transform['affine']['sources'])
@@ -120,7 +120,7 @@ for viewname, orig_view in meta['views'].items():
                
                outview['sourceTransforms'].insert(v_sources.index([xml_source]),t_view)
                
-    mobie.metadata.add_view_to_dataset(dataset, viewname, outview)
+    mobie.metadata.add_view_to_dataset('../../' + dataset, viewname, outview)
            
                         
                         

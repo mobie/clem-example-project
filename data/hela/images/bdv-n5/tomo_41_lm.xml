@@ -30,9 +30,9 @@
   </SequenceDescription>
   <ViewRegistrations>
     <ViewRegistration timepoint="0" setup="0">
-      <ViewTransform type="affine">
-        <affine>6.76297304067042e-05 0.005126217617095846 0.0 252.8752679880011 0.005211535043626736 -0.00017697928379467815 0.0 317.6910257705539 0.0 0.0 0.005105999999999999 -0.19658099999999998</affine>
-        <name>affine0</name>
+      <ViewTransform>
+        <name>Scaling</name>
+        <affine>0.005106 0.0 0.0 0.0 0.0 0.005106 0.0 0.0 0.0 0.0 0.005106 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>

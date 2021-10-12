@@ -30,13 +30,9 @@
   </SequenceDescription>
   <ViewRegistrations>
     <ViewRegistration timepoint="0" setup="0">
-      <ViewTransform type="affine">
-        <affine>1.0 0.0 0.0 228.04282648432743 0.0 1.0 0.0 302.40902957105 0.0 0.0 1.0 0.0</affine>
-        <name>Translation</name>
-      </ViewTransform>
-      <ViewTransform type="affine">
-        <affine>6.762973040670452e-05 0.005126217617095847 0.0 0.0 0.0052115350436267366 -0.00017697928379467847 0.0 0.0 0.0 0.0 0.005106 -0.176157</affine>
-        <name>RotScale</name>
+      <ViewTransform>
+        <name>Scaling</name>
+        <affine>0.005106 0.0 0.0 0.0 0.0 0.005106 0.0 0.0 0.0 0.0 0.005106 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>

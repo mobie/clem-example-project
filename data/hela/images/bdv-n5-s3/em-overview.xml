@@ -33,9 +33,9 @@
   </SequenceDescription>
   <ViewRegistrations>
     <ViewRegistration timepoint="0" setup="0">
-      <ViewTransform type="affine">
-        <affine>-0.003479686855248551 -0.033132440639890466 0.0 0.0 -0.033596059223427205 0.004047357545389406 0.0 0.0 0.0 0.0 1.0 0.0</affine>
-        <name>MapScaleMat</name>
+      <ViewTransform>
+        <name>Scaling</name>
+        <affine>0.03412 0.0 0.0 0.0 0.0 0.03412 0.0 0.0 0.0 0.0 0.03412 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>

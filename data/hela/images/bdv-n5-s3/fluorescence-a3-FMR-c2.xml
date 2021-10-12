@@ -33,17 +33,9 @@
   </SequenceDescription>
   <ViewRegistrations>
     <ViewRegistration setup="0" timepoint="0">
-      <ViewTransform type="affine">
-        <affine>1.0 0.0 0.0 203.422 0.0 1.0 0.0 238.934 0.0 0.0 1.0 0.0</affine>
-        <name>Translation</name>
-      </ViewTransform>
-      <ViewTransform type="affine">
-        <affine>-0.0018848506050240675 0.009858721157622638 0.0 0.0 0.010070923763591259 0.001691011291980681 0.0 0.0 0.0 0.0 1.0 0.0</affine>
-        <name>MapScaleMat</name>
-      </ViewTransform>
-      <ViewTransform type="affine">
-        <affine>6.4987 0.8615 0.0 165.3568 -0.8615 6.4987 -0.0 2243.2063 -0.0 0.0 1.0 0.0</affine>
-        <name>CLEMRegistration</name>
+      <ViewTransform>
+        <name>Scaling</name>
+        <affine>0.06483773614064739 0.0 0.0 0.0 0.0 0.06483773614064739 0.0 0.0 0.0 0.0 0.06483773614064739 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>
