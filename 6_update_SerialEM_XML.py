@@ -17,7 +17,7 @@ import shutil
 
 dataset = "./data/hela"
 
-shutil.copy(dataset+'/dataset_orig.json',dataset+'/dataset.json')
+shutil.copy(dataset + '/dataset_orig.json', dataset + '/dataset.json')
 
 meta = mobie.metadata.read_dataset_metadata(dataset)
 
@@ -122,7 +122,7 @@ for viewname, orig_view in meta['views'].items():
                                                                    tf.matrix_to_transformation(np.concatenate((xml_trafo,[[0,0,0,1]]))).tolist(),
                                                                    name = sourcetrafos[xml_source]['names'][t_idx])
                
-               outview['sourceTransforms'].insert(v_sources.index([xml_source]),t_view)
+               outview['sourceTransforms'].insert(v_sources.index([xml_source])+t_idx,t_view)
                
     mobie.metadata.add_view_to_dataset('../../' + dataset, viewname, outview)
            
