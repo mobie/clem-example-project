@@ -27,7 +27,17 @@ for (sourcename,source) in meta['sources'].items():
     for xmlfile in [source['image']['imageData']['bdv.n5']['relativePath'],
                     source['image']['imageData']['bdv.n5.s3']['relativePath']]:
         
+        
+        origfile = os.path.splitext(xmlfile)[0]+'_orig.xml'
+        
+        
+            
+        
         tree = ET.parse(xmlfile)
+        
+        if not os.path.exists(origfile):
+            tree.write(origfile)
+            
         root = tree.getroot()
         
         sd = root.find('SequenceDescription')
@@ -41,12 +51,13 @@ for (sourcename,source) in meta['sources'].items():
         m_vox = np.diag(voxel_sz)
         
         vr = root.find('ViewRegistrations')
-        vr_attr = vr.find('ViewRegistration')
+        vr_el = vr.find('ViewRegistration')
         
-        trafos = [None]*len(vr_attr)
+        
+        trafos = [None]*len(vr_el)
         trafo_names = []
         
-        for ix,vt in enumerate(vr_attr):
+        for ix,vt in enumerate(vr_el):
                 
             aff = vt.find('affine')
             t_name = vt.find('name').text
@@ -66,7 +77,7 @@ for (sourcename,source) in meta['sources'].items():
         voxs_mat = np.concatenate((voxs_mat,[[0,0,0,1]]))
         voxs_mat1 = tf.matrix_to_transformation(voxs_mat).tolist()
         
-        vr_attr.clear()
+        vr_el.clear()
         vt = ET.SubElement(vr, 'ViewTransform')
         ET.SubElement(vt,'name').text = 'Scaling'
         ET.SubElement(vt, 'affine').text = ' '.join(map(str,voxs_mat1))
