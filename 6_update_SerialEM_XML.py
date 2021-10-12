@@ -21,22 +21,24 @@ meta = mobie.metadata.read_dataset_metadata(dataset)
 
 os.chdir(dataset)
 
+
+#%%
+
 sourcetrafos = dict()
 
 for (sourcename,source) in meta['sources'].items():
     for xmlfile in [source['image']['imageData']['bdv.n5']['relativePath'],
                     source['image']['imageData']['bdv.n5.s3']['relativePath']]:
         
-        
         origfile = os.path.splitext(xmlfile)[0]+'_orig.xml'
-        
-        
-            
+                    
         
         tree = ET.parse(xmlfile)
         
         if not os.path.exists(origfile):
             tree.write(origfile)
+        else:
+            tree = ET.parse(origfile)
             
         root = tree.getroot()
         
@@ -53,6 +55,7 @@ for (sourcename,source) in meta['sources'].items():
         vr = root.find('ViewRegistrations')
         vr_el = vr.find('ViewRegistration')
         
+        vr_attr = vr_el.attrib
         
         trafos = [None]*len(vr_el)
         trafo_names = []
@@ -78,7 +81,10 @@ for (sourcename,source) in meta['sources'].items():
         voxs_mat1 = tf.matrix_to_transformation(voxs_mat).tolist()
         
         vr_el.clear()
-        vt = ET.SubElement(vr, 'ViewTransform')
+        
+        vr_el.attrib = vr_attr
+        
+        vt = ET.SubElement(vr_el, 'ViewTransform')
         ET.SubElement(vt,'name').text = 'Scaling'
         ET.SubElement(vt, 'affine').text = ' '.join(map(str,voxs_mat1))
    
