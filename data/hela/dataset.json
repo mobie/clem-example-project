@@ -1,2381 +1,69 @@
 {
-  "is2D": false,
-  "sources": {
-    "em-detail-a1-A": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/em-detail-a1-A.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/em-detail-a1-A.xml"
-          }
-        }
-      }
-    },
-    "em-detail-a2-A": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/em-detail-a2-A.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/em-detail-a2-A.xml"
-          }
-        }
-      }
-    },
-    "em-detail-a3-A": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/em-detail-a3-A.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/em-detail-a3-A.xml"
-          }
-        }
-      }
-    },
-    "em-overview": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/em-overview.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/em-overview.xml"
-          }
-        }
-      }
-    },
-    "fluorescence-a2-c0": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/fluorescence-a2-FMR-c0.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/fluorescence-a2-FMR-c0.xml"
-          }
-        }
-      }
-    },
-    "fluorescence-a2-c1": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/fluorescence-a2-FMR-c1.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/fluorescence-a2-FMR-c1.xml"
-          }
-        }
-      }
-    },
-    "fluorescence-a2-c2": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/fluorescence-a2-FMR-c2.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/fluorescence-a2-FMR-c2.xml"
-          }
-        }
-      }
-    },
-    "fluorescence-a3-c0": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c0.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/fluorescence-a3-FMR-c0.xml"
-          }
-        }
-      }
-    },
-    "fluorescence-a3-c1": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c1.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/fluorescence-a3-FMR-c1.xml"
-          }
-        }
-      }
-    },
-    "fluorescence-a3-c2": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c2.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/fluorescence-a3-FMR-c2.xml"
-          }
-        }
-      }
-    },
-    "tomo_37_hm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_37_hm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_37_hm.xml"
-          }
-        }
-      }
-    },
-    "tomo_37_lm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_37_lm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_37_lm.xml"
-          }
-        }
-      }
-    },
-    "tomo_38_hm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_38_hm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_38_hm.xml"
-          }
-        }
-      }
-    },
-    "tomo_38_lm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_38_lm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_38_lm.xml"
-          }
-        }
-      }
-    },
-    "tomo_40_hm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_40_hm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_40_hm.xml"
-          }
-        }
-      }
-    },
-    "tomo_40_lm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_40_lm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_40_lm.xml"
-          }
-        }
-      }
-    },
-    "tomo_41_hm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_41_hm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_41_hm.xml"
-          }
-        }
-      }
-    },
-    "tomo_41_lm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_41_lm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_41_lm.xml"
-          }
-        }
-      }
-    },
-    "tomo_53_hm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_53_hm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_53_hm.xml"
-          }
-        }
-      }
-    },
-    "tomo_53_lm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_53_lm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_53_lm.xml"
-          }
-        }
-      }
-    },
-    "tomo_54_hm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_54_hm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_54_hm.xml"
-          }
-        }
-      }
-    },
-    "tomo_54_lm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_54_lm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_54_lm.xml"
-          }
-        }
-      }
-    }
-  },
-  "timepoints": 1,
   "views": {
     "area2_-_tomo_53": {
-      "isExclusive": true,
+      "uiSelectionGroup": "detail_area",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "sources": [
+              "em-overview"
+            ],
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               290.0,
               23000.0
             ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
             "name": "em-overview",
             "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-overview"
-            ],
             "visible": true
           }
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "sources": [
+              "em-detail-a2-A"
+            ],
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
               48000.0
             ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
             "name": "em-detail-a2",
             "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-detail-a2-A"
-            ],
             "visible": true
           }
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "sources": [
+              "tomo_53_lm"
+            ],
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
               35000.0
             ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
             "name": "tomo_53_lm",
             "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_53_lm"
-            ],
             "visible": true
           }
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "sources": [
+              "tomo_53_hm"
+            ],
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               50.0,
               220.0
             ],
-            "name": "tomo_53_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_53_hm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=255,g=0,b=0,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "name": "fluorescence-a2-c0",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "fluorescence-a2-c0"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "name": "fluorescence-a2-c1",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "fluorescence-a2-c1"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=0,g=0,b=255,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "name": "fluorescence-a2-c2",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "fluorescence-a2-c2"
-            ],
-            "visible": true
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.10198378825464686,
-              -0.9710562907353596,
-              0.0,
-              0.0,
-              -0.9846441741918877,
-              0.11862126451903302,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              29.30832356389215,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              481.249,
-              0.0,
-              1.0,
-              0.0,
-              493.667,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.18777152869337194,
-              0.9821399838237337,
-              0.0,
-              0.0,
-              1.0032799126909004,
-              0.16846097748363031,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              99.62143853357243,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a2-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              -0.004569995627169629,
-              1.0044115910135398,
-              -2.690047424464872e-19,
-              199.7368994782317,
-              1.0207445364550052,
-              -0.01713425296768873,
-              -5.27800747761814e-20,
-              14.29061433894726,
-              5.2645622464805466e-20,
-              2.692871341979952e-19,
-              1.0,
-              -0.18667754997619213
-            ],
-            "sources": [
-              "tomo_53_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              154.465,
-              0.0,
-              1.0,
-              0.0,
-              -45.5198,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a2-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              -0.004569995627169656,
-              1.0044115910135398,
-              -2.6900474244646257e-19,
-              203.48402364367203,
-              1.0207445364550052,
-              -0.017134252967688706,
-              -5.278007477618141e-20,
-              17.592515862728746,
-              5.2645622464805574e-20,
-              2.6928713419797045e-19,
-              1.0,
-              -0.11074706746407927
-            ],
-            "sources": [
-              "tomo_53_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.997564050259825,
-              -0.0697564737441254,
-              0.0,
-              2.1375132416970075,
-              0.0697564737441254,
-              0.997564050259825,
-              0.0,
-              -17.64047749690816,
-              0.0,
-              0.0,
-              1.0,
-              1.3877787807814457e-17
-            ],
-            "sources": [
-              "em-detail-a2-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.8710703734696,
-              13.686391782144751,
-              0.0,
-              1065.9478,
-              -13.686391782144751,
-              100.8710703734696,
-              0.0,
-              3815.0542,
-              0.0,
-              0.0,
-              15.54565172892407,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.8710703734696,
-              13.686391782144751,
-              0.0,
-              1065.9478,
-              -13.686391782144751,
-              100.8710703734696,
-              0.0,
-              3815.0542,
-              0.0,
-              0.0,
-              15.54565172892407,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.8710703734696,
-              13.686391782144751,
-              0.0,
-              1065.9478,
-              -13.686391782144751,
-              100.8710703734696,
-              0.0,
-              3815.0542,
-              0.0,
-              0.0,
-              15.54565172892407,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              154.465,
-              0.0,
-              1.0,
-              0.0,
-              -45.5198,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              154.465,
-              0.0,
-              1.0,
-              0.0,
-              -45.5198,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              154.465,
-              0.0,
-              1.0,
-              0.0,
-              -45.5198,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a2-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.997564050259825,
-              -0.0697564737441254,
-              0.0,
-              2.1375132416970075,
-              0.0697564737441254,
-              0.997564050259825,
-              0.0,
-              -17.64047749690816,
-              0.0,
-              0.0,
-              1.0,
-              1.3877787807814457e-17
-            ],
-            "sources": [
-              "tomo_53_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.997564050259825,
-              -0.0697564737441254,
-              0.0,
-              2.1375132416970075,
-              0.0697564737441254,
-              0.997564050259825,
-              0.0,
-              -17.64047749690816,
-              0.0,
-              0.0,
-              1.0,
-              1.3877787807814457e-17
-            ],
-            "sources": [
-              "tomo_53_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.997564050259825,
-              -0.0697564737441254,
-              0.0,
-              2.1375132416970075,
-              0.0697564737441254,
-              0.997564050259825,
-              0.0,
-              -17.64047749690816,
-              0.0,
-              0.0,
-              1.0,
-              1.3877787807814457e-17
-            ],
-            "sources": [
-              "fluorescence-a2-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.997564050259825,
-              -0.0697564737441254,
-              0.0,
-              2.1375132416970075,
-              0.0697564737441254,
-              0.997564050259825,
-              0.0,
-              -17.64047749690816,
-              0.0,
-              0.0,
-              1.0,
-              1.3877787807814457e-17
-            ],
-            "sources": [
-              "fluorescence-a2-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.997564050259825,
-              -0.0697564737441254,
-              0.0,
-              2.1375132416970075,
-              0.0697564737441254,
-              0.997564050259825,
-              0.0,
-              -17.64047749690816,
-              0.0,
-              0.0,
-              1.0,
-              1.3877787807814457e-17
-            ],
-            "sources": [
-              "fluorescence-a2-c2"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "detail_area",
-      "viewerTransform": {
-        "normalizedAffine": [
-          -0.0007409491996148565,
-          0.009955350641424675,
-          5.148692542043453e-22,
-          -0.02511388731570759,
-          0.009955350641424675,
-          0.0007409491996148565,
-          2.687775712357543e-21,
-          -2.1087658019364346,
-          2.6421475516485304e-21,
-          7.129410523891302e-22,
-          -0.00998288596098967,
-          -0.0003344022213848786
-        ],
-        "timepoint": 0
-      }
-    },
-    "area3_tomos_37_38_40_41_54": {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              290.0,
-              23000.0
-            ],
-            "name": "em-overview",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-overview"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              150.0,
-              45700.0
-            ],
-            "name": "em-detail-a3",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-detail-a3-A"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "tomo_37_lm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_37_lm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30.0,
-              240.0
-            ],
-            "name": "tomo_37_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_37_hm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "tomo_38_lm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_38_lm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "name": "tomo_38_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_38_hm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "tomo_40_lm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_40_lm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "name": "tomo_40_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_40_hm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "tomo_41_lm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_41_lm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "name": "tomo_41_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_41_hm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "tomo_54_lm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_54_lm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "name": "tomo_54_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_54_hm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=255,g=0,b=0,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "name": "fluorescence-a3-c0",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "fluorescence-a3-c0"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "name": "fluorescence-a3-c1",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "fluorescence-a3-c1"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=0,g=0,b=255,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "name": "fluorescence-a3-c2",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "fluorescence-a3-c2"
-            ],
-            "visible": true
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.10198378825464686,
-              -0.9710562907353596,
-              0.0,
-              0.0,
-              -0.9846441741918877,
-              0.11862126451903302,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              29.30832356389215,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              481.249,
-              0.0,
-              1.0,
-              0.0,
-              493.667,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.18777152869337194,
-              0.9821399838237337,
-              0.0,
-              0.0,
-              1.0032799126909004,
-              0.16846097748363031,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              99.62143853357243,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a3-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              0.013245148924148945,
-              1.0039595803164605,
-              0.0,
-              0.0,
-              1.020668829539118,
-              -0.034661042654656964,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              -0.176157
-            ],
-            "sources": [
-              "tomo_37_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "RotScale",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              228.04282648432743,
-              0.0,
-              1.0,
-              0.0,
-              302.40902957105,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "tomo_37_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148945,
-              1.0039595803164607,
-              0.0,
-              239.93945962096353,
-              1.0206688295391182,
-              -0.034661042654656964,
-              0.0,
-              300.37466120697667,
-              0.0,
-              0.0,
-              1.0000000000000002,
-              -0.19147500000000006
-            ],
-            "sources": [
-              "tomo_38_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a3-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              6.762973040670446e-05,
-              0.0051262176170958455,
-              -7.86703863683298e-35,
-              207.1409635467861,
-              0.005211535043626735,
-              -0.0001769792837946784,
-              -3.1468154547331926e-35,
-              309.2354368782877,
-              3.3160565452950214e-35,
-              7.789116903465377e-35,
-              0.0051059999999999986,
-              -0.227217
-            ],
-            "sources": [
-              "tomo_40_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148947,
-              1.0039595803164607,
-              0.0,
-              243.59201639109855,
-              1.0206688295391182,
-              -0.03466104265465697,
-              0.0,
-              303.91519667035317,
-              0.0,
-              0.0,
-              1.0000000000000004,
-              -0.07010100000000001
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148882,
-              1.0039595803164603,
-              0.0,
-              252.8752679880011,
-              1.0206688295391178,
-              -0.0346610426546569,
-              0.0,
-              317.6910257705539,
-              0.0,
-              0.0,
-              0.9999999999999999,
-              -0.19658099999999998
-            ],
-            "sources": [
-              "tomo_41_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148943,
-              1.0039595803164605,
-              0.0,
-              241.7822189205871,
-              1.020668829539118,
-              -0.034661042654656964,
-              0.0,
-              266.7355546014951,
-              0.0,
-              0.0,
-              1.0,
-              -0.171051
-            ],
-            "sources": [
-              "tomo_54_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148941,
-              1.0039595803164603,
-              -1.5407439555097887e-32,
-              210.88814494422707,
-              1.0206688295391178,
-              -0.03466104265465696,
-              -6.162975822039157e-33,
-              309.76654920034923,
-              6.494431150205682e-33,
-              1.5254831381639986e-32,
-              0.9999999999999999,
-              -0.05456108458253092
-            ],
-            "sources": [
-              "tomo_40_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148947,
-              1.0039595803164605,
-              0.0,
-              245.43477569072212,
-              1.0206688295391178,
-              -0.03466104265465697,
-              0.0,
-              270.2760900648716,
-              0.0,
-              0.0,
-              1.0,
-              -0.0747744
-            ],
-            "sources": [
-              "tomo_54_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148948,
-              1.0039595803164605,
-              0.0,
-              231.8498207892673,
-              1.0206688295391178,
-              -0.03466104265465697,
-              0.0,
-              306.3767267928424,
-              0.0,
-              0.0,
-              1.0,
-              -0.0747744
-            ],
-            "sources": [
-              "tomo_37_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a3-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148116,
-              1.0039595803164598,
-              2.548749782768702e-18,
-              256.63040379706877,
-              1.020668829539117,
-              -0.03466104265465613,
-              -1.1958521839956973e-17,
-              320.70611875945485,
-              1.2171931918963699e-17,
-              -2.973336597821522e-18,
-              0.9999999999999993,
-              -0.0841212000000085
-            ],
-            "sources": [
-              "tomo_41_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_37_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_37_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_38_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_40_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_40_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_41_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_54_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.23021139885087,
-              13.287015421562778,
-              0.0,
-              165.3568,
-              -13.287015421562778,
-              100.23021139885087,
-              0.0,
-              2243.2063,
-              0.0,
-              0.0,
-              15.423117146329398,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.23021139885087,
-              13.287015421562778,
-              0.0,
-              165.3568,
-              -13.287015421562778,
-              100.23021139885087,
-              0.0,
-              2243.2063,
-              0.0,
-              0.0,
-              15.423117146329398,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.23021139885087,
-              13.287015421562778,
-              0.0,
-              165.3568,
-              -13.287015421562778,
-              100.23021139885087,
-              0.0,
-              2243.2063,
-              0.0,
-              0.0,
-              15.423117146329398,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_54_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_41_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "detail_area",
-      "viewerTransform": {
-        "normalizedAffine": [
-          -0.00037595444496991325,
-          0.009541010263246791,
-          -1.3276635209327578e-22,
-          -2.7928539330418225,
-          0.009541010263246791,
-          0.00037595444496991325,
-          3.395078510142158e-23,
-          -2.2176581516647547,
-          3.915193366451312e-23,
-          -1.3132663913878306e-22,
-          -0.00954841445414228,
-          0.0002822522333182759
-        ],
-        "timepoint": 0
-      }
-    },
-    "default": {
-      "isExclusive": false,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              290,
-              23000
-            ],
-            "name": "em-overview",
-            "opacity": 1.0,
-            "sources": [
-              "em-overview"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.10198378825464686,
-              -0.9710562907353596,
-              0.0,
-              0.0,
-              -0.9846441741918877,
-              0.11862126451903302,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              29.30832356389215,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              481.249,
-              0.0,
-              1.0,
-              0.0,
-              493.667,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "bookmark"
-    },
-    "all_sources": {
-      "uiSelectionGroup": "bookmark",
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "sources": [
-              "em-overview"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              290.0,
-              23000.0
-            ],
-            "blendingMode": "sum",
-            "showImagesIn3d": false,
-            "name": "em-overview",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "em-detail-a3-A"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              150.0,
-              45700.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "em-detail-a3",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_37_lm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_37_lm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_37_hm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30.0,
-              240.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_37_hm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_38_lm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_38_lm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_38_hm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_38_hm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_40_lm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_40_lm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_40_hm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_40_hm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_41_lm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_41_lm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_41_hm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_41_hm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_54_lm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_54_lm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_54_hm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_54_hm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "fluorescence-a3-c0"
-            ],
-            "color": "r=255,g=0,b=0,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "blendingMode": "sum",
-            "showImagesIn3d": false,
-            "name": "fluorescence-a3-c0",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "fluorescence-a3-c1"
-            ],
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "blendingMode": "sum",
-            "showImagesIn3d": false,
-            "name": "fluorescence-a3-c1",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "fluorescence-a3-c2"
-            ],
-            "color": "r=0,g=0,b=255,a=255",
-            "contrastLimits": [
-              40.0,
-              400.0
-            ],
-            "blendingMode": "sum",
-            "showImagesIn3d": false,
-            "name": "fluorescence-a3-c2",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "em-detail-a1-A"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              10.0,
-              41500.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "em-detail-a1",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "em-detail-a2-A"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              48000.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "em-detail-a2",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_53_lm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "tomo_53_lm",
-            "opacity": 1.0,
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "sources": [
-              "tomo_53_hm"
-            ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
             "blendingMode": "sumOccluding",
             "showImagesIn3d": false,
             "name": "tomo_53_hm",
@@ -2436,116 +124,6 @@
         }
       ],
       "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              -0.10198378825464686,
-              -0.9710562907353596,
-              0.0,
-              0.0,
-              -0.9846441741918877,
-              0.11862126451903302,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              29.30832356389215,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ],
-            "name": "MapScaleMat"
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              481.249,
-              0.0,
-              1.0,
-              0.0,
-              493.667,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ],
-            "name": "Translation"
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              -0.18777152869337194,
-              0.9821399838237337,
-              0.0,
-              0.0,
-              1.0032799126909004,
-              0.16846097748363031,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              99.62143853357243,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a1-A"
-            ],
-            "name": "MapScaleMat"
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              37.7088,
-              0.0,
-              1.0,
-              0.0,
-              -87.641,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a1-A"
-            ],
-            "name": "Translation"
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              0.9993908270190963,
-              -0.034899496702500976,
-              0.0,
-              0.3903355098501322,
-              0.034899496702500976,
-              0.9993908270190963,
-              0.0,
-              -11.545341271935712,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a1-A"
-            ],
-            "name": "manualTransform"
-          }
-        },
         {
           "affine": {
             "parameters": [
@@ -3007,7 +585,1591 @@
             ],
             "name": "manualTransform"
           }
+        }
+      ],
+      "viewerTransform": {
+        "normalizedAffine": [
+          -7.409491996148565E-4,
+          0.009955350641424675,
+          5.148692542043453E-22,
+          -0.02511388731570759,
+          0.009955350641424675,
+          7.409491996148565E-4,
+          2.687775712357543E-21,
+          -2.1087658019364346,
+          2.6421475516485304E-21,
+          7.129410523891302E-22,
+          -0.00998288596098967,
+          -3.344022213848786E-4
+        ],
+        "timepoint": 0
+      },
+      "isExclusive": true
+    },
+    "area3_tomos_37_38_40_41_54": {
+      "uiSelectionGroup": "detail_area",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "sources": [
+              "em-overview"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              290.0,
+              23000.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "em-overview",
+            "opacity": 1.0,
+            "visible": true
+          }
         },
+        {
+          "imageDisplay": {
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              150.0,
+              45700.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "em-detail-a3",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_37_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_37_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_37_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_37_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_38_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_38_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_40_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_40_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_40_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_40_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_41_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_41_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_41_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_41_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_54_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_54_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_54_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_54_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "color": "r=255,g=0,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c0",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c1",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c2",
+            "opacity": 1.0,
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              -0.10198378825464686,
+              -0.9710562907353596,
+              0.0,
+              0.0,
+              -0.9846441741918877,
+              0.11862126451903302,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              29.30832356389215,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              -0.18777152869337194,
+              0.9821399838237337,
+              0.0,
+              0.0,
+              1.0032799126909004,
+              0.16846097748363031,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              99.62143853357243,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148945,
+              1.0039595803164605,
+              0.0,
+              0.0,
+              1.020668829539118,
+              -0.034661042654656964,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -0.176157
+            ],
+            "sources": [
+              "tomo_37_lm"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              228.04282648432743,
+              0.0,
+              1.0,
+              0.0,
+              302.40902957105,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "tomo_37_lm"
+            ],
+            "name": "RotScale"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148945,
+              1.0039595803164607,
+              0.0,
+              239.93945962096353,
+              1.0206688295391182,
+              -0.034661042654656964,
+              0.0,
+              300.37466120697667,
+              0.0,
+              0.0,
+              1.0000000000000002,
+              -0.19147500000000006
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              6.762973040670446E-5,
+              0.0051262176170958455,
+              -7.86703863683298E-35,
+              207.1409635467861,
+              0.005211535043626735,
+              -1.769792837946784E-4,
+              -3.1468154547331926E-35,
+              309.2354368782877,
+              3.3160565452950214E-35,
+              7.789116903465377E-35,
+              0.0051059999999999986,
+              -0.227217
+            ],
+            "sources": [
+              "tomo_40_lm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148947,
+              1.0039595803164607,
+              0.0,
+              243.59201639109855,
+              1.0206688295391182,
+              -0.03466104265465697,
+              0.0,
+              303.91519667035317,
+              0.0,
+              0.0,
+              1.0000000000000004,
+              -0.07010100000000001
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148882,
+              1.0039595803164603,
+              0.0,
+              252.8752679880011,
+              1.0206688295391178,
+              -0.0346610426546569,
+              0.0,
+              317.6910257705539,
+              0.0,
+              0.0,
+              0.9999999999999999,
+              -0.19658099999999998
+            ],
+            "sources": [
+              "tomo_41_lm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148943,
+              1.0039595803164605,
+              0.0,
+              241.7822189205871,
+              1.020668829539118,
+              -0.034661042654656964,
+              0.0,
+              266.7355546014951,
+              0.0,
+              0.0,
+              1.0,
+              -0.171051
+            ],
+            "sources": [
+              "tomo_54_lm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148941,
+              1.0039595803164603,
+              -1.5407439555097887E-32,
+              210.88814494422707,
+              1.0206688295391178,
+              -0.03466104265465696,
+              -6.162975822039157E-33,
+              309.76654920034923,
+              6.494431150205682E-33,
+              1.5254831381639986E-32,
+              0.9999999999999999,
+              -0.05456108458253092
+            ],
+            "sources": [
+              "tomo_40_hm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148947,
+              1.0039595803164605,
+              0.0,
+              245.43477569072212,
+              1.0206688295391178,
+              -0.03466104265465697,
+              0.0,
+              270.2760900648716,
+              0.0,
+              0.0,
+              1.0,
+              -0.0747744
+            ],
+            "sources": [
+              "tomo_54_hm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148948,
+              1.0039595803164605,
+              0.0,
+              231.8498207892673,
+              1.0206688295391178,
+              -0.03466104265465697,
+              0.0,
+              306.3767267928424,
+              0.0,
+              0.0,
+              1.0,
+              -0.0747744
+            ],
+            "sources": [
+              "tomo_37_hm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148116,
+              1.0039595803164598,
+              2.548749782768702E-18,
+              256.63040379706877,
+              1.020668829539117,
+              -0.03466104265465613,
+              -1.1958521839956973E-17,
+              320.70611875945485,
+              1.2171931918963699E-17,
+              -2.973336597821522E-18,
+              0.9999999999999993,
+              -0.0841212000000085
+            ],
+            "sources": [
+              "tomo_41_hm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_37_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_37_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_40_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_40_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_41_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_54_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              100.23021139885087,
+              13.287015421562778,
+              0.0,
+              165.3568,
+              -13.287015421562778,
+              100.23021139885087,
+              0.0,
+              2243.2063,
+              0.0,
+              0.0,
+              15.423117146329398,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              100.23021139885087,
+              13.287015421562778,
+              0.0,
+              165.3568,
+              -13.287015421562778,
+              100.23021139885087,
+              0.0,
+              2243.2063,
+              0.0,
+              0.0,
+              15.423117146329398,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              100.23021139885087,
+              13.287015421562778,
+              0.0,
+              165.3568,
+              -13.287015421562778,
+              100.23021139885087,
+              0.0,
+              2243.2063,
+              0.0,
+              0.0,
+              15.423117146329398,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              -0.0018848506050240675,
+              0.009858721157622638,
+              0.0,
+              0.0,
+              0.010070923763591259,
+              0.001691011291980681,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "CLEMRegistration"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              -0.0018848506050240675,
+              0.009858721157622638,
+              0.0,
+              0.0,
+              0.010070923763591259,
+              0.001691011291980681,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "CLEMRegistration"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              -0.0018848506050240675,
+              0.009858721157622638,
+              0.0,
+              0.0,
+              0.010070923763591259,
+              0.001691011291980681,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "CLEMRegistration"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_54_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_41_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
+      "viewerTransform": {
+        "normalizedAffine": [
+          -3.7595444496991325E-4,
+          0.009541010263246791,
+          -1.3276635209327578E-22,
+          -2.7928539330418225,
+          0.009541010263246791,
+          3.7595444496991325E-4,
+          3.395078510142158E-23,
+          -2.2176581516647547,
+          3.915193366451312E-23,
+          -1.3132663913878306E-22,
+          -0.00954841445414228,
+          2.822522333182759E-4
+        ],
+        "timepoint": 0
+      },
+      "isExclusive": true
+    },
+    "default": {
+      "uiSelectionGroup": "bookmark",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "sources": [
+              "em-overview"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              290.0,
+              23000.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "em-overview",
+            "opacity": 1.0,
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              -0.10198378825464686,
+              -0.9710562907353596,
+              0.0,
+              0.0,
+              -0.9846441741918877,
+              0.11862126451903302,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              29.30832356389215,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ],
+            "name": "Translation"
+          }
+        }
+      ],
+      "isExclusive": false
+    },
+    "all_sources": {
+      "uiSelectionGroup": "bookmark",
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "sources": [
+              "em-overview"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              290.0,
+              23000.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "em-overview",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              150.0,
+              45700.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "em-detail-a3",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_37_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_37_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_37_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_37_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_38_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_38_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_40_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_40_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_40_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_40_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_41_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_41_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_41_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_41_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_54_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_54_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_54_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_54_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "color": "r=255,g=0,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c0",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c1",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c2",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "em-detail-a1-A"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              10.0,
+              41500.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "em-detail-a1",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "em-detail-a2-A"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              48000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "em-detail-a2",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_53_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_53_lm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_53_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_53_hm",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a2-c0"
+            ],
+            "color": "r=255,g=0,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a2-c0",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a2-c1"
+            ],
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a2-c1",
+            "opacity": 1.0,
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a2-c2"
+            ],
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a2-c2",
+            "opacity": 1.0,
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
         {
           "affine": {
             "parameters": [
@@ -3861,6 +3023,72 @@
               0.0
             ],
             "sources": [
+              "em-detail-a1-A"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              37.7088,
+              0.0,
+              1.0,
+              0.0,
+              -87.641,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a1-A"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9993908270190963,
+              -0.034899496702500976,
+              0.0,
+              0.3903355098501322,
+              0.034899496702500976,
+              0.9993908270190963,
+              0.0,
+              -11.545341271935712,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a1-A"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              -0.18777152869337194,
+              0.9821399838237337,
+              0.0,
+              0.0,
+              1.0032799126909004,
+              0.16846097748363031,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              99.62143853357243,
+              0.0
+            ],
+            "sources": [
               "em-detail-a2-A"
             ],
             "name": "MapScaleMat"
@@ -4265,46 +3493,47 @@
       ],
       "viewerTransform": {
         "normalizedAffine": [
-          -1.1779730097488312E-4,
-          -0.0011373221972381703,
-          1.8537116895059627E-39,
-          0.11754223004289742,
-          -0.0011373221972381703,
-          1.1779730097488312E-4,
-          5.133240244005389E-40,
-          0.25885926097252515,
-          -7.0156779418314646E-40,
-          -1.7909637662450932E-39,
-          -0.001143406307682281,
-          1.2621680642853808E-36
+          -1.8971373119305895E-4,
+          -0.0018316687718740454,
+          -9.277696324281747E-40,
+          0.25055293690638564,
+          -0.0018316687718740454,
+          1.8971373119305895E-4,
+          1.0288257903190366E-39,
+          0.29314542838886065,
+          -9.277696324281742E-40,
+          1.0288257903190372E-39,
+          -0.0018414672925853898,
+          2.2022332030524406E-38
         ],
         "timepoint": 0
       },
       "isExclusive": true
     },
     "em-detail-a1": {
-      "isExclusive": false,
+      "uiSelectionGroup": "em",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              10,
-              41500
-            ],
-            "name": "em-detail-a1",
-            "opacity": 1,
             "sources": [
               "em-detail-a1-A"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              10.0,
+              41500.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "em-detail-a1",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "MapScaleMat",
             "parameters": [
               -0.18777152869337194,
               0.9821399838237337,
@@ -4321,12 +3550,12 @@
             ],
             "sources": [
               "em-detail-a1-A"
-            ]
+            ],
+            "name": "MapScaleMat"
           }
         },
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               1.0,
               0.0,
@@ -4343,12 +3572,12 @@
             ],
             "sources": [
               "em-detail-a1-A"
-            ]
+            ],
+            "name": "Translation"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9993908270190963,
               -0.034899496702500976,
@@ -4365,35 +3594,37 @@
             ],
             "sources": [
               "em-detail-a1-A"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "em"
+      "isExclusive": false
     },
     "em-detail-a2": {
-      "isExclusive": false,
+      "uiSelectionGroup": "em",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "sources": [
+              "em-detail-a2-A"
+            ],
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
               48000.0
             ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
             "name": "em-detail-a2",
-            "opacity": 1,
-            "sources": [
-              "em-detail-a2-A"
-            ]
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "MapScaleMat",
             "parameters": [
               -0.18777152869337194,
               0.9821399838237337,
@@ -4410,12 +3641,12 @@
             ],
             "sources": [
               "em-detail-a2-A"
-            ]
+            ],
+            "name": "MapScaleMat"
           }
         },
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               1.0,
               0.0,
@@ -4432,12 +3663,12 @@
             ],
             "sources": [
               "em-detail-a2-A"
-            ]
+            ],
+            "name": "Translation"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.997564050259825,
               -0.0697564737441254,
@@ -4450,39 +3681,41 @@
               0.0,
               0.0,
               1.0,
-              1.3877787807814457e-17
+              1.3877787807814457E-17
             ],
             "sources": [
               "em-detail-a2-A"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "em"
+      "isExclusive": false
     },
     "em-detail-a3": {
-      "isExclusive": false,
+      "uiSelectionGroup": "em",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              150,
-              45700
-            ],
-            "name": "em-detail-a3",
-            "opacity": 1,
             "sources": [
               "em-detail-a3-A"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              150.0,
+              45700.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "em-detail-a3",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "MapScaleMat",
             "parameters": [
               -0.18777152869337194,
               0.9821399838237337,
@@ -4499,12 +3732,12 @@
             ],
             "sources": [
               "em-detail-a3-A"
-            ]
+            ],
+            "name": "MapScaleMat"
           }
         },
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               1.0,
               0.0,
@@ -4521,57 +3754,59 @@
             ],
             "sources": [
               "em-detail-a3-A"
-            ]
+            ],
+            "name": "Translation"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "em-detail-a3-A"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "em"
+      "isExclusive": false
     },
     "em-overview": {
-      "isExclusive": false,
+      "uiSelectionGroup": "em",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              290,
-              23000
-            ],
-            "name": "em-overview",
-            "opacity": 1.0,
             "sources": [
               "em-overview"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              290.0,
+              23000.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "em-overview",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "MapScaleMat",
             "parameters": [
               -0.10198378825464686,
               -0.9710562907353596,
@@ -4588,12 +3823,12 @@
             ],
             "sources": [
               "em-overview"
-            ]
+            ],
+            "name": "MapScaleMat"
           }
         },
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               1.0,
               0.0,
@@ -4610,35 +3845,37 @@
             ],
             "sources": [
               "em-overview"
-            ]
+            ],
+            "name": "Translation"
           }
         }
       ],
-      "uiSelectionGroup": "em"
+      "isExclusive": false
     },
     "fluorescence-a2-c0": {
-      "isExclusive": false,
+      "uiSelectionGroup": "fluorescence",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "sources": [
+              "fluorescence-a2-c0"
+            ],
             "color": "r=255,g=0,b=0,a=255",
             "contrastLimits": [
-              40,
-              400
+              40.0,
+              400.0
             ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
             "name": "fluorescence-a2-c0",
             "opacity": 1.0,
-            "sources": [
-              "fluorescence-a2-c0"
-            ]
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               100.8710703734696,
               13.686391782144751,
@@ -4655,12 +3892,12 @@
             ],
             "sources": [
               "fluorescence-a2-c0"
-            ]
+            ],
+            "name": "Translation"
           }
         },
         {
           "affine": {
-            "name": "MapScaleMat",
             "parameters": [
               -0.0018848506050240675,
               0.009858721157622638,
@@ -4677,12 +3914,12 @@
             ],
             "sources": [
               "fluorescence-a2-c0"
-            ]
+            ],
+            "name": "MapScaleMat"
           }
         },
         {
           "affine": {
-            "name": "CLEMRegistration",
             "parameters": [
               1.0,
               0.0,
@@ -4699,12 +3936,12 @@
             ],
             "sources": [
               "fluorescence-a2-c0"
-            ]
+            ],
+            "name": "CLEMRegistration"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.997564050259825,
               -0.0697564737441254,
@@ -4717,39 +3954,41 @@
               0.0,
               0.0,
               1.0,
-              1.3877787807814457e-17
+              1.3877787807814457E-17
             ],
             "sources": [
               "fluorescence-a2-c0"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "fluorescence"
+      "isExclusive": false
     },
     "fluorescence-a2-c1": {
-      "isExclusive": false,
+      "uiSelectionGroup": "fluorescence",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "sources": [
+              "fluorescence-a2-c1"
+            ],
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
-              40,
-              400
+              40.0,
+              400.0
             ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
             "name": "fluorescence-a2-c1",
             "opacity": 1.0,
-            "sources": [
-              "fluorescence-a2-c1"
-            ]
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               100.8710703734696,
               13.686391782144751,
@@ -4766,12 +4005,12 @@
             ],
             "sources": [
               "fluorescence-a2-c1"
-            ]
+            ],
+            "name": "Translation"
           }
         },
         {
           "affine": {
-            "name": "MapScaleMat",
             "parameters": [
               -0.0018848506050240675,
               0.009858721157622638,
@@ -4788,12 +4027,12 @@
             ],
             "sources": [
               "fluorescence-a2-c1"
-            ]
+            ],
+            "name": "MapScaleMat"
           }
         },
         {
           "affine": {
-            "name": "CLEMRegistration",
             "parameters": [
               1.0,
               0.0,
@@ -4810,12 +4049,12 @@
             ],
             "sources": [
               "fluorescence-a2-c1"
-            ]
+            ],
+            "name": "CLEMRegistration"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.997564050259825,
               -0.0697564737441254,
@@ -4828,39 +4067,41 @@
               0.0,
               0.0,
               1.0,
-              1.3877787807814457e-17
+              1.3877787807814457E-17
             ],
             "sources": [
               "fluorescence-a2-c1"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "fluorescence"
+      "isExclusive": false
     },
     "fluorescence-a2-c2": {
-      "isExclusive": false,
+      "uiSelectionGroup": "fluorescence",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=0,g=0,b=255,a=255",
-            "contrastLimits": [
-              40,
-              400
-            ],
-            "name": "fluorescence-a2-c2",
-            "opacity": 1.0,
             "sources": [
               "fluorescence-a2-c2"
-            ]
+            ],
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a2-c2",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               100.8710703734696,
               13.686391782144751,
@@ -4877,12 +4118,12 @@
             ],
             "sources": [
               "fluorescence-a2-c2"
-            ]
+            ],
+            "name": "Translation"
           }
         },
         {
           "affine": {
-            "name": "MapScaleMat",
             "parameters": [
               -0.0018848506050240675,
               0.009858721157622638,
@@ -4899,12 +4140,12 @@
             ],
             "sources": [
               "fluorescence-a2-c2"
-            ]
+            ],
+            "name": "MapScaleMat"
           }
         },
         {
           "affine": {
-            "name": "CLEMRegistration",
             "parameters": [
               1.0,
               0.0,
@@ -4921,12 +4162,12 @@
             ],
             "sources": [
               "fluorescence-a2-c2"
-            ]
+            ],
+            "name": "CLEMRegistration"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.997564050259825,
               -0.0697564737441254,
@@ -4939,39 +4180,41 @@
               0.0,
               0.0,
               1.0,
-              1.3877787807814457e-17
+              1.3877787807814457E-17
             ],
             "sources": [
               "fluorescence-a2-c2"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "fluorescence"
+      "isExclusive": false
     },
     "fluorescence-a3-c0": {
-      "isExclusive": false,
+      "uiSelectionGroup": "fluorescence",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
             "color": "r=255,g=0,b=0,a=255",
             "contrastLimits": [
-              40,
-              400
+              40.0,
+              400.0
             ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
             "name": "fluorescence-a3-c0",
             "opacity": 1.0,
-            "sources": [
-              "fluorescence-a3-c0"
-            ]
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               100.23021139885087,
               13.287015421562778,
@@ -4988,12 +4231,12 @@
             ],
             "sources": [
               "fluorescence-a3-c0"
-            ]
+            ],
+            "name": "Translation"
           }
         },
         {
           "affine": {
-            "name": "MapScaleMat",
             "parameters": [
               -0.0018848506050240675,
               0.009858721157622638,
@@ -5010,12 +4253,12 @@
             ],
             "sources": [
               "fluorescence-a3-c0"
-            ]
+            ],
+            "name": "MapScaleMat"
           }
         },
         {
           "affine": {
-            "name": "CLEMRegistration",
             "parameters": [
               1.0,
               0.0,
@@ -5032,57 +4275,59 @@
             ],
             "sources": [
               "fluorescence-a3-c0"
-            ]
+            ],
+            "name": "CLEMRegistration"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "fluorescence-a3-c0"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "fluorescence"
+      "isExclusive": false
     },
     "fluorescence-a3-c1": {
-      "isExclusive": false,
+      "uiSelectionGroup": "fluorescence",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
             "color": "r=0,g=255,b=0,a=255",
             "contrastLimits": [
-              40,
-              400
+              40.0,
+              400.0
             ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
             "name": "fluorescence-a3-c1",
             "opacity": 1.0,
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               100.23021139885087,
               13.287015421562778,
@@ -5099,12 +4344,12 @@
             ],
             "sources": [
               "fluorescence-a3-c1"
-            ]
+            ],
+            "name": "Translation"
           }
         },
         {
           "affine": {
-            "name": "MapScaleMat",
             "parameters": [
               -0.0018848506050240675,
               0.009858721157622638,
@@ -5121,12 +4366,12 @@
             ],
             "sources": [
               "fluorescence-a3-c1"
-            ]
+            ],
+            "name": "MapScaleMat"
           }
         },
         {
           "affine": {
-            "name": "CLEMRegistration",
             "parameters": [
               1.0,
               0.0,
@@ -5143,57 +4388,59 @@
             ],
             "sources": [
               "fluorescence-a3-c1"
-            ]
+            ],
+            "name": "CLEMRegistration"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "fluorescence-a3-c1"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "fluorescence"
+      "isExclusive": false
     },
     "fluorescence-a3-c2": {
-      "isExclusive": false,
+      "uiSelectionGroup": "fluorescence",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=0,g=0,b=255,a=255",
-            "contrastLimits": [
-              40,
-              400
-            ],
-            "name": "fluorescence-a3-c2",
-            "opacity": 1.0,
             "sources": [
               "fluorescence-a3-c2"
-            ]
+            ],
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "blendingMode": "sum",
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c2",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               100.23021139885087,
               13.287015421562778,
@@ -5210,12 +4457,12 @@
             ],
             "sources": [
               "fluorescence-a3-c2"
-            ]
+            ],
+            "name": "Translation"
           }
         },
         {
           "affine": {
-            "name": "MapScaleMat",
             "parameters": [
               -0.0018848506050240675,
               0.009858721157622638,
@@ -5232,12 +4479,12 @@
             ],
             "sources": [
               "fluorescence-a3-c2"
-            ]
+            ],
+            "name": "MapScaleMat"
           }
         },
         {
           "affine": {
-            "name": "CLEMRegistration",
             "parameters": [
               1.0,
               0.0,
@@ -5254,57 +4501,59 @@
             ],
             "sources": [
               "fluorescence-a3-c2"
-            ]
+            ],
+            "name": "CLEMRegistration"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "fluorescence-a3-c2"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "fluorescence"
+      "isExclusive": false
     },
     "tomo_37_hm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30,
-              240
-            ],
-            "name": "tomo_37_hm",
-            "opacity": 1.0,
             "sources": [
               "tomo_37_hm"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_37_hm",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
               0.013245148924148948,
               1.0039595803164605,
@@ -5321,57 +4570,59 @@
             ],
             "sources": [
               "tomo_37_hm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "tomo_37_hm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_37_lm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "sources": [
+              "tomo_37_lm"
+            ],
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
               35000.0
             ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
             "name": "tomo_37_lm",
             "opacity": 1.0,
-            "sources": [
-              "tomo_37_lm"
-            ]
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Translation",
             "parameters": [
               0.013245148924148945,
               1.0039595803164605,
@@ -5388,12 +4639,12 @@
             ],
             "sources": [
               "tomo_37_lm"
-            ]
+            ],
+            "name": "Translation"
           }
         },
         {
           "affine": {
-            "name": "RotScale",
             "parameters": [
               1.0,
               0.0,
@@ -5410,57 +4661,59 @@
             ],
             "sources": [
               "tomo_37_lm"
-            ]
+            ],
+            "name": "RotScale"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "tomo_37_lm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_38_hm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20,
-              240
-            ],
-            "name": "tomo_38_hm",
-            "opacity": 1.0,
             "sources": [
               "tomo_38_hm"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_38_hm",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
               0.013245148924148947,
               1.0039595803164607,
@@ -5477,57 +4730,59 @@
             ],
             "sources": [
               "tomo_38_hm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "tomo_38_hm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_38_lm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000,
-              35000
-            ],
-            "name": "tomo_38_lm",
-            "opacity": 1.0,
             "sources": [
               "tomo_38_lm"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_38_lm",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
               0.013245148924148945,
               1.0039595803164607,
@@ -5544,258 +4799,266 @@
             ],
             "sources": [
               "tomo_38_lm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "tomo_38_lm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_40_hm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20,
-              240
-            ],
-            "name": "tomo_40_hm",
-            "opacity": 1.0,
             "sources": [
               "tomo_40_hm"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_40_hm",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
               0.013245148924148941,
               1.0039595803164603,
-              -1.5407439555097887e-32,
+              -1.5407439555097887E-32,
               210.88814494422707,
               1.0206688295391178,
               -0.03466104265465696,
-              -6.162975822039157e-33,
+              -6.162975822039157E-33,
               309.76654920034923,
-              6.494431150205682e-33,
-              1.5254831381639986e-32,
+              6.494431150205682E-33,
+              1.5254831381639986E-32,
               0.9999999999999999,
               -0.05456108458253092
             ],
             "sources": [
               "tomo_40_hm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "tomo_40_hm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_40_lm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "sources": [
+              "tomo_40_lm"
+            ],
             "color": "white",
             "contrastLimits": [
               30000.0,
               35000.0
             ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
             "name": "tomo_40_lm",
             "opacity": 1.0,
-            "sources": [
-              "tomo_40_lm"
-            ]
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
-              6.762973040670446e-05,
+              6.762973040670446E-5,
               0.0051262176170958455,
-              -7.86703863683298e-35,
+              -7.86703863683298E-35,
               207.1409635467861,
               0.005211535043626735,
-              -0.0001769792837946784,
-              -3.1468154547331926e-35,
+              -1.769792837946784E-4,
+              -3.1468154547331926E-35,
               309.2354368782877,
-              3.3160565452950214e-35,
-              7.789116903465377e-35,
+              3.3160565452950214E-35,
+              7.789116903465377E-35,
               0.0051059999999999986,
               -0.227217
             ],
             "sources": [
               "tomo_40_lm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "tomo_40_lm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_41_hm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20,
-              240
-            ],
-            "name": "tomo_41_hm",
-            "opacity": 1.0,
             "sources": [
               "tomo_41_hm"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_41_hm",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
               0.013245148924148116,
               1.0039595803164598,
-              2.548749782768702e-18,
+              2.548749782768702E-18,
               256.63040379706877,
               1.020668829539117,
               -0.03466104265465613,
-              -1.1958521839956973e-17,
+              -1.1958521839956973E-17,
               320.70611875945485,
-              1.2171931918963699e-17,
-              -2.973336597821522e-18,
+              1.2171931918963699E-17,
+              -2.973336597821522E-18,
               0.9999999999999993,
               -0.0841212000000085
             ],
             "sources": [
               "tomo_41_hm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "tomo_41_hm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_41_lm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000,
-              35000
-            ],
-            "name": "tomo_41_lm",
-            "opacity": 1.0,
             "sources": [
               "tomo_41_lm"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_41_lm",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
               0.013245148924148882,
               1.0039595803164603,
@@ -5812,79 +5075,81 @@
             ],
             "sources": [
               "tomo_41_lm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "tomo_41_lm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_53_hm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20,
-              240
-            ],
-            "name": "tomo_53_hm",
-            "opacity": 1.0,
             "sources": [
               "tomo_53_hm"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_53_hm",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
               -0.004569995627169656,
               1.0044115910135398,
-              -2.6900474244646257e-19,
+              -2.6900474244646257E-19,
               203.48402364367203,
               1.0207445364550052,
               -0.017134252967688706,
-              -5.278007477618141e-20,
+              -5.278007477618141E-20,
               17.592515862728746,
-              5.2645622464805574e-20,
-              2.6928713419797045e-19,
+              5.2645622464805574E-20,
+              2.6928713419797045E-19,
               1.0,
               -0.11074706746407927
             ],
             "sources": [
               "tomo_53_hm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.997564050259825,
               -0.0697564737441254,
@@ -5897,61 +5162,63 @@
               0.0,
               0.0,
               1.0,
-              1.3877787807814457e-17
+              1.3877787807814457E-17
             ],
             "sources": [
               "tomo_53_hm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_53_lm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "sources": [
+              "tomo_53_lm"
+            ],
             "color": "white",
             "contrastLimits": [
               30000.0,
               35000.0
             ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
             "name": "tomo_53_lm",
             "opacity": 1.0,
-            "sources": [
-              "tomo_53_lm"
-            ]
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
               -0.004569995627169629,
               1.0044115910135398,
-              -2.690047424464872e-19,
+              -2.690047424464872E-19,
               199.7368994782317,
               1.0207445364550052,
               -0.01713425296768873,
-              -5.27800747761814e-20,
+              -5.27800747761814E-20,
               14.29061433894726,
-              5.2645622464805466e-20,
-              2.692871341979952e-19,
+              5.2645622464805466E-20,
+              2.692871341979952E-19,
               1.0,
               -0.18667754997619213
             ],
             "sources": [
               "tomo_53_lm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.997564050259825,
               -0.0697564737441254,
@@ -5964,39 +5231,41 @@
               0.0,
               0.0,
               1.0,
-              1.3877787807814457e-17
+              1.3877787807814457E-17
             ],
             "sources": [
               "tomo_53_lm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_54_hm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20,
-              240
-            ],
-            "name": "tomo_54_hm",
-            "opacity": 1.0,
             "sources": [
               "tomo_54_hm"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20.0,
+              240.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_54_hm",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
               0.013245148924148947,
               1.0039595803164605,
@@ -6013,57 +5282,59 @@
             ],
             "sources": [
               "tomo_54_hm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "tomo_54_hm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     },
     "tomo_54_lm": {
-      "isExclusive": false,
+      "uiSelectionGroup": "tomograms",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000,
-              35000
-            ],
-            "name": "tomo_54_lm",
-            "opacity": 1.0,
             "sources": [
               "tomo_54_lm"
-            ]
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "blendingMode": "sumOccluding",
+            "showImagesIn3d": false,
+            "name": "tomo_54_lm",
+            "opacity": 1.0,
+            "visible": true
           }
         }
       ],
       "sourceTransforms": [
         {
           "affine": {
-            "name": "affine0",
             "parameters": [
               0.013245148924148943,
               1.0039595803164605,
@@ -6080,33 +5351,34 @@
             ],
             "sources": [
               "tomo_54_lm"
-            ]
+            ],
+            "name": "affine0"
           }
         },
         {
           "affine": {
-            "name": "manualTransform",
             "parameters": [
               0.9986295347545744,
               -0.05233595624294401,
-              -4.1003596830026926e-21,
+              -4.1003596830026926E-21,
               3.21857843709725,
               0.05233595624294401,
               0.9986295347545744,
-              1.3753764017006825e-20,
+              1.3753764017006825E-20,
               -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
               1.0000000000000002,
               0.0
             ],
             "sources": [
               "tomo_54_lm"
-            ]
+            ],
+            "name": "manualTransform"
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "isExclusive": false
     }
   }
 }
