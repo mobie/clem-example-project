@@ -62,5 +62,31 @@ def add_lm_view():
 
 
 
+
+def add_grid(view_name = "grid1",
+             source_names = [[]],
+             dataset = DS_FOLDER
+             ):
+    """Add a grid view using the 'grid' sourceTransform.
+    """
+    
+    # make sure that the table is not there, otherwise this creates issues
+    table_path = f"./data/tomo/tables/{view_name}/default.tsv"
+    if os.path.exists(table_path):
+        os.remove(table_path)
+
+    view = mobie.metadata.get_grid_view(
+        dataset,
+        view_name,
+        source_names,
+        center_at_origin=True
+    )
+    mobie.validation.validate_view_metadata(view)
+    mobie.metadata.add_view_to_dataset(dataset, view_name, view, overwrite=True)
+
+
+
 if __name__ == "__main__":
-    add_lm_view()
+    add_grid(source_names = [[item] for item in get_hm_tomos()],
+             view_name = 'highmag_tomos',
+             dataset = DS_FOLDER)
