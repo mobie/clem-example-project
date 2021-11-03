@@ -12,7 +12,7 @@
       </Attributes>
       <ViewSetup>
         <id>0</id>
-        <name>Setup0</name>
+        <name>em-tomogram-30_hm</name>
         <size>2048 2048 167</size>
         <voxelSize>
           <unit>micrometer</unit>
@@ -29,9 +29,9 @@
     </Timepoints>
   </SequenceDescription>
   <ViewRegistrations>
-    <ViewRegistration timepoint="0" setup="0">
+    <ViewRegistration setup="0" timepoint="0">
       <ViewTransform type="affine">
-        <affine>0.0012546000480651855 0.0 0.0 63.60287980651856 0.0 0.0012546000480651855 0.0 61.09487981414795 0.0 0.0 0.0012546000480651855 0.0</affine>
+        <affine>0.0012546000480651855 0.0 0.0 63.64298069163651 0.0 0.0012546000480651855 0.0 61.11375081890934 0.0 0.0 0.0012546000480651855 -0.061840202564693664</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>

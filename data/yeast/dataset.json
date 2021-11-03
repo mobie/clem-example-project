@@ -1,0 +1,534 @@
+{
+  "is2D": false,
+  "sources": {
+    "em-raw-overview": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-raw-overview.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-raw-overview.xml"
+          }
+        }
+      }
+    },
+    "em-segmentation": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-segmentation.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-segmentation.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/em-segmentation"
+          }
+        }
+      }
+    },
+    "em-tomogram-25_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram-25_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram-25_hm.xml"
+          }
+        }
+      }
+    },
+    "em-tomogram-25_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram-25_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram-25_lm.xml"
+          }
+        }
+      }
+    },
+    "em-tomogram-26_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram-26_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram-26_hm.xml"
+          }
+        }
+      }
+    },
+    "em-tomogram-26_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram-26_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram-26_lm.xml"
+          }
+        }
+      }
+    },
+    "em-tomogram-27_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram-27_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram-27_lm.xml"
+          }
+        }
+      }
+    },
+    "em-tomogram-28_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram-28_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram-28_lm.xml"
+          }
+        }
+      }
+    },
+    "em-tomogram-29_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram-29_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram-29_lm.xml"
+          }
+        }
+      }
+    },
+    "em-tomogram-30_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram-30_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram-30_hm.xml"
+          }
+        }
+      }
+    },
+    "em-tomogram-30_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram-30_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram-30_lm.xml"
+          }
+        }
+      }
+    },
+    "lm-fluorescence-overview": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/lm-fluorescence-overview.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/lm-fluorescence-overview.xml"
+          }
+        }
+      }
+    }
+  },
+  "views": {
+    "default": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "em-raw-overview",
+            "opacity": 1.0,
+            "sources": [
+              "em-raw-overview"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    },
+    "em-raw-overview": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "em-raw-overview",
+            "opacity": 1.0,
+            "sources": [
+              "em-raw-overview"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-segmentation": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "em-segmentation",
+            "opacity": 0.5,
+            "sources": [
+              "em-segmentation"
+            ],
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "segmentations"
+    },
+    "em-tomogram-25_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              23765,
+              38051
+            ],
+            "name": "em-tomogram-25_hm",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-25_hm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-tomogram-25_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              128,
+              65407
+            ],
+            "name": "em-tomogram-25_lm",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-25_lm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-tomogram-26_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              23153,
+              38747
+            ],
+            "name": "em-tomogram-26_hm",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-26_hm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-tomogram-26_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              128,
+              65407
+            ],
+            "name": "em-tomogram-26_lm",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-26_lm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-tomogram-27_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              128,
+              65407
+            ],
+            "name": "em-tomogram-27_lm",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-27_lm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-tomogram-28_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              128,
+              65407
+            ],
+            "name": "em-tomogram-28_lm",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-28_lm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-tomogram-29_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              128,
+              65407
+            ],
+            "name": "em-tomogram-29_lm",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-29_lm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-tomogram-30_hm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              24194,
+              38863
+            ],
+            "name": "em-tomogram-30_hm",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-30_hm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "em-tomogram-30_lm": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              128,
+              65407
+            ],
+            "name": "em-tomogram-30_lm",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-30_lm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "hm_tomograms": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              27588.000000000004,
+              34279.200000000004
+            ],
+            "name": "hm_tomograms",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-25_hm",
+              "em-tomogram-26_hm",
+              "em-tomogram-30_hm"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "hm_tomograms",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "em-tomogram-25_hm"
+              ],
+              "1": [
+                "em-tomogram-26_hm"
+              ],
+              "2": [
+                "em-tomogram-30_hm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/hm_tomograms"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmarks"
+    },
+    "lm-fluorescence-overview": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "green",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "lm-fluorescence-overview",
+            "opacity": 1.0,
+            "sources": [
+              "lm-fluorescence-overview"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "lm"
+    },
+    "lm_tomograms": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "white",
+            "contrastLimits": [
+              723.8000000000001,
+              58028.4
+            ],
+            "name": "lm_tomograms",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram-25_lm",
+              "em-tomogram-26_lm",
+              "em-tomogram-27_lm",
+              "em-tomogram-28_lm",
+              "em-tomogram-29_lm",
+              "em-tomogram-30_lm"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "lm_tomograms",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "em-tomogram-25_lm"
+              ],
+              "1": [
+                "em-tomogram-26_lm"
+              ],
+              "2": [
+                "em-tomogram-27_lm"
+              ],
+              "3": [
+                "em-tomogram-28_lm"
+              ],
+              "4": [
+                "em-tomogram-29_lm"
+              ],
+              "5": [
+                "em-tomogram-30_lm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/lm_tomograms"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmarks"
+    }
+  }
+}

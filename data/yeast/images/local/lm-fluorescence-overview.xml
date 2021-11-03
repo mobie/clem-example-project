@@ -12,11 +12,11 @@
       </Attributes>
       <ViewSetup>
         <id>0</id>
-        <name>Setup0</name>
+        <name>lm-fluorescence-overview</name>
         <size>10332 10597 1</size>
         <voxelSize>
           <unit>micrometer</unit>
-          <size>0.01 0.01 10.0</size>
+          <size>0.01 0.01 1.0</size>
         </voxelSize>
         <attributes>
           <channel>0</channel>
@@ -29,9 +29,9 @@
     </Timepoints>
   </SequenceDescription>
   <ViewRegistrations>
-    <ViewRegistration timepoint="0" setup="0">
+    <ViewRegistration setup="0" timepoint="0">
       <ViewTransform type="affine">
-        <affine>0.01 0.0 0.0 0.0 0.0 0.01 0.0 0.0 0.0 0.0 10.0 0.0</affine>
+        <affine>0.01 0.0 0.0 0.0 0.0 0.01 0.0 0.0 0.0 0.0 1.0 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>
