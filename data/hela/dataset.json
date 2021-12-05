@@ -121,103 +121,7 @@
         }
       }
     },
-    "tomo_37_hm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_37_hm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_37_hm.xml"
-          }
-        }
-      }
-    },
-    "tomo_37_lm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_37_lm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_37_lm.xml"
-          }
-        }
-      }
-    },
-    "tomo_38_hm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_38_hm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_38_hm.xml"
-          }
-        }
-      }
-    },
-    "tomo_38_lm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_38_lm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_38_lm.xml"
-          }
-        }
-      }
-    },
-    "tomo_40_hm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_40_hm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_40_hm.xml"
-          }
-        }
-      }
-    },
-    "tomo_40_lm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_40_lm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_40_lm.xml"
-          }
-        }
-      }
-    },
-    "tomo_41_hm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_41_hm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_41_hm.xml"
-          }
-        }
-      }
-    },
-    "tomo_41_lm": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/tomo_41_lm.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/tomo_41_lm.xml"
-          }
-        }
-      }
-    },
-    "tomo_53_hm": {
+    "a2_tomo1_hm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -229,7 +133,7 @@
         }
       }
     },
-    "tomo_53_lm": {
+    "a2_tomo1_lm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -241,7 +145,103 @@
         }
       }
     },
-    "tomo_54_hm": {
+    "a3_tomo1_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_37_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_37_hm.xml"
+          }
+        }
+      }
+    },
+    "a3_tomo1_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_37_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_37_lm.xml"
+          }
+        }
+      }
+    },
+    "a3_tomo2_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_38_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_38_hm.xml"
+          }
+        }
+      }
+    },
+    "a3_tomo2_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_38_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_38_lm.xml"
+          }
+        }
+      }
+    },
+    "a3_tomo3_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_40_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_40_hm.xml"
+          }
+        }
+      }
+    },
+    "a3_tomo3_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_40_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_40_lm.xml"
+          }
+        }
+      }
+    },
+    "a3_tomo4_hm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_41_hm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_41_hm.xml"
+          }
+        }
+      }
+    },
+    "a3_tomo4_lm": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/tomo_41_lm.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/tomo_41_lm.xml"
+          }
+        }
+      }
+    },
+    "a3_tomo5_hm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -253,7 +253,7 @@
         }
       }
     },
-    "tomo_54_lm": {
+    "a3_tomo5_lm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -313,11 +313,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_37_lm",
+            "name": "a3_tomo1_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ],
             "visible": true
           }
@@ -330,11 +330,11 @@
               30.0,
               240.0
             ],
-            "name": "tomo_37_hm",
+            "name": "a3_tomo1_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_37_hm"
+              "a3_tomo1_hm"
             ],
             "visible": true
           }
@@ -347,11 +347,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_38_lm",
+            "name": "a3_tomo2_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_38_lm"
+              "a3_tomo2_lm"
             ],
             "visible": true
           }
@@ -364,11 +364,11 @@
               20.0,
               240.0
             ],
-            "name": "tomo_38_hm",
+            "name": "a3_tomo2_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_38_hm"
+              "a3_tomo2_hm"
             ],
             "visible": true
           }
@@ -381,11 +381,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_40_lm",
+            "name": "a3_tomo3_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_40_lm"
+              "a3_tomo3_lm"
             ],
             "visible": true
           }
@@ -398,11 +398,11 @@
               20.0,
               240.0
             ],
-            "name": "tomo_40_hm",
+            "name": "a3_tomo3_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_40_hm"
+              "a3_tomo3_hm"
             ],
             "visible": true
           }
@@ -415,11 +415,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_41_lm",
+            "name": "a3_tomo4_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_41_lm"
+              "a3_tomo4_lm"
             ],
             "visible": true
           }
@@ -432,11 +432,11 @@
               20.0,
               240.0
             ],
-            "name": "tomo_41_hm",
+            "name": "a3_tomo4_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_41_hm"
+              "a3_tomo4_hm"
             ],
             "visible": true
           }
@@ -449,11 +449,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_54_lm",
+            "name": "a3_tomo5_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_54_lm"
+              "a3_tomo5_lm"
             ],
             "visible": true
           }
@@ -466,11 +466,11 @@
               20.0,
               240.0
             ],
-            "name": "tomo_54_hm",
+            "name": "a3_tomo5_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_54_hm"
+              "a3_tomo5_hm"
             ],
             "visible": true
           }
@@ -568,11 +568,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_53_lm",
+            "name": "a2_tomo1_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_53_lm"
+              "a2_tomo1_lm"
             ],
             "visible": true
           }
@@ -585,11 +585,11 @@
               20.0,
               240.0
             ],
-            "name": "tomo_53_hm",
+            "name": "a2_tomo1_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_53_hm"
+              "a2_tomo1_hm"
             ],
             "visible": true
           }
@@ -731,7 +731,7 @@
               -0.176157
             ],
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ]
           }
         },
@@ -753,7 +753,7 @@
               0.0
             ],
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ]
           }
         },
@@ -775,7 +775,7 @@
               -0.19147500000000006
             ],
             "sources": [
-              "tomo_38_lm"
+              "a3_tomo2_lm"
             ]
           }
         },
@@ -819,7 +819,7 @@
               -0.227217
             ],
             "sources": [
-              "tomo_40_lm"
+              "a3_tomo3_lm"
             ]
           }
         },
@@ -841,7 +841,7 @@
               -0.07010100000000001
             ],
             "sources": [
-              "tomo_38_hm"
+              "a3_tomo2_hm"
             ]
           }
         },
@@ -863,7 +863,7 @@
               -0.19658099999999998
             ],
             "sources": [
-              "tomo_41_lm"
+              "a3_tomo4_lm"
             ]
           }
         },
@@ -885,7 +885,7 @@
               -0.171051
             ],
             "sources": [
-              "tomo_54_lm"
+              "a3_tomo5_lm"
             ]
           }
         },
@@ -907,7 +907,7 @@
               -0.05456108458253092
             ],
             "sources": [
-              "tomo_40_hm"
+              "a3_tomo3_hm"
             ]
           }
         },
@@ -929,7 +929,7 @@
               -0.0747744
             ],
             "sources": [
-              "tomo_54_hm"
+              "a3_tomo5_hm"
             ]
           }
         },
@@ -951,7 +951,7 @@
               -0.0747744
             ],
             "sources": [
-              "tomo_37_hm"
+              "a3_tomo1_hm"
             ]
           }
         },
@@ -995,7 +995,7 @@
               -0.0841212000000085
             ],
             "sources": [
-              "tomo_41_hm"
+              "a3_tomo4_hm"
             ]
           }
         },
@@ -1017,7 +1017,7 @@
               0.0
             ],
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ]
           }
         },
@@ -1039,7 +1039,7 @@
               0.0
             ],
             "sources": [
-              "tomo_37_hm"
+              "a3_tomo1_hm"
             ]
           }
         },
@@ -1061,7 +1061,7 @@
               0.0
             ],
             "sources": [
-              "tomo_38_lm"
+              "a3_tomo2_lm"
             ]
           }
         },
@@ -1083,7 +1083,7 @@
               0.0
             ],
             "sources": [
-              "tomo_38_hm"
+              "a3_tomo2_hm"
             ]
           }
         },
@@ -1105,7 +1105,7 @@
               0.0
             ],
             "sources": [
-              "tomo_40_lm"
+              "a3_tomo3_lm"
             ]
           }
         },
@@ -1127,7 +1127,7 @@
               0.0
             ],
             "sources": [
-              "tomo_40_hm"
+              "a3_tomo3_hm"
             ]
           }
         },
@@ -1149,7 +1149,7 @@
               0.0
             ],
             "sources": [
-              "tomo_41_lm"
+              "a3_tomo4_lm"
             ]
           }
         },
@@ -1171,7 +1171,7 @@
               0.0
             ],
             "sources": [
-              "tomo_54_lm"
+              "a3_tomo5_lm"
             ]
           }
         },
@@ -1391,7 +1391,7 @@
               0.0
             ],
             "sources": [
-              "tomo_54_hm"
+              "a3_tomo5_hm"
             ]
           }
         },
@@ -1413,7 +1413,7 @@
               0.0
             ],
             "sources": [
-              "tomo_41_hm"
+              "a3_tomo4_hm"
             ]
           }
         },
@@ -1633,7 +1633,7 @@
               -0.18667754997619213
             ],
             "sources": [
-              "tomo_53_lm"
+              "a2_tomo1_lm"
             ]
           }
         },
@@ -1655,7 +1655,7 @@
               1.3877787807814457e-17
             ],
             "sources": [
-              "tomo_53_lm"
+              "a2_tomo1_lm"
             ]
           }
         },
@@ -1677,7 +1677,7 @@
               -0.11074706746407927
             ],
             "sources": [
-              "tomo_53_hm"
+              "a2_tomo1_hm"
             ]
           }
         },
@@ -1699,7 +1699,7 @@
               1.3877787807814457e-17
             ],
             "sources": [
-              "tomo_53_hm"
+              "a2_tomo1_hm"
             ]
           }
         },
@@ -1987,7 +1987,7 @@
         "timepoint": 0
       }
     },
-    "area2_-_tomo_53": {
+    "area2-a2_tomo1": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -2032,11 +2032,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_53_lm",
+            "name": "a2_tomo1_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_53_lm"
+              "a2_tomo1_lm"
             ],
             "visible": true
           }
@@ -2049,11 +2049,11 @@
               50.0,
               220.0
             ],
-            "name": "tomo_53_hm",
+            "name": "a2_tomo1_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_53_hm"
+              "a2_tomo1_hm"
             ],
             "visible": true
           }
@@ -2195,7 +2195,7 @@
               -0.18667754997619213
             ],
             "sources": [
-              "tomo_53_lm"
+              "a2_tomo1_lm"
             ]
           }
         },
@@ -2239,7 +2239,7 @@
               -0.11074706746407927
             ],
             "sources": [
-              "tomo_53_hm"
+              "a2_tomo1_hm"
             ]
           }
         },
@@ -2481,7 +2481,7 @@
               1.3877787807814457e-17
             ],
             "sources": [
-              "tomo_53_lm"
+              "a2_tomo1_lm"
             ]
           }
         },
@@ -2503,7 +2503,7 @@
               1.3877787807814457e-17
             ],
             "sources": [
-              "tomo_53_hm"
+              "a2_tomo1_hm"
             ]
           }
         },
@@ -2593,7 +2593,7 @@
         "timepoint": 0
       }
     },
-    "area3_tomos_37_38_40_41_54": {
+    "area3-tomos_1-5": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -2638,11 +2638,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_37_lm",
+            "name": "a3_tomo1_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ],
             "visible": true
           }
@@ -2655,11 +2655,11 @@
               30.0,
               240.0
             ],
-            "name": "tomo_37_hm",
+            "name": "a3_tomo1_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_37_hm"
+              "a3_tomo1_hm"
             ],
             "visible": true
           }
@@ -2672,11 +2672,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_38_lm",
+            "name": "a3_tomo2_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_38_lm"
+              "a3_tomo2_lm"
             ],
             "visible": true
           }
@@ -2689,11 +2689,11 @@
               20.0,
               240.0
             ],
-            "name": "tomo_38_hm",
+            "name": "a3_tomo2_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_38_hm"
+              "a3_tomo2_hm"
             ],
             "visible": true
           }
@@ -2706,11 +2706,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_40_lm",
+            "name": "a3_tomo3_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_40_lm"
+              "a3_tomo3_lm"
             ],
             "visible": true
           }
@@ -2723,11 +2723,11 @@
               20.0,
               240.0
             ],
-            "name": "tomo_40_hm",
+            "name": "a3_tomo3_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_40_hm"
+              "a3_tomo3_hm"
             ],
             "visible": true
           }
@@ -2740,11 +2740,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_41_lm",
+            "name": "a3_tomo4_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_41_lm"
+              "a3_tomo4_lm"
             ],
             "visible": true
           }
@@ -2757,11 +2757,11 @@
               20.0,
               240.0
             ],
-            "name": "tomo_41_hm",
+            "name": "a3_tomo4_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_41_hm"
+              "a3_tomo4_hm"
             ],
             "visible": true
           }
@@ -2774,11 +2774,11 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_54_lm",
+            "name": "a3_tomo5_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_54_lm"
+              "a3_tomo5_lm"
             ],
             "visible": true
           }
@@ -2791,11 +2791,11 @@
               20.0,
               240.0
             ],
-            "name": "tomo_54_hm",
+            "name": "a3_tomo5_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_54_hm"
+              "a3_tomo5_hm"
             ],
             "visible": true
           }
@@ -2937,7 +2937,7 @@
               -0.176157
             ],
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ]
           }
         },
@@ -2959,7 +2959,7 @@
               0.0
             ],
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ]
           }
         },
@@ -2981,7 +2981,7 @@
               -0.19147500000000006
             ],
             "sources": [
-              "tomo_38_lm"
+              "a3_tomo2_lm"
             ]
           }
         },
@@ -3025,7 +3025,7 @@
               -0.227217
             ],
             "sources": [
-              "tomo_40_lm"
+              "a3_tomo3_lm"
             ]
           }
         },
@@ -3047,7 +3047,7 @@
               -0.07010100000000001
             ],
             "sources": [
-              "tomo_38_hm"
+              "a3_tomo2_hm"
             ]
           }
         },
@@ -3069,7 +3069,7 @@
               -0.19658099999999998
             ],
             "sources": [
-              "tomo_41_lm"
+              "a3_tomo4_lm"
             ]
           }
         },
@@ -3091,7 +3091,7 @@
               -0.171051
             ],
             "sources": [
-              "tomo_54_lm"
+              "a3_tomo5_lm"
             ]
           }
         },
@@ -3113,7 +3113,7 @@
               -0.05456108458253092
             ],
             "sources": [
-              "tomo_40_hm"
+              "a3_tomo3_hm"
             ]
           }
         },
@@ -3135,7 +3135,7 @@
               -0.0747744
             ],
             "sources": [
-              "tomo_54_hm"
+              "a3_tomo5_hm"
             ]
           }
         },
@@ -3157,7 +3157,7 @@
               -0.0747744
             ],
             "sources": [
-              "tomo_37_hm"
+              "a3_tomo1_hm"
             ]
           }
         },
@@ -3201,7 +3201,7 @@
               -0.0841212000000085
             ],
             "sources": [
-              "tomo_41_hm"
+              "a3_tomo4_hm"
             ]
           }
         },
@@ -3223,7 +3223,7 @@
               0.0
             ],
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ]
           }
         },
@@ -3245,7 +3245,7 @@
               0.0
             ],
             "sources": [
-              "tomo_37_hm"
+              "a3_tomo1_hm"
             ]
           }
         },
@@ -3267,7 +3267,7 @@
               0.0
             ],
             "sources": [
-              "tomo_38_lm"
+              "a3_tomo2_lm"
             ]
           }
         },
@@ -3289,7 +3289,7 @@
               0.0
             ],
             "sources": [
-              "tomo_38_hm"
+              "a3_tomo2_hm"
             ]
           }
         },
@@ -3311,7 +3311,7 @@
               0.0
             ],
             "sources": [
-              "tomo_40_lm"
+              "a3_tomo3_lm"
             ]
           }
         },
@@ -3333,7 +3333,7 @@
               0.0
             ],
             "sources": [
-              "tomo_40_hm"
+              "a3_tomo3_hm"
             ]
           }
         },
@@ -3355,7 +3355,7 @@
               0.0
             ],
             "sources": [
-              "tomo_41_lm"
+              "a3_tomo4_lm"
             ]
           }
         },
@@ -3377,7 +3377,7 @@
               0.0
             ],
             "sources": [
-              "tomo_54_lm"
+              "a3_tomo5_lm"
             ]
           }
         },
@@ -3597,7 +3597,7 @@
               0.0
             ],
             "sources": [
-              "tomo_54_hm"
+              "a3_tomo5_hm"
             ]
           }
         },
@@ -3619,7 +3619,7 @@
               0.0
             ],
             "sources": [
-              "tomo_41_hm"
+              "a3_tomo4_hm"
             ]
           }
         },
@@ -4790,12 +4790,12 @@
             "name": "highmag_tomos_images",
             "opacity": 1.0,
             "sources": [
-              "tomo_37_hm",
-              "tomo_38_hm",
-              "tomo_40_hm",
-              "tomo_41_hm",
-              "tomo_53_hm",
-              "tomo_54_hm"
+              "a3_tomo1_hm",
+              "a3_tomo2_hm",
+              "a3_tomo3_hm",
+              "a3_tomo4_hm",
+              "a2_tomo1_hm",
+              "a3_tomo5_hm"
             ]
           }
         },
@@ -4806,22 +4806,22 @@
             "opacity": 0.5,
             "sources": {
               "0": [
-                "tomo_37_hm"
+                "a3_tomo1_hm"
               ],
               "1": [
-                "tomo_38_hm"
+                "a3_tomo2_hm"
               ],
               "2": [
-                "tomo_40_hm"
+                "a3_tomo3_hm"
               ],
               "3": [
-                "tomo_41_hm"
+                "a3_tomo4_hm"
               ],
               "4": [
-                "tomo_53_hm"
+                "a2_tomo1_hm"
               ],
               "5": [
-                "tomo_54_hm"
+                "a3_tomo5_hm"
               ]
             },
             "tableData": {
@@ -4841,22 +4841,22 @@
             "centerAtOrigin": true,
             "sources": [
               [
-                "tomo_37_hm"
+                "a2_tomo1_hm"
               ],
               [
-                "tomo_38_hm"
+                "a3_tomo1_hm"
               ],
               [
-                "tomo_40_hm"
+                "a3_tomo2_hm"
               ],
               [
-                "tomo_41_hm"
+                "a3_tomo3_hm"
               ],
               [
-                "tomo_53_hm"
+                "a3_tomo4_hm"
               ],
               [
-                "tomo_54_hm"
+                "a3_tomo5_hm"
               ]
             ]
           }
@@ -4864,7 +4864,7 @@
       ],
       "uiSelectionGroup": "grid"
     },
-    "tomo_37_hm": {
+    "a3_tomo1_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -4875,10 +4875,10 @@
               30,
               240
             ],
-            "name": "tomo_37_hm",
+            "name": "a3_tomo1_hm",
             "opacity": 1.0,
             "sources": [
-              "tomo_37_hm"
+              "a3_tomo1_hm"
             ]
           }
         }
@@ -4902,7 +4902,7 @@
               -0.0747744
             ],
             "sources": [
-              "tomo_37_hm"
+              "a3_tomo1_hm"
             ]
           }
         },
@@ -4924,14 +4924,14 @@
               0.0
             ],
             "sources": [
-              "tomo_37_hm"
+              "a3_tomo1_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_37_lm": {
+    "a3_tomo1_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -4942,10 +4942,10 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_37_lm",
+            "name": "a3_tomo1_lm",
             "opacity": 1.0,
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ]
           }
         }
@@ -4969,7 +4969,7 @@
               -0.176157
             ],
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ]
           }
         },
@@ -4991,7 +4991,7 @@
               0.0
             ],
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ]
           }
         },
@@ -5013,14 +5013,14 @@
               0.0
             ],
             "sources": [
-              "tomo_37_lm"
+              "a3_tomo1_lm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_38_hm": {
+    "a3_tomo2_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5031,10 +5031,10 @@
               20,
               240
             ],
-            "name": "tomo_38_hm",
+            "name": "a3_tomo2_hm",
             "opacity": 1.0,
             "sources": [
-              "tomo_38_hm"
+              "a3_tomo2_hm"
             ]
           }
         }
@@ -5058,7 +5058,7 @@
               -0.07010100000000001
             ],
             "sources": [
-              "tomo_38_hm"
+              "a3_tomo2_hm"
             ]
           }
         },
@@ -5080,14 +5080,14 @@
               0.0
             ],
             "sources": [
-              "tomo_38_hm"
+              "a3_tomo2_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_38_lm": {
+    "a3_tomo2_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5098,10 +5098,10 @@
               30000,
               35000
             ],
-            "name": "tomo_38_lm",
+            "name": "a3_tomo2_lm",
             "opacity": 1.0,
             "sources": [
-              "tomo_38_lm"
+              "a3_tomo2_lm"
             ]
           }
         }
@@ -5125,7 +5125,7 @@
               -0.19147500000000006
             ],
             "sources": [
-              "tomo_38_lm"
+              "a3_tomo2_lm"
             ]
           }
         },
@@ -5147,14 +5147,14 @@
               0.0
             ],
             "sources": [
-              "tomo_38_lm"
+              "a3_tomo2_lm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_40_hm": {
+    "a3_tomo3_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5165,10 +5165,10 @@
               20,
               240
             ],
-            "name": "tomo_40_hm",
+            "name": "a3_tomo3_hm",
             "opacity": 1.0,
             "sources": [
-              "tomo_40_hm"
+              "a3_tomo3_hm"
             ]
           }
         }
@@ -5192,7 +5192,7 @@
               -0.05456108458253092
             ],
             "sources": [
-              "tomo_40_hm"
+              "a3_tomo3_hm"
             ]
           }
         },
@@ -5214,14 +5214,14 @@
               0.0
             ],
             "sources": [
-              "tomo_40_hm"
+              "a3_tomo3_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_40_lm": {
+    "a3_tomo3_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5232,10 +5232,10 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_40_lm",
+            "name": "a3_tomo3_lm",
             "opacity": 1.0,
             "sources": [
-              "tomo_40_lm"
+              "a3_tomo3_lm"
             ]
           }
         }
@@ -5259,7 +5259,7 @@
               -0.227217
             ],
             "sources": [
-              "tomo_40_lm"
+              "a3_tomo3_lm"
             ]
           }
         },
@@ -5281,14 +5281,14 @@
               0.0
             ],
             "sources": [
-              "tomo_40_lm"
+              "a3_tomo3_lm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_41_hm": {
+    "a3_tomo4_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5299,10 +5299,10 @@
               20,
               240
             ],
-            "name": "tomo_41_hm",
+            "name": "a3_tomo4_hm",
             "opacity": 1.0,
             "sources": [
-              "tomo_41_hm"
+              "a3_tomo4_hm"
             ]
           }
         }
@@ -5326,7 +5326,7 @@
               -0.0841212000000085
             ],
             "sources": [
-              "tomo_41_hm"
+              "a3_tomo4_hm"
             ]
           }
         },
@@ -5348,14 +5348,14 @@
               0.0
             ],
             "sources": [
-              "tomo_41_hm"
+              "a3_tomo4_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_41_lm": {
+    "a3_tomo4_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5366,10 +5366,10 @@
               30000,
               35000
             ],
-            "name": "tomo_41_lm",
+            "name": "a3_tomo4_lm",
             "opacity": 1.0,
             "sources": [
-              "tomo_41_lm"
+              "a3_tomo4_lm"
             ]
           }
         }
@@ -5393,7 +5393,7 @@
               -0.19658099999999998
             ],
             "sources": [
-              "tomo_41_lm"
+              "a3_tomo4_lm"
             ]
           }
         },
@@ -5415,14 +5415,14 @@
               0.0
             ],
             "sources": [
-              "tomo_41_lm"
+              "a3_tomo4_lm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_53_hm": {
+    "a2_tomo1_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5433,10 +5433,10 @@
               20,
               240
             ],
-            "name": "tomo_53_hm",
+            "name": "a2_tomo1_hm",
             "opacity": 1.0,
             "sources": [
-              "tomo_53_hm"
+              "a2_tomo1_hm"
             ]
           }
         }
@@ -5460,7 +5460,7 @@
               -0.11074706746407927
             ],
             "sources": [
-              "tomo_53_hm"
+              "a2_tomo1_hm"
             ]
           }
         },
@@ -5482,14 +5482,14 @@
               1.3877787807814457e-17
             ],
             "sources": [
-              "tomo_53_hm"
+              "a2_tomo1_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_53_lm": {
+    "a2_tomo1_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5500,10 +5500,10 @@
               30000.0,
               35000.0
             ],
-            "name": "tomo_53_lm",
+            "name": "a2_tomo1_lm",
             "opacity": 1.0,
             "sources": [
-              "tomo_53_lm"
+              "a2_tomo1_lm"
             ]
           }
         }
@@ -5527,7 +5527,7 @@
               -0.18667754997619213
             ],
             "sources": [
-              "tomo_53_lm"
+              "a2_tomo1_lm"
             ]
           }
         },
@@ -5549,14 +5549,14 @@
               1.3877787807814457e-17
             ],
             "sources": [
-              "tomo_53_lm"
+              "a2_tomo1_lm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_54_hm": {
+    "a3_tomo5_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5567,10 +5567,10 @@
               20,
               240
             ],
-            "name": "tomo_54_hm",
+            "name": "a3_tomo5_hm",
             "opacity": 1.0,
             "sources": [
-              "tomo_54_hm"
+              "a3_tomo5_hm"
             ]
           }
         }
@@ -5594,7 +5594,7 @@
               -0.0747744
             ],
             "sources": [
-              "tomo_54_hm"
+              "a3_tomo5_hm"
             ]
           }
         },
@@ -5616,14 +5616,14 @@
               0.0
             ],
             "sources": [
-              "tomo_54_hm"
+              "a3_tomo5_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "tomo_54_lm": {
+    "a3_tomo5_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5634,10 +5634,10 @@
               30000,
               35000
             ],
-            "name": "tomo_54_lm",
+            "name": "a3_tomo5_lm",
             "opacity": 1.0,
             "sources": [
-              "tomo_54_lm"
+              "a3_tomo5_lm"
             ]
           }
         }
@@ -5661,7 +5661,7 @@
               -0.171051
             ],
             "sources": [
-              "tomo_54_lm"
+              "a3_tomo5_lm"
             ]
           }
         },
@@ -5683,7 +5683,7 @@
               0.0
             ],
             "sources": [
-              "tomo_54_lm"
+              "a3_tomo5_lm"
             ]
           }
         }
