@@ -4657,9 +4657,6 @@
             "centerAtOrigin": true,
             "sources": [
               [
-                "a2_tomo1_hm"
-              ],
-              [
                 "a1_tomo1_hm"
               ],
               [
@@ -4673,6 +4670,9 @@
               ],
               [
                 "a1_tomo5_hm"
+              ],
+              [
+                "a2_tomo1_hm"
               ]
             ]
           }
@@ -5505,6 +5505,6 @@
         }
       ],
       "uiSelectionGroup": "tomograms"
-    }    
+    }
   }
 }
