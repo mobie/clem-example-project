@@ -13,14 +13,14 @@
         }
       }
     },
-    "em-detail-a3-A": {
+    "em-detail-a1-A": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/em-detail-a3-A.xml"
+            "relativePath": "images/bdv-n5/em-detail-a1-A.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/em-detail-a3-A.xml"
+            "relativePath": "images/bdv-n5-s3/em-detail-a1-A.xml"
           }
         }
       }
@@ -73,38 +73,38 @@
         }
       }
     },
-    "fluorescence-a3-c0": {
+    "fluorescence-a1-c0": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c0.xml"
+            "relativePath": "images/bdv-n5/fluorescence-a1-FMR-c0.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/fluorescence-a3-FMR-c0.xml"
+            "relativePath": "images/bdv-n5-s3/fluorescence-a1-FMR-c0.xml"
           }
         }
       }
     },
-    "fluorescence-a3-c1": {
+    "fluorescence-a1-c1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c1.xml"
+            "relativePath": "images/bdv-n5/fluorescence-a1-FMR-c1.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/fluorescence-a3-FMR-c1.xml"
+            "relativePath": "images/bdv-n5-s3/fluorescence-a1-FMR-c1.xml"
           }
         }
       }
     },
-    "fluorescence-a3-c2": {
+    "fluorescence-a1-c2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/fluorescence-a3-FMR-c2.xml"
+            "relativePath": "images/bdv-n5/fluorescence-a1-FMR-c2.xml"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/fluorescence-a3-FMR-c2.xml"
+            "relativePath": "images/bdv-n5-s3/fluorescence-a1-FMR-c2.xml"
           }
         }
       }
@@ -133,7 +133,7 @@
         }
       }
     },
-    "a3_tomo1_hm": {
+    "a1_tomo1_hm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -145,7 +145,7 @@
         }
       }
     },
-    "a3_tomo1_lm": {
+    "a1_tomo1_lm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -157,7 +157,7 @@
         }
       }
     },
-    "a3_tomo2_hm": {
+    "a1_tomo2_hm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -169,7 +169,7 @@
         }
       }
     },
-    "a3_tomo2_lm": {
+    "a1_tomo2_lm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -181,7 +181,7 @@
         }
       }
     },
-    "a3_tomo3_hm": {
+    "a1_tomo3_hm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -193,7 +193,7 @@
         }
       }
     },
-    "a3_tomo3_lm": {
+    "a1_tomo3_lm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -205,7 +205,7 @@
         }
       }
     },
-    "a3_tomo4_hm": {
+    "a1_tomo4_hm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -217,7 +217,7 @@
         }
       }
     },
-    "a3_tomo4_lm": {
+    "a1_tomo4_lm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -229,7 +229,7 @@
         }
       }
     },
-    "a3_tomo5_hm": {
+    "a1_tomo5_hm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -241,7 +241,7 @@
         }
       }
     },
-    "a3_tomo5_lm": {
+    "a1_tomo5_lm": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -284,11 +284,11 @@
               150.0,
               45700.0
             ],
-            "name": "em-detail-a3",
+            "name": "em-detail-a1",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ],
             "visible": true
           }
@@ -301,11 +301,11 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo1_lm",
+            "name": "a1_tomo1_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ],
             "visible": true
           }
@@ -318,11 +318,11 @@
               30.0,
               240.0
             ],
-            "name": "a3_tomo1_hm",
+            "name": "a1_tomo1_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo1_hm"
+              "a1_tomo1_hm"
             ],
             "visible": true
           }
@@ -335,11 +335,11 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo2_lm",
+            "name": "a1_tomo2_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo2_lm"
+              "a1_tomo2_lm"
             ],
             "visible": true
           }
@@ -352,11 +352,11 @@
               20.0,
               240.0
             ],
-            "name": "a3_tomo2_hm",
+            "name": "a1_tomo2_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo2_hm"
+              "a1_tomo2_hm"
             ],
             "visible": true
           }
@@ -369,11 +369,11 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo3_lm",
+            "name": "a1_tomo3_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo3_lm"
+              "a1_tomo3_lm"
             ],
             "visible": true
           }
@@ -386,11 +386,11 @@
               20.0,
               240.0
             ],
-            "name": "a3_tomo3_hm",
+            "name": "a1_tomo3_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo3_hm"
+              "a1_tomo3_hm"
             ],
             "visible": true
           }
@@ -403,11 +403,11 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo4_lm",
+            "name": "a1_tomo4_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo4_lm"
+              "a1_tomo4_lm"
             ],
             "visible": true
           }
@@ -420,11 +420,11 @@
               20.0,
               240.0
             ],
-            "name": "a3_tomo4_hm",
+            "name": "a1_tomo4_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo4_hm"
+              "a1_tomo4_hm"
             ],
             "visible": true
           }
@@ -437,11 +437,11 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo5_lm",
+            "name": "a1_tomo5_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo5_lm"
+              "a1_tomo5_lm"
             ],
             "visible": true
           }
@@ -454,11 +454,11 @@
               20.0,
               240.0
             ],
-            "name": "a3_tomo5_hm",
+            "name": "a1_tomo5_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo5_hm"
+              "a1_tomo5_hm"
             ],
             "visible": true
           }
@@ -471,11 +471,11 @@
               40.0,
               400.0
             ],
-            "name": "fluorescence-a3-c0",
+            "name": "fluorescence-a1-c0",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ],
             "visible": true
           }
@@ -488,11 +488,11 @@
               40.0,
               400.0
             ],
-            "name": "fluorescence-a3-c1",
+            "name": "fluorescence-a1-c1",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ],
             "visible": true
           }
@@ -505,11 +505,11 @@
               40.0,
               400.0
             ],
-            "name": "fluorescence-a3-c2",
+            "name": "fluorescence-a1-c2",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ],
             "visible": true
           }
@@ -680,7 +680,7 @@
               0.0
             ],
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ]
           }
         },
@@ -702,7 +702,7 @@
               -0.176157
             ],
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ]
           }
         },
@@ -724,7 +724,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ]
           }
         },
@@ -746,7 +746,7 @@
               -0.19147500000000006
             ],
             "sources": [
-              "a3_tomo2_lm"
+              "a1_tomo2_lm"
             ]
           }
         },
@@ -768,7 +768,7 @@
               0.0
             ],
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ]
           }
         },
@@ -790,7 +790,7 @@
               -0.227217
             ],
             "sources": [
-              "a3_tomo3_lm"
+              "a1_tomo3_lm"
             ]
           }
         },
@@ -812,7 +812,7 @@
               -0.07010100000000001
             ],
             "sources": [
-              "a3_tomo2_hm"
+              "a1_tomo2_hm"
             ]
           }
         },
@@ -834,7 +834,7 @@
               -0.19658099999999998
             ],
             "sources": [
-              "a3_tomo4_lm"
+              "a1_tomo4_lm"
             ]
           }
         },
@@ -856,7 +856,7 @@
               -0.171051
             ],
             "sources": [
-              "a3_tomo5_lm"
+              "a1_tomo5_lm"
             ]
           }
         },
@@ -878,7 +878,7 @@
               -0.05456108458253092
             ],
             "sources": [
-              "a3_tomo3_hm"
+              "a1_tomo3_hm"
             ]
           }
         },
@@ -900,7 +900,7 @@
               -0.0747744
             ],
             "sources": [
-              "a3_tomo5_hm"
+              "a1_tomo5_hm"
             ]
           }
         },
@@ -922,7 +922,7 @@
               -0.0747744
             ],
             "sources": [
-              "a3_tomo1_hm"
+              "a1_tomo1_hm"
             ]
           }
         },
@@ -944,7 +944,7 @@
               0.0
             ],
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ]
           }
         },
@@ -966,7 +966,7 @@
               -0.0841212000000085
             ],
             "sources": [
-              "a3_tomo4_hm"
+              "a1_tomo4_hm"
             ]
           }
         },
@@ -988,7 +988,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ]
           }
         },
@@ -1010,7 +1010,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo1_hm"
+              "a1_tomo1_hm"
             ]
           }
         },
@@ -1032,7 +1032,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo2_lm"
+              "a1_tomo2_lm"
             ]
           }
         },
@@ -1054,7 +1054,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo2_hm"
+              "a1_tomo2_hm"
             ]
           }
         },
@@ -1076,7 +1076,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo3_lm"
+              "a1_tomo3_lm"
             ]
           }
         },
@@ -1098,7 +1098,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo3_hm"
+              "a1_tomo3_hm"
             ]
           }
         },
@@ -1120,7 +1120,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo4_lm"
+              "a1_tomo4_lm"
             ]
           }
         },
@@ -1142,7 +1142,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo5_lm"
+              "a1_tomo5_lm"
             ]
           }
         },
@@ -1164,7 +1164,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -1186,7 +1186,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -1208,7 +1208,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         },
@@ -1230,7 +1230,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         },
@@ -1252,7 +1252,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         },
@@ -1274,7 +1274,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -1296,7 +1296,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -1318,7 +1318,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -1340,7 +1340,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -1362,7 +1362,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo5_hm"
+              "a1_tomo5_hm"
             ]
           }
         },
@@ -1384,7 +1384,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo4_hm"
+              "a1_tomo4_hm"
             ]
           }
         },
@@ -1406,7 +1406,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -1428,7 +1428,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -1450,7 +1450,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         },
@@ -2498,7 +2498,7 @@
         "timepoint": 0
       }
     },
-    "area3-tomos_1-5": {
+    "area1-tomos_1-5": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -2526,11 +2526,11 @@
               150.0,
               45700.0
             ],
-            "name": "em-detail-a3",
+            "name": "em-detail-a1",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ],
             "visible": true
           }
@@ -2543,11 +2543,11 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo1_lm",
+            "name": "a1_tomo1_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ],
             "visible": true
           }
@@ -2560,11 +2560,11 @@
               30.0,
               240.0
             ],
-            "name": "a3_tomo1_hm",
+            "name": "a1_tomo1_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo1_hm"
+              "a1_tomo1_hm"
             ],
             "visible": true
           }
@@ -2577,11 +2577,11 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo2_lm",
+            "name": "a1_tomo2_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo2_lm"
+              "a1_tomo2_lm"
             ],
             "visible": true
           }
@@ -2594,11 +2594,11 @@
               20.0,
               240.0
             ],
-            "name": "a3_tomo2_hm",
+            "name": "a1_tomo2_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo2_hm"
+              "a1_tomo2_hm"
             ],
             "visible": true
           }
@@ -2611,11 +2611,11 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo3_lm",
+            "name": "a1_tomo3_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo3_lm"
+              "a1_tomo3_lm"
             ],
             "visible": true
           }
@@ -2628,11 +2628,11 @@
               20.0,
               240.0
             ],
-            "name": "a3_tomo3_hm",
+            "name": "a1_tomo3_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo3_hm"
+              "a1_tomo3_hm"
             ],
             "visible": true
           }
@@ -2645,11 +2645,11 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo4_lm",
+            "name": "a1_tomo4_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo4_lm"
+              "a1_tomo4_lm"
             ],
             "visible": true
           }
@@ -2662,11 +2662,11 @@
               20.0,
               240.0
             ],
-            "name": "a3_tomo4_hm",
+            "name": "a1_tomo4_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo4_hm"
+              "a1_tomo4_hm"
             ],
             "visible": true
           }
@@ -2679,11 +2679,11 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo5_lm",
+            "name": "a1_tomo5_lm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo5_lm"
+              "a1_tomo5_lm"
             ],
             "visible": true
           }
@@ -2696,11 +2696,11 @@
               20.0,
               240.0
             ],
-            "name": "a3_tomo5_hm",
+            "name": "a1_tomo5_hm",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "a3_tomo5_hm"
+              "a1_tomo5_hm"
             ],
             "visible": true
           }
@@ -2713,11 +2713,11 @@
               40.0,
               400.0
             ],
-            "name": "fluorescence-a3-c0",
+            "name": "fluorescence-a1-c0",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ],
             "visible": true
           }
@@ -2730,11 +2730,11 @@
               40.0,
               400.0
             ],
-            "name": "fluorescence-a3-c1",
+            "name": "fluorescence-a1-c1",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ],
             "visible": true
           }
@@ -2747,11 +2747,11 @@
               40.0,
               400.0
             ],
-            "name": "fluorescence-a3-c2",
+            "name": "fluorescence-a1-c2",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ],
             "visible": true
           }
@@ -2820,7 +2820,7 @@
               0.0
             ],
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ]
           }
         },
@@ -2842,7 +2842,7 @@
               -0.176157
             ],
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ]
           }
         },
@@ -2864,7 +2864,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ]
           }
         },
@@ -2886,7 +2886,7 @@
               -0.19147500000000006
             ],
             "sources": [
-              "a3_tomo2_lm"
+              "a1_tomo2_lm"
             ]
           }
         },
@@ -2908,7 +2908,7 @@
               0.0
             ],
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ]
           }
         },
@@ -2930,7 +2930,7 @@
               -0.227217
             ],
             "sources": [
-              "a3_tomo3_lm"
+              "a1_tomo3_lm"
             ]
           }
         },
@@ -2952,7 +2952,7 @@
               -0.07010100000000001
             ],
             "sources": [
-              "a3_tomo2_hm"
+              "a1_tomo2_hm"
             ]
           }
         },
@@ -2974,7 +2974,7 @@
               -0.19658099999999998
             ],
             "sources": [
-              "a3_tomo4_lm"
+              "a1_tomo4_lm"
             ]
           }
         },
@@ -2996,7 +2996,7 @@
               -0.171051
             ],
             "sources": [
-              "a3_tomo5_lm"
+              "a1_tomo5_lm"
             ]
           }
         },
@@ -3018,7 +3018,7 @@
               -0.05456108458253092
             ],
             "sources": [
-              "a3_tomo3_hm"
+              "a1_tomo3_hm"
             ]
           }
         },
@@ -3040,7 +3040,7 @@
               -0.0747744
             ],
             "sources": [
-              "a3_tomo5_hm"
+              "a1_tomo5_hm"
             ]
           }
         },
@@ -3062,7 +3062,7 @@
               -0.0747744
             ],
             "sources": [
-              "a3_tomo1_hm"
+              "a1_tomo1_hm"
             ]
           }
         },
@@ -3084,7 +3084,7 @@
               0.0
             ],
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ]
           }
         },
@@ -3106,7 +3106,7 @@
               -0.0841212000000085
             ],
             "sources": [
-              "a3_tomo4_hm"
+              "a1_tomo4_hm"
             ]
           }
         },
@@ -3128,7 +3128,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ]
           }
         },
@@ -3150,7 +3150,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo1_hm"
+              "a1_tomo1_hm"
             ]
           }
         },
@@ -3172,7 +3172,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo2_lm"
+              "a1_tomo2_lm"
             ]
           }
         },
@@ -3194,7 +3194,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo2_hm"
+              "a1_tomo2_hm"
             ]
           }
         },
@@ -3216,7 +3216,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo3_lm"
+              "a1_tomo3_lm"
             ]
           }
         },
@@ -3238,7 +3238,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo3_hm"
+              "a1_tomo3_hm"
             ]
           }
         },
@@ -3260,7 +3260,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo4_lm"
+              "a1_tomo4_lm"
             ]
           }
         },
@@ -3282,7 +3282,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo5_lm"
+              "a1_tomo5_lm"
             ]
           }
         },
@@ -3304,7 +3304,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -3326,7 +3326,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -3348,7 +3348,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         },
@@ -3370,7 +3370,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         },
@@ -3392,7 +3392,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         },
@@ -3414,7 +3414,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -3436,7 +3436,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -3458,7 +3458,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -3480,7 +3480,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -3502,7 +3502,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo5_hm"
+              "a1_tomo5_hm"
             ]
           }
         },
@@ -3524,7 +3524,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo4_hm"
+              "a1_tomo4_hm"
             ]
           }
         },
@@ -3546,7 +3546,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -3568,7 +3568,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -3590,7 +3590,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         }
@@ -3770,7 +3770,7 @@
       ],
       "uiSelectionGroup": "em"
     },
-    "em-detail-a3": {
+    "em-detail-a1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -3781,10 +3781,10 @@
               150,
               45700
             ],
-            "name": "em-detail-a3",
+            "name": "em-detail-a1",
             "opacity": 1,
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ]
           }
         }
@@ -3808,7 +3808,7 @@
               0.0
             ],
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ]
           }
         },
@@ -3830,7 +3830,7 @@
               0.0
             ],
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ]
           }
         },
@@ -3852,7 +3852,7 @@
               0.0
             ],
             "sources": [
-              "em-detail-a3-A"
+              "em-detail-a1-A"
             ]
           }
         }
@@ -4259,7 +4259,7 @@
       ],
       "uiSelectionGroup": "fluorescence"
     },
-    "fluorescence-a3-c0": {
+    "fluorescence-a1-c0": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -4270,10 +4270,10 @@
               40,
               400
             ],
-            "name": "fluorescence-a3-c0",
+            "name": "fluorescence-a1-c0",
             "opacity": 1.0,
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         }
@@ -4297,7 +4297,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -4319,7 +4319,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -4341,7 +4341,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         },
@@ -4363,14 +4363,14 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "fluorescence-a1-c0"
             ]
           }
         }
       ],
       "uiSelectionGroup": "fluorescence"
     },
-    "fluorescence-a3-c1": {
+    "fluorescence-a1-c1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -4381,10 +4381,10 @@
               40,
               400
             ],
-            "name": "fluorescence-a3-c1",
+            "name": "fluorescence-a1-c1",
             "opacity": 1.0,
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         }
@@ -4408,7 +4408,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -4430,7 +4430,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -4452,7 +4452,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         },
@@ -4474,14 +4474,14 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
+              "fluorescence-a1-c1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "fluorescence"
     },
-    "fluorescence-a3-c2": {
+    "fluorescence-a1-c2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -4492,10 +4492,10 @@
               40,
               400
             ],
-            "name": "fluorescence-a3-c2",
+            "name": "fluorescence-a1-c2",
             "opacity": 1.0,
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         }
@@ -4519,7 +4519,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         },
@@ -4541,7 +4541,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         },
@@ -4563,7 +4563,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         },
@@ -4585,7 +4585,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c2"
+              "fluorescence-a1-c2"
             ]
           }
         }
@@ -4606,12 +4606,12 @@
             "name": "highmag_tomos_images",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo1_hm",
-              "a3_tomo2_hm",
-              "a3_tomo3_hm",
-              "a3_tomo4_hm",
+              "a1_tomo1_hm",
+              "a1_tomo2_hm",
+              "a1_tomo3_hm",
+              "a1_tomo4_hm",
               "a2_tomo1_hm",
-              "a3_tomo5_hm"
+              "a1_tomo5_hm"
             ]
           }
         },
@@ -4622,22 +4622,22 @@
             "opacity": 0.5,
             "sources": {
               "0": [
-                "a3_tomo1_hm"
+                "a1_tomo1_hm"
               ],
               "1": [
-                "a3_tomo2_hm"
+                "a1_tomo2_hm"
               ],
               "2": [
-                "a3_tomo3_hm"
+                "a1_tomo3_hm"
               ],
               "3": [
-                "a3_tomo4_hm"
+                "a1_tomo4_hm"
               ],
               "4": [
                 "a2_tomo1_hm"
               ],
               "5": [
-                "a3_tomo5_hm"
+                "a1_tomo5_hm"
               ]
             },
             "tableData": {
@@ -4660,19 +4660,19 @@
                 "a2_tomo1_hm"
               ],
               [
-                "a3_tomo1_hm"
+                "a1_tomo1_hm"
               ],
               [
-                "a3_tomo2_hm"
+                "a1_tomo2_hm"
               ],
               [
-                "a3_tomo3_hm"
+                "a1_tomo3_hm"
               ],
               [
-                "a3_tomo4_hm"
+                "a1_tomo4_hm"
               ],
               [
-                "a3_tomo5_hm"
+                "a1_tomo5_hm"
               ]
             ]
           }
@@ -4680,7 +4680,7 @@
       ],
       "uiSelectionGroup": "grid"
     },
-    "a3_tomo1_hm": {
+    "a1_tomo1_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -4691,10 +4691,10 @@
               30,
               240
             ],
-            "name": "a3_tomo1_hm",
+            "name": "a1_tomo1_hm",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo1_hm"
+              "a1_tomo1_hm"
             ]
           }
         }
@@ -4718,7 +4718,7 @@
               -0.0747744
             ],
             "sources": [
-              "a3_tomo1_hm"
+              "a1_tomo1_hm"
             ]
           }
         },
@@ -4740,14 +4740,14 @@
               0.0
             ],
             "sources": [
-              "a3_tomo1_hm"
+              "a1_tomo1_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "a3_tomo1_lm": {
+    "a1_tomo1_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -4758,10 +4758,10 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo1_lm",
+            "name": "a1_tomo1_lm",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ]
           }
         }
@@ -4785,7 +4785,7 @@
               -0.176157
             ],
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ]
           }
         },
@@ -4807,7 +4807,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ]
           }
         },
@@ -4829,14 +4829,14 @@
               0.0
             ],
             "sources": [
-              "a3_tomo1_lm"
+              "a1_tomo1_lm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "a3_tomo2_hm": {
+    "a1_tomo2_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -4847,10 +4847,10 @@
               20,
               240
             ],
-            "name": "a3_tomo2_hm",
+            "name": "a1_tomo2_hm",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo2_hm"
+              "a1_tomo2_hm"
             ]
           }
         }
@@ -4874,7 +4874,7 @@
               -0.07010100000000001
             ],
             "sources": [
-              "a3_tomo2_hm"
+              "a1_tomo2_hm"
             ]
           }
         },
@@ -4896,14 +4896,14 @@
               0.0
             ],
             "sources": [
-              "a3_tomo2_hm"
+              "a1_tomo2_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "a3_tomo2_lm": {
+    "a1_tomo2_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -4914,10 +4914,10 @@
               30000,
               35000
             ],
-            "name": "a3_tomo2_lm",
+            "name": "a1_tomo2_lm",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo2_lm"
+              "a1_tomo2_lm"
             ]
           }
         }
@@ -4941,7 +4941,7 @@
               -0.19147500000000006
             ],
             "sources": [
-              "a3_tomo2_lm"
+              "a1_tomo2_lm"
             ]
           }
         },
@@ -4963,14 +4963,14 @@
               0.0
             ],
             "sources": [
-              "a3_tomo2_lm"
+              "a1_tomo2_lm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "a3_tomo3_hm": {
+    "a1_tomo3_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -4981,10 +4981,10 @@
               20,
               240
             ],
-            "name": "a3_tomo3_hm",
+            "name": "a1_tomo3_hm",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo3_hm"
+              "a1_tomo3_hm"
             ]
           }
         }
@@ -5008,7 +5008,7 @@
               -0.05456108458253092
             ],
             "sources": [
-              "a3_tomo3_hm"
+              "a1_tomo3_hm"
             ]
           }
         },
@@ -5030,14 +5030,14 @@
               0.0
             ],
             "sources": [
-              "a3_tomo3_hm"
+              "a1_tomo3_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "a3_tomo3_lm": {
+    "a1_tomo3_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5048,10 +5048,10 @@
               30000.0,
               35000.0
             ],
-            "name": "a3_tomo3_lm",
+            "name": "a1_tomo3_lm",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo3_lm"
+              "a1_tomo3_lm"
             ]
           }
         }
@@ -5075,7 +5075,7 @@
               -0.227217
             ],
             "sources": [
-              "a3_tomo3_lm"
+              "a1_tomo3_lm"
             ]
           }
         },
@@ -5097,14 +5097,14 @@
               0.0
             ],
             "sources": [
-              "a3_tomo3_lm"
+              "a1_tomo3_lm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "a3_tomo4_hm": {
+    "a1_tomo4_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5115,10 +5115,10 @@
               20,
               240
             ],
-            "name": "a3_tomo4_hm",
+            "name": "a1_tomo4_hm",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo4_hm"
+              "a1_tomo4_hm"
             ]
           }
         }
@@ -5142,7 +5142,7 @@
               -0.0841212000000085
             ],
             "sources": [
-              "a3_tomo4_hm"
+              "a1_tomo4_hm"
             ]
           }
         },
@@ -5164,14 +5164,14 @@
               0.0
             ],
             "sources": [
-              "a3_tomo4_hm"
+              "a1_tomo4_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "a3_tomo4_lm": {
+    "a1_tomo4_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5182,10 +5182,10 @@
               30000,
               35000
             ],
-            "name": "a3_tomo4_lm",
+            "name": "a1_tomo4_lm",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo4_lm"
+              "a1_tomo4_lm"
             ]
           }
         }
@@ -5209,7 +5209,7 @@
               -0.19658099999999998
             ],
             "sources": [
-              "a3_tomo4_lm"
+              "a1_tomo4_lm"
             ]
           }
         },
@@ -5231,7 +5231,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo4_lm"
+              "a1_tomo4_lm"
             ]
           }
         }
@@ -5372,7 +5372,7 @@
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "a3_tomo5_hm": {
+    "a1_tomo5_hm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5383,10 +5383,10 @@
               20,
               240
             ],
-            "name": "a3_tomo5_hm",
+            "name": "a1_tomo5_hm",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo5_hm"
+              "a1_tomo5_hm"
             ]
           }
         }
@@ -5410,7 +5410,7 @@
               -0.0747744
             ],
             "sources": [
-              "a3_tomo5_hm"
+              "a1_tomo5_hm"
             ]
           }
         },
@@ -5432,14 +5432,14 @@
               0.0
             ],
             "sources": [
-              "a3_tomo5_hm"
+              "a1_tomo5_hm"
             ]
           }
         }
       ],
       "uiSelectionGroup": "tomograms"
     },
-    "a3_tomo5_lm": {
+    "a1_tomo5_lm": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -5450,10 +5450,10 @@
               30000,
               35000
             ],
-            "name": "a3_tomo5_lm",
+            "name": "a1_tomo5_lm",
             "opacity": 1.0,
             "sources": [
-              "a3_tomo5_lm"
+              "a1_tomo5_lm"
             ]
           }
         }
@@ -5477,7 +5477,7 @@
               -0.171051
             ],
             "sources": [
-              "a3_tomo5_lm"
+              "a1_tomo5_lm"
             ]
           }
         },
@@ -5499,7 +5499,7 @@
               0.0
             ],
             "sources": [
-              "a3_tomo5_lm"
+              "a1_tomo5_lm"
             ]
           }
         }
