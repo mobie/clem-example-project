@@ -1,7 +1,7 @@
 {
   "is2D": false,
   "sources": {
-    "em-overview": {
+    "em-raw-overview": {
       "image": {
         "imageData": {
           "bdv.n5": {
@@ -162,17 +162,17 @@
               0.0,
               255.0
             ],
-            "name": "em-overview",
+            "name": "em-raw-overview",
             "opacity": 1.0,
             "sources": [
-              "em-overview"
+              "em-raw-overview"
             ]
           }
         }
       ],
       "uiSelectionGroup": "bookmark"
     },
-    "em-overview": {
+    "em-raw-overview": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -182,10 +182,10 @@
               0.0,
               255.0
             ],
-            "name": "em-overview",
+            "name": "em-raw-overview",
             "opacity": 1.0,
             "sources": [
-              "em-overview"
+              "em-raw-overview"
             ]
           }
         }
