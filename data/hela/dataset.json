@@ -256,6 +256,73 @@
   },
   "timepoints": 1,
   "views": {
+    "default": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              290,
+              23000
+            ],
+            "name": "em-overview",
+            "opacity": 1.0,
+            "sources": [
+              "em-overview"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "MapScaleMat",
+            "parameters": [
+              -0.10198378825464686,
+              -0.9710562907353596,
+              0.0,
+              0.0,
+              -0.9846441741918877,
+              0.11862126451903302,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              29.30832356389215,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    },
     "all_sources": {
       "isExclusive": true,
       "sourceDisplays": [
@@ -3613,73 +3680,6 @@
         ],
         "timepoint": 0
       }
-    },
-    "default": {
-      "isExclusive": false,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              290,
-              23000
-            ],
-            "name": "em-overview",
-            "opacity": 1.0,
-            "sources": [
-              "em-overview"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.10198378825464686,
-              -0.9710562907353596,
-              0.0,
-              0.0,
-              -0.9846441741918877,
-              0.11862126451903302,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              29.30832356389215,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              481.249,
-              0.0,
-              1.0,
-              0.0,
-              493.667,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "bookmark"
     },
     "em-overview": {
       "isExclusive": false,
