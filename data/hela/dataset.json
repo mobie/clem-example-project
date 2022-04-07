@@ -40,8 +40,8 @@
     "em-overview": {
       "image": {
         "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/em-overview.xml"
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/em-overview.ome.zarr"
           },
           "bdv.n5.s3": {
             "relativePath": "images/bdv-n5-s3/em-overview.xml"
