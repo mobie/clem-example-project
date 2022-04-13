@@ -56,20 +56,16 @@ def add_lm_view():
     )
 
     view = mobie.metadata.get_view(display_names, source_types, sources, settings,
-                                   is_exclusive=True, menu_name="composite", source_transforms=overview_trafo,
+                                   is_exclusive=True, menu_name="composite",
+                                   source_transforms=overview_trafo,
                                    source_annotation_displays=annotation_displays)
     mobie.metadata.add_view_to_dataset(DS_FOLDER, "lm-tomograms", view)
 
 
-
-
-def add_grid(view_name = "grid1",
-             source_names = [[]],
-             dataset = DS_FOLDER
-             ):
+def add_grid(view_name="grid1", source_names=[[]], dataset=DS_FOLDER):
     """Add a grid view using the 'grid' sourceTransform.
     """
-    
+
     # make sure that the table is not there, otherwise this creates issues
     table_path = f"./data/tomo/tables/{view_name}/default.tsv"
     if os.path.exists(table_path):
@@ -79,14 +75,21 @@ def add_grid(view_name = "grid1",
         dataset,
         view_name,
         source_names,
-        center_at_origin=True
+        center_at_origin=True,
+        menu_name="composite",
     )
     mobie.validation.validate_view_metadata(view)
     mobie.metadata.add_view_to_dataset(dataset, view_name, view, overwrite=True)
 
 
+def grid1():
+    add_grid(
+        source_names=[[item] for item in get_hm_tomos()],
+        view_name="highmag_tomos",
+        dataset=DS_FOLDER
+    )
+
 
 if __name__ == "__main__":
-    add_grid(source_names = [[item] for item in get_hm_tomos()],
-             view_name = 'highmag_tomos',
-             dataset = DS_FOLDER)
+    # grid1()
+    add_lm_view()

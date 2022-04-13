@@ -4862,7 +4862,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "grid"
+      "uiSelectionGroup": "composite"
     },
     "tomo_37_hm": {
       "isExclusive": false,
