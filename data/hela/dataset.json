@@ -44,7 +44,7 @@
             "relativePath": "images/ome-zarr/em-overview.ome.zarr"
           },
           "ome.zarr.s3": {
-            "relativePath": "images/ome-zarr/em-overview.ome.zarr"
+            "s3Address": "https://s3.embl.de/yeast-clem/hela/images/ome-zarr/em-overview.ome.zarr"
           }
         }
       }
