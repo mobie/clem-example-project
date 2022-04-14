@@ -43,7 +43,7 @@
           "ome.zarr": {
             "relativePath": "images/ome-zarr/em-overview.ome.zarr"
           },
-          "bdv.n5.s3": {
+          "ome.zarr.s3": {
             "relativePath": "images/ome-zarr/em-overview.ome.zarr"
           }
         }
