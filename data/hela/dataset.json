@@ -4984,6 +4984,91 @@
       ],
       "uiSelectionGroup": "composite"
     },
+    "lm-tomograms-without-table": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              290,
+              23000
+            ],
+            "name": "em-overview",
+            "opacity": 1.0,
+            "sources": [
+              "em-overview"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "name": "lm-tomograms",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_37_lm",
+              "tomo_38_lm",
+              "tomo_40_lm",
+              "tomo_41_lm",
+              "tomo_53_lm",
+              "tomo_54_lm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "MapScaleMat",
+            "parameters": [
+              -0.10198378825464686,
+              -0.9710562907353596,
+              0.0,
+              0.0,
+              -0.9846441741918877,
+              0.11862126451903302,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              29.30832356389215,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "composite"
+    },
     "tomo_37_hm": {
       "isExclusive": false,
       "sourceDisplays": [
