@@ -44,7 +44,7 @@
             "relativePath": "images/ome-zarr/em-overview.ome.zarr"
           },
           "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/em-overview.xml"
+            "relativePath": "images/ome-zarr/em-overview.ome.zarr"
           }
         }
       }
