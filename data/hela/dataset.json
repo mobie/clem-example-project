@@ -49,14 +49,11 @@
         }
       }
     },
-    "em-overview_old": {
+    "em-overview1": {
       "image": {
         "imageData": {
-          "bdv.n5": {
-            "relativePath": "images/bdv-n5/em-overview.xml"
-          },
-          "bdv.n5.s3": {
-            "relativePath": "images/bdv-n5-s3/em-overview.xml"
+          "ome.zarr": {
+            "relativePath": "images/ome-zarr/em-overview1.ome.zarr"
           }
         }
       }
@@ -308,11 +305,11 @@
               290.0,
               23000.0
             ],
-            "name": "em-overview_old",
+            "name": "em-overview1",
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "em-overview_old"
+              "em-overview1"
             ],
             "visible": true
           }
@@ -738,7 +735,7 @@
               0.0
             ],
             "sources": [
-              "em-overview_old"
+              "em-overview1"
             ]
           }
         },
@@ -760,7 +757,7 @@
               0.0
             ],
             "sources": [
-              "em-overview_old"
+              "em-overview1"
             ]
           }
         },
@@ -5936,6 +5933,26 @@
         }
       ],
       "uiSelectionGroup": "em"
+    },
+    "em-overview1": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0,
+              65535
+            ],
+            "name": "em-overview1",
+            "opacity": 1.0,
+            "sources": [
+              "em-overview1"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "images"
     },
     "fluorescence-a2-c0": {
       "isExclusive": false,
