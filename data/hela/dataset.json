@@ -49,6 +49,18 @@
         }
       }
     },
+    "em-overview_old": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/bdv-n5/em-overview.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/bdv-n5-s3/em-overview.xml"
+          }
+        }
+      }
+    },
     "fluorescence-a2-c0": {
       "image": {
         "imageData": {
@@ -284,6 +296,23 @@
             "showImagesIn3d": false,
             "sources": [
               "em-overview"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              290.0,
+              23000.0
+            ],
+            "name": "em-overview",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "em-overview_old"
             ],
             "visible": true
           }
@@ -688,6 +717,50 @@
             ],
             "sources": [
               "em-overview"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "MapScaleMat",
+            "parameters": [
+              -0.10198378825464686,
+              -0.9710562907353596,
+              0.0,
+              0.0,
+              -0.9846441741918877,
+              0.11862126451903302,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              29.30832356389215,
+              0.0
+            ],
+            "sources": [
+              "em-overview_old"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              481.249,
+              0.0,
+              1.0,
+              0.0,
+              493.667,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-overview_old"
             ]
           }
         },
