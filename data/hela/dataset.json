@@ -666,8 +666,7 @@
             "sources": [
               "em-overview"
             ]
-          }
-        },
+          },
           "affine": {
             "name": "MapScaleMat",
             "parameters": [
