@@ -649,28 +649,6 @@
       "sourceTransforms": [
         {
           "affine": {
-            "name": "Flip",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              -1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        },
-        {
-          "affine": {
             "name": "MapScaleMat",
             "parameters": [
               -0.10198378825464686,
