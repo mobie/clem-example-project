@@ -49,15 +49,6 @@
         }
       }
     },
-    "em-overview1": {
-      "image": {
-        "imageData": {
-          "ome.zarr": {
-            "relativePath": "images/ome-zarr/em-overview1.ome.zarr"
-          }
-        }
-      }
-    },
     "fluorescence-a2-c0": {
       "image": {
         "imageData": {
