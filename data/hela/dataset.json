@@ -4406,6 +4406,265 @@
         "timepoint": 0
       }
     },
+    "Fig2_d": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              20,
+              240
+            ],
+            "name": "tomo_38_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "affine0",
+            "parameters": [
+              0.013245148924148947,
+              1.0039595803164607,
+              0.0,
+              243.59201639109855,
+              1.0206688295391182,
+              -0.03466104265465697,
+              0.0,
+              303.91519667035317,
+              0.0,
+              0.0,
+              1.0000000000000004,
+              -0.07010100000000001
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926e-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825e-20,
+              -11.527112528741327,
+              3.3749238907939854e-21,
+              -1.3949511206377626e-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "paper"
+    },
+    "Fig2_e": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000,
+              35000
+            ],
+            "name": "tomo_38_lm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_38_lm"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "tomo_38_hm",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "hm-tomo-annotations",
+            "opacity": 0.5,
+            "showAsBoundaries": true,
+            "sources": {
+              "1": [
+                "tomo_38_hm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/highmag_tomos"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "affine0",
+            "parameters": [
+              0.013245148924148945,
+              1.0039595803164607,
+              0.0,
+              239.93945962096353,
+              1.0206688295391182,
+              -0.034661042654656964,
+              0.0,
+              300.37466120697667,
+              0.0,
+              0.0,
+              1.0000000000000002,
+              -0.19147500000000006
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926e-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825e-20,
+              -11.527112528741327,
+              3.3749238907939854e-21,
+              -1.3949511206377626e-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "paper"
+    },
+    "Fig2_f": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30,
+              240
+            ],
+            "name": "highmag_tomos_images",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_37_hm",
+              "tomo_38_hm",
+              "tomo_40_hm",
+              "tomo_41_hm",
+              "tomo_53_hm",
+              "tomo_54_hm"
+            ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "highmag_tomos",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "tomo_37_hm"
+              ],
+              "1": [
+                "tomo_38_hm"
+              ],
+              "2": [
+                "tomo_40_hm"
+              ],
+              "3": [
+                "tomo_41_hm"
+              ],
+              "4": [
+                "tomo_53_hm"
+              ],
+              "5": [
+                "tomo_54_hm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/highmag_tomos"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "transformedGrid": {
+            "centerAtOrigin": true,
+            "sources": [
+              [
+                "tomo_37_hm"
+              ],
+              [
+                "tomo_38_hm"
+              ],
+              [
+                "tomo_40_hm"
+              ],
+              [
+                "tomo_41_hm"
+              ],
+              [
+                "tomo_53_hm"
+              ],
+              [
+                "tomo_54_hm"
+              ]
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "paper"
+    },
     "all_sources": {
       "isExclusive": true,
       "sourceDisplays": [
