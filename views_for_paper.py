@@ -75,7 +75,38 @@ def panel_b():
     mobie.metadata.write_dataset_metadata(DS_FOLDER, metadata)
 
 
+def panel_c():
+    metadata = mobie.metadata.read_dataset_metadata(DS_FOLDER)
+    views = metadata["views"]
+    new_view = deepcopy(views["area3_tomos_37_38_40_41_54"])
+
+    # only set the fluorescence display to visible
+    displays = new_view["sourceDisplays"]
+    new_displays = []
+    for dp in displays:
+        key = list(dp.keys())[0]
+        display = dp[key]
+        display["visible"] = display["name"].startswith("fluo")
+        new_displays.append({key: display})
+
+    # add the annotation display for the lm-tomos
+    tomo_sources = ["tomo_37_lm", "tomo_38_lm", "tomo_40_lm", "tomo_41_lm", "tomo_54_lm"]
+    # note: table can have a superset of the sources in the annotation!
+    table_data = {"tsv": {"relativePath": "tables/lm-tomogram-table"}}
+    annotation_display = mobie.metadata.get_source_annotation_display(
+        "lm-tomo-annotations", {str(ii): [source] for ii, source in enumerate(tomo_sources)},
+        table_data, ["default.tsv"], showAsBoundaries=True, boundaryThickness=1.0
+    )
+    new_view["sourceDisplays"].append(annotation_display)
+
+    new_view["uiSelectionGroup"] = "paper"
+    views["Fig2_c"] = new_view
+    metadata["views"] = views
+    mobie.metadata.write_dataset_metadata(DS_FOLDER, metadata)
+
+
 if __name__ == "__main__":
     # panel_a()
-    panel_b()
+    # panel_b()
+    panel_c()
     mobie.validation.validate_dataset(DS_FOLDER, require_data=False)
