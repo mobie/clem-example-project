@@ -4407,7 +4407,7 @@
       }
     },
     "Fig2_d": {
-      "isExclusive": false,
+      "isExclusive": true,
       "sourceDisplays": [
         {
           "imageDisplay": {

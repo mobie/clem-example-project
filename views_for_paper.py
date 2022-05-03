@@ -110,6 +110,7 @@ def panel_d():
     views = metadata["views"]
     new_view = deepcopy(views["tomo_38_hm"])
 
+    new_view["isExclusive"] = True
     new_view["uiSelectionGroup"] = "paper"
     views["Fig2_d"] = new_view
     metadata["views"] = views
