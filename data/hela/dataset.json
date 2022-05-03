@@ -4474,7 +4474,7 @@
       "uiSelectionGroup": "paper"
     },
     "Fig2_e": {
-      "isExclusive": false,
+      "isExclusive": true,
       "sourceDisplays": [
         {
           "imageDisplay": {

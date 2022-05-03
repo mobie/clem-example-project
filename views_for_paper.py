@@ -135,6 +135,7 @@ def panel_e():
         table_data, ["default.tsv"], showAsBoundaries=True, boundaryThickness=1.0
     )
     new_view["sourceDisplays"].append(annotation_display)
+    new_view["isExclusive"] = True
 
     new_view["uiSelectionGroup"] = "paper"
     views["Fig2_e"] = new_view
@@ -159,7 +160,7 @@ def main():
     # panel_c()
     # panel_d()
     # panel_e()
-    panel_f()
+    # panel_f()
     mobie.validation.validate_dataset(DS_FOLDER, require_data=False)
 
 
