@@ -647,41 +647,6 @@
         },
         {
           "sourceAnnotationDisplay": {
-            "lut": "glasbey",
-            "name": "lm-tomogram-table",
-            "opacity": 0.5,
-            "sources": {
-              "0": [
-                "tomo_37_lm"
-              ],
-              "1": [
-                "tomo_38_lm"
-              ],
-              "2": [
-                "tomo_40_lm"
-              ],
-              "3": [
-                "tomo_41_lm"
-              ],
-              "4": [
-                "tomo_53_lm"
-              ],
-              "5": [
-                "tomo_54_lm"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "sourceAnnotationDisplay": {
             "boundaryThickness": 1.0,
             "lut": "glasbey",
             "name": "em-detail-annotations",
