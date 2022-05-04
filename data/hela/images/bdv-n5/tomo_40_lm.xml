@@ -32,7 +32,7 @@
     <ViewRegistration timepoint="0" setup="0">
       <ViewTransform type="affine">
         <name>Scaling</name>
-        <affine>1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+        <affine>0.005106 0.0 0.0 0.0 0.0 0.005106 0.0 0.0 0.0 0.0 0.005106 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>
