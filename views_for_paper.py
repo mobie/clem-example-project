@@ -11,7 +11,7 @@ def panel_a():
     new_view = deepcopy(views["all_sources_with_table"])
 
     # add the annotation display for em-detail
-    em_detail_sources = ["em-detail-a1", "em-detail-a2", "em-detail-a3"]
+    em_detail_sources = ["em-detail-a1-A", "em-detail-a2-A", "em-detail-a3-A"]
     table_folder = os.path.join(DS_FOLDER, "tables", "em-detail")
     os.makedirs(table_folder, exist_ok=True)
     table_path = os.path.join(table_folder, "default.tsv")
