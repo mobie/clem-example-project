@@ -69,11 +69,12 @@ def add_transforms():
     for tf_sources, trafo, name in zip(transforming_sources, transforms, trafo_names):
         for view in views.values():
             for tf_source in tf_sources:
-                if [tf_source] in [sD['imageDisplay']['sources'] for sD in view['sourceDisplays'] if 'imageDisplay' in sD]:
+                if [tf_source] in [sD['imageDisplay']['sources'] for sD in view['sourceDisplays'] if
+                                   'imageDisplay' in sD]:
                     view['sourceTransforms'].append(
                         mobie.metadata.get_affine_source_transform([tf_source], trafo, name=name))
 
-    mobie.metadata.write_dataset_metadata(data,ds)
+    mobie.metadata.write_dataset_metadata(data, ds)
 
 
 if __name__ == "__main__":
