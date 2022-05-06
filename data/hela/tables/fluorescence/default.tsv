@@ -1,3 +1,3 @@
-annotation_id	source	testvalue
-0	fluorescence-a2-c0-fluorescence-a2-c1-fluorescence-a2-c2	123
-1	fluorescence-a3-c0-fluorescence-a3-c1-fluorescence-a3-c2	345
+annotation_id	source	figuresColorScheme
+0	fluorescence-a2-c0-fluorescence-a2-c1-fluorescence-a2-c2	255-25-117-255
+1	fluorescence-a3-c0-fluorescence-a3-c1-fluorescence-a3-c2	128-160-230-220
