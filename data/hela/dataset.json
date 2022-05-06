@@ -648,9 +648,10 @@
         {
           "sourceAnnotationDisplay": {
             "boundaryThickness": 1.0,
-            "lut": "glasbey",
+            "lut": "argbColumn",
+            "colorByColumn": "annotationColor",
             "name": "em-detail-annotations",
-            "opacity": 0.5,
+            "opacity": 4.0,
             "showAsBoundaries": true,
             "sources": {
               "0": [
@@ -675,10 +676,11 @@
         },
         {
           "sourceAnnotationDisplay": {
-            "boundaryThickness": 1.0,
-            "lut": "glasbey",
+            "boundaryThickness": 4.0,
+            "lut": "argbColumn",
+            "colorByColumn": "annotationColor",
             "name": "fluorescence-annotations",
-            "opacity": 0.5,
+            "opacity": 1.0,
             "showAsBoundaries": true,
             "sources": {
               "0": [
