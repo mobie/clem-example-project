@@ -647,11 +647,11 @@
         },
         {
           "sourceAnnotationDisplay": {
-            "boundaryThickness": 1.0,
+            "boundaryThickness": 3.0,
             "lut": "argbColumn",
             "colorByColumn": "annotationColor",
             "name": "em-detail-annotations",
-            "opacity": 4.0,
+            "opacity": 1.0,
             "showAsBoundaries": true,
             "sources": {
               "0": [
@@ -676,7 +676,7 @@
         },
         {
           "sourceAnnotationDisplay": {
-            "boundaryThickness": 4.0,
+            "boundaryThickness": 3.0,
             "lut": "argbColumn",
             "colorByColumn": "annotationColor",
             "name": "fluorescence-annotations",
