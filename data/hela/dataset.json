@@ -5212,7 +5212,7 @@
             "showAsBoundaries": false,
             "boundaryThickness": 1.0,
             "name": "highmag_tomos",
-            "opacity": 1.0,
+            "opacity": 0.3,
             "visible": true
           }
         }
