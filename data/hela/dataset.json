@@ -4702,9 +4702,10 @@
         {
           "sourceAnnotationDisplay": {
             "boundaryThickness": 1.0,
-            "lut": "glasbey",
-            "name": "hm-tomo-annotations",
-            "opacity": 0.5,
+            "lut": "argbColumn",
+            "colorByColumn": "annotationColor",
+            "name": "lm-tomo-annotations",
+            "opacity": 1.0,
             "showAsBoundaries": true,
             "sources": {
               "1": [

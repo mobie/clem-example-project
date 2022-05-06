@@ -1,7 +1,7 @@
-annotation_id	source
-0	tomo_37_hm
-1	tomo_38_hm
-2	tomo_40_hm
-3	tomo_41_hm
-4	tomo_53_hm
-5	tomo_54_hm
+annotation_id	source	annotationColor
+0	tomo_37_hm	255-255-146-0
+1	tomo_38_hm	255-255-146-0
+2	tomo_40_hm	255-255-146-0
+3	tomo_41_hm	255-255-146-0
+4	tomo_53_hm	255-255-146-0
+5	tomo_54_hm	255-255-146-0
