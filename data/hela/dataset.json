@@ -4752,7 +4752,7 @@
         },
         {
           "sourceAnnotationDisplay": {
-            "boundaryThickness": 1.0,
+            "boundaryThickness": 0.2,
             "lut": "argbColumn",
             "colorByColumn": "annotationColor",
             "name": "lm-tomo-annotations",
