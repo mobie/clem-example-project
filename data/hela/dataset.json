@@ -4607,8 +4607,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              20,
-              240
+              96,
+              187
             ],
             "name": "tomo_38_hm",
             "opacity": 1.0,
