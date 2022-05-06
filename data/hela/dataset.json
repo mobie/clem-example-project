@@ -3688,6 +3688,9 @@
             "colorByColumn": "annotationColor",
             "name": "lm-tomo-annotations",
             "opacity": 1.0,
+            "selectedAnnotationIds": [
+              "0;1"
+            ],
             "showAsBoundaries": true,
             "sources": {
               "0": [
