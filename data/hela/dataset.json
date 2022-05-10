@@ -4724,11 +4724,11 @@
               40.0,
               400.0
             ],
-            "name": "fluorescence-a2-c0",
-            "opacity": 0.5,
+            "name": "fluorescence-a3-c0",
+            "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "fluorescence-a2-c0"
+              "fluorescence-a3-c0"
             ],
             "visible": true
           }
@@ -4741,11 +4741,11 @@
               40.0,
               400.0
             ],
-            "name": "fluorescence-a2-c1",
-            "opacity": 0.5,
+            "name": "fluorescence-a3-c1",
+            "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "fluorescence-a2-c1"
+              "fluorescence-a3-c1"
             ],
             "visible": true
           }
@@ -4758,11 +4758,11 @@
               40.0,
               400.0
             ],
-            "name": "fluorescence-a2-c2",
-            "opacity": 0.5,
+            "name": "fluorescence-a3-c2",
+            "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "fluorescence-a2-c2"
+              "fluorescence-a3-c2"
             ],
             "visible": true
           }
