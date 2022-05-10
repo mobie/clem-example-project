@@ -5166,7 +5166,7 @@
         ],
         "timepoint": 0
       },
-      "uiSelectionGroup": "paper"
+      "uiSelectionGroup": "publication"
     },
     "Fig2_f": {
       "isExclusive": true,
@@ -5308,7 +5308,7 @@
         ],
         "timepoint": 0
       },
-      "uiSelectionGroup": "paper"
+      "uiSelectionGroup": "publication"
     },
     "all_sources": {
       "isExclusive": true,
