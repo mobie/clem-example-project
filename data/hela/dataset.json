@@ -12330,7 +12330,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "bookmarks"
+      "uiSelectionGroup": "bookmark"
     },
     "tomo_37_hm": {
       "isExclusive": false,
@@ -12397,7 +12397,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_37_lm": {
       "isExclusive": false,
@@ -12486,7 +12486,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_38_hm": {
       "isExclusive": false,
@@ -12553,7 +12553,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_38_lm": {
       "isExclusive": false,
@@ -12620,7 +12620,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_40_hm": {
       "isExclusive": false,
@@ -12687,7 +12687,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_40_lm": {
       "isExclusive": false,
@@ -12754,7 +12754,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_41_hm": {
       "isExclusive": false,
@@ -12821,7 +12821,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_41_lm": {
       "isExclusive": false,
@@ -12888,7 +12888,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_53_hm": {
       "isExclusive": false,
@@ -12977,7 +12977,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_53_lm": {
       "isExclusive": false,
@@ -13066,7 +13066,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_54_hm": {
       "isExclusive": false,
@@ -13133,7 +13133,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     },
     "tomo_54_lm": {
       "isExclusive": false,
@@ -13200,7 +13200,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "tomograms"
+      "uiSelectionGroup": "tomogram"
     }
   }
 }
