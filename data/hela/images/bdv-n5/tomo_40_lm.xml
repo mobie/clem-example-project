@@ -15,8 +15,8 @@
         <name>tomo_40_lm</name>
         <size>2024 2024 89</size>
         <voxelSize>
-          <unit>pixel</unit>
-          <size>1.0 1.0 1.0</size>
+          <unit>um</unit>
+          <size>0.005106 0.005106 0.005106</size>
         </voxelSize>
         <attributes>
           <channel>0</channel>
@@ -32,7 +32,7 @@
     <ViewRegistration timepoint="0" setup="0">
       <ViewTransform type="affine">
         <name>Scaling</name>
-        <affine>1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+        <affine>0.005106 0.0 0.0 0.0 0.0 0.005106 0.0 0.0 0.0 0.0 0.005106 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>

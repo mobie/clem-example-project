@@ -5,7 +5,9 @@
   ],
   "defaultDataset": "hela",
   "imageDataFormats": [
-    "bdv.n5",
+	"bdv.n5",
+	"ome.zarr",
+    "ome.zarr.s3",
     "bdv.n5.s3"
   ],
   "specVersion": "0.2.0"

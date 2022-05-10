@@ -12,7 +12,7 @@
       </Attributes>
       <ViewSetup>
         <id>0</id>
-        <name>fluorescence-a3-FMR-c1</name>
+        <name>fluorescence-a3-c1</name>
         <size>1339 1024 1</size>
         <voxelSize>
           <unit>um</unit>
