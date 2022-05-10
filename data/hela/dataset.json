@@ -4772,6 +4772,57 @@
               "default.tsv"
             ]
           }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=255,g=0,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              240.0
+            ],
+            "name": "fluorescence-a3-c0",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              14.0,
+              273.0
+            ],
+            "name": "fluorescence-a3-c1",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sum",
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              320.0
+            ],
+            "name": "fluorescence-a3-c2",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "visible": true
+          }
         }
       ],
       "sourceTransforms": [
