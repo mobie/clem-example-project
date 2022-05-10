@@ -2203,7 +2203,8 @@
           }
         }
       ],
-      "uiSelectionGroup": "paper",
+      "uiSelectionGroup": "publication",
+
       "viewerTransform": {
         "normalizedAffine": [
           0.0010339292702165176,
@@ -3404,7 +3405,8 @@
           }
         }
       ],
-      "uiSelectionGroup": "paper",
+      "uiSelectionGroup": "publication",
+
       "viewerTransform": {
         "normalizedAffine": [
           0.009364430433393101,
@@ -4580,7 +4582,8 @@
           }
         }
       ],
-      "uiSelectionGroup": "paper",
+      "uiSelectionGroup": "publication",
+
       "viewerTransform": {
         "normalizedAffine": [
           0.007369099508012444,
@@ -4664,7 +4667,8 @@
           }
         }
       ],
-      "uiSelectionGroup": "paper",
+      "uiSelectionGroup": "publication",
+
       "viewerTransform": {
         "normalizedAffine": [
           0.2666218076606056,
@@ -9131,7 +9135,7 @@
         "timepoint": 0
       }
     },
-    "area2_-_tomo_53": {
+    "area2-tomo_53": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -9891,7 +9895,7 @@
         "timepoint": 0
       }
     },
-    "area3_tomos_37_38_40_41_54": {
+    "area3-tomos_37-41_54": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -11249,7 +11253,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "em"
+      "uiSelectionGroup": "EM"
     },
     "em-detail-a2": {
       "isExclusive": false,
@@ -11360,7 +11364,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "em"
+      "uiSelectionGroup": "EM"
     },
     "em-detail-a3": {
       "isExclusive": false,
@@ -11449,7 +11453,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "em"
+      "uiSelectionGroup": "EM"
     },
     "em-overview": {
       "isExclusive": false,
@@ -11538,7 +11542,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "em"
+      "uiSelectionGroup": "EM"
     },
     "fluorescence-a2": {
       "isExclusive": false,
@@ -12326,7 +12330,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "composite"
+      "uiSelectionGroup": "bookmarks"
     },
     "tomo_37_hm": {
       "isExclusive": false,
