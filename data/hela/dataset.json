@@ -4717,6 +4717,29 @@
           }
         },
         {
+          "sourceAnnotationDisplay": {
+            "boundaryThickness": 0.2,
+            "lut": "argbColumn",
+            "colorByColumn": "annotationColor",
+            "name": "lm-tomo-annotations",
+            "opacity": 1.0,
+            "showAsBoundaries": true,
+            "sources": {
+              "1": [
+                "tomo_38_hm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/highmag_tomos"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
           "imageDisplay": {
             "blendingMode": "sum",
             "color": "r=255,g=0,b=0,a=255",
@@ -4767,29 +4790,7 @@
             "visible": true
           }
         },
-        {
-          "sourceAnnotationDisplay": {
-            "boundaryThickness": 0.2,
-            "lut": "argbColumn",
-            "colorByColumn": "annotationColor",
-            "name": "lm-tomo-annotations",
-            "opacity": 1.0,
-            "showAsBoundaries": true,
-            "sources": {
-              "1": [
-                "tomo_38_hm"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/highmag_tomos"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
+
         {
           "imageDisplay": {
             "blendingMode": "sum",
