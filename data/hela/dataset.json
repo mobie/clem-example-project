@@ -268,7 +268,7 @@
   },
   "timepoints": 1,
   "views": {
-    "Fig2_a": {
+    "Figure2a": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -2203,8 +2203,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "publication",
-
+      "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
           0.0010339292702165176,
@@ -2223,7 +2222,7 @@
         "timepoint": 0
       }
     },
-    "Fig2_b": {
+    "Figure2b": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -3405,8 +3404,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "publication",
-
+      "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
           0.009364430433393101,
@@ -3425,7 +3423,7 @@
         "timepoint": 0
       }
     },
-    "Fig2_c": {
+    "Figure2c": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -4582,8 +4580,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "publication",
-
+      "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
           0.007369099508012444,
@@ -4602,7 +4599,7 @@
         "timepoint": 0
       }
     },
-    "Fig2_d": {
+    "Figure2d": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -4667,8 +4664,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "publication",
-
+      "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
           0.2666218076606056,
@@ -4687,7 +4683,7 @@
         "timepoint": 0
       }
     },
-    "Fig2_e": {
+    "Figure2e": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -5166,9 +5162,9 @@
         ],
         "timepoint": 0
       },
-      "uiSelectionGroup": "publication"
+      "uiSelectionGroup": "mobie-paper"
     },
-    "Fig2_f": {
+    "Figure2f": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -5308,7 +5304,7 @@
         ],
         "timepoint": 0
       },
-      "uiSelectionGroup": "publication"
+      "uiSelectionGroup": "mobie-paper"
     },
     "all_sources": {
       "isExclusive": true,
