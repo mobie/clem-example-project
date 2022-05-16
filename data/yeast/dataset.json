@@ -421,7 +421,7 @@
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
             "lut": "glasbey",
             "name": "hm_tomograms",
             "opacity": 0.5,
@@ -493,7 +493,7 @@
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
             "lut": "glasbey",
             "name": "lm_tomograms",
             "opacity": 0.5,
