@@ -710,6 +710,23 @@
               "default.tsv"
             ]
           }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              48000.0
+            ],
+            "name": "em-detail-a1_crop",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "em-detail-a1-A_crop"
+            ],
+            "visible": true
+          }
         }
       ],
       "sourceTransforms": [
