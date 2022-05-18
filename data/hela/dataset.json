@@ -276,7 +276,7 @@
   "timepoints": 1,
   "views": {
     "Test_A1" : {
-      "isExclusive": false,
+      "isExclusive": true,
       "sourceDisplays": [
         {
           "imageDisplay": {
@@ -446,7 +446,7 @@
       "uiSelectionGroup": "test"
     },
     "test2" : {
-      "isExclusive": false,
+      "isExclusive": true,
       "sourceDisplays": [
         {
           "imageDisplay": {
