@@ -1,5 +1,12 @@
 {
   "is2D": false,
+  "defaultLocation": {
+    "position": [
+      226.0,
+      155.0,
+      0.0
+    ]
+  },
   "sources": {
     "em-detail-a1-A": {
       "image": {
