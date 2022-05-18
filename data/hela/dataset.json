@@ -1935,6 +1935,26 @@
               "tomo_53_hm"
             ]
           }
+        },
+        {
+          "crop": {
+            "max": [
+              98.0,
+              -12.0,
+              1.0
+            ],
+            "min": [
+              76.0,
+              -34.0,
+              1.0
+            ],
+            "sourceNamesAfterTransform": [
+              "em-detail-a1-A_crop"
+            ],
+            "sources": [
+              "em-detail-a1-A"
+            ]
+          }
         }
       ],
       "uiSelectionGroup": "mobie-paper",
