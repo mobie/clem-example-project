@@ -573,7 +573,7 @@
             "min": [
               76.0,
               -34.0,
-              1.0
+              -1.0
             ],
             "sourceNamesAfterTransform": [
               "em-detail-a1-A_crop"
