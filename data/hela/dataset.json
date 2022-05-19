@@ -1,5 +1,4 @@
 {
-  "is2D": false,
   "defaultLocation": {
     "position": [
       226.0,
@@ -7,6 +6,7 @@
       0.0
     ]
   },
+  "is2D": false,
   "sources": {
     "em-detail-a1-A": {
       "image": {
@@ -653,10 +653,10 @@
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
             "boundaryThickness": 3.0,
-            "lut": "argbColumn",
             "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
             "name": "em-detail-annotations",
             "opacity": 1.0,
             "showAsBoundaries": true,
@@ -682,10 +682,10 @@
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
             "boundaryThickness": 3.0,
-            "lut": "argbColumn",
             "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
             "name": "fluorescence-annotations",
             "opacity": 1.0,
             "showAsBoundaries": true,
@@ -2214,17 +2214,17 @@
       "viewerTransform": {
         "normalizedAffine": [
           0.0010339292702165176,
-          -1.0708845543171251E-4,
-          -7.453483999744215E-20,
+          -0.00010708845543171251,
+          -7.453483999744215e-20,
           -0.200649039467715,
-          -1.0708845543171251E-4,
+          -0.00010708845543171251,
           -0.0010339292702165176,
-          8.265345511037524E-20,
+          8.265345511037524e-20,
           0.08048246963889055,
-          -8.265345511037524E-20,
-          -7.453483999744221E-20,
+          -8.265345511037524e-20,
+          -7.453483999744221e-20,
           -0.0010394602797111645,
-          6.519629799523802E-17
+          6.519629799523802e-17
         ],
         "timepoint": 0
       }
@@ -2488,10 +2488,10 @@
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
             "boundaryThickness": 3.0,
-            "lut": "argbColumn",
             "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
             "name": "fluorescence-annotations",
             "opacity": 1.0,
             "showAsBoundaries": true,
@@ -2513,13 +2513,13 @@
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
             "boundaryThickness": 1.0,
-            "lut": "argbColumn",
             "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
             "name": "lm-tomo-annotations",
             "opacity": 1.0,
-            "selectedAnnotationIds": [
+            "selectedRegionIds": [
               "0;1"
             ],
             "showAsBoundaries": true,
@@ -3416,16 +3416,16 @@
         "normalizedAffine": [
           0.009364430433393101,
           0.0022656163019450634,
-          -7.4282301742163E-20,
+          -7.4282301742163e-20,
           -2.865683433010901,
           0.0022656163019450634,
           -0.009364430433393101,
-          9.205758946367149E-19,
+          9.205758946367149e-19,
           2.248409362284527,
-          1.4427790226028522E-19,
-          -9.122289871834119E-19,
+          1.4427790226028522e-19,
+          -9.122289871834119e-19,
           -0.00963460297933953,
-          1.435393384037841E-16
+          1.435393384037841e-16
         ],
         "timepoint": 0
       }
@@ -3689,13 +3689,13 @@
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
             "boundaryThickness": 1.0,
-            "lut": "argbColumn",
             "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
             "name": "lm-tomo-annotations",
             "opacity": 1.0,
-            "selectedAnnotationIds": [
+            "selectedRegionIds": [
               "0;1"
             ],
             "showAsBoundaries": true,
@@ -4592,16 +4592,16 @@
         "normalizedAffine": [
           0.007369099508012444,
           0.002822804366609596,
-          -8.608226601784813E-24,
+          -8.608226601784813e-24,
           -2.542001827154599,
           0.002822804366609596,
           -0.007369099508012444,
-          1.129273688688655E-22,
+          1.129273688688655e-22,
           1.5599902154101721,
-          3.235696997058688E-23,
-          -1.085344125114014E-22,
+          3.235696997058688e-23,
+          -1.085344125114014e-22,
           -0.007891251614993622,
-          2.3326630852750073E-4
+          0.00023326630852750073
         ],
         "timepoint": 0
       }
@@ -4676,14 +4676,14 @@
         "normalizedAffine": [
           0.2666218076606056,
           0.010505979026356086,
-          9.487485544448371E-22,
+          9.487485544448371e-22,
           -65.09941393337915,
           0.010505979026356086,
           -0.2666218076606056,
-          3.7101317171818735E-21,
+          3.7101317171818735e-21,
           79.24226264429824,
-          1.0940937111464728E-21,
-          -3.669899198837732E-21,
+          1.0940937111464728e-21,
+          -3.669899198837732e-21,
           -0.2668287164371766,
           -0.003676203165250858
         ],
@@ -4775,10 +4775,10 @@
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
             "boundaryThickness": 0.2,
-            "lut": "argbColumn",
             "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
             "name": "hm-tomo-annotations",
             "opacity": 1.0,
             "showAsBoundaries": true,
@@ -5152,30 +5152,39 @@
           }
         }
       ],
+      "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
           0.08910902573042032,
           0.0019545083595693988,
-          7.700562116777914E-18,
+          7.700562116777914e-18,
           -21.280523366928502,
           0.0019545083595693988,
           -0.08910902573042032,
-          7.736009215865771E-18,
+          7.736009215865771e-18,
           26.86262438417831,
-          7.868350472579881E-18,
-          -7.565286269730131E-18,
+          7.868350472579881e-18,
+          -7.565286269730131e-18,
           -0.08913045814732666,
-          -2.2755005964969507E-4
+          -0.00022755005964969507
         ],
         "timepoint": 0
-      },
-      "uiSelectionGroup": "mobie-paper"
+      }
     },
     "Figure2f": {
       "isExclusive": true,
       "sourceDisplays": [
         {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              110.178,
+              216.64800000000002
+            ],
+            "name": "highmag_tomos_images",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
             "sources": [
               "tomo_38_hm",
               "tomo_40_hm",
@@ -5184,20 +5193,22 @@
               "tomo_54_hm",
               "tomo_41_hm"
             ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              110.178,
-              216.64800000000002
-            ],
-            "blendingMode": "sumOccluding",
-            "showImagesIn3d": false,
-            "name": "highmag_tomos_images",
-            "opacity": 1.0,
             "visible": true
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
+            "boundaryThickness": 1.0,
+            "lut": "glasbey",
+            "name": "highmag_tomos",
+            "opacity": 0.3,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": false,
+            "showScatterPlot": false,
+            "showTable": true,
             "sources": {
               "0": [
                 "tomo_37_hm"
@@ -5223,20 +5234,9 @@
                 "relativePath": "tables/highmag_tomos"
               }
             },
-            "lut": "glasbey",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
             "tables": [
               "default.tsv"
             ],
-            "showTable": true,
-            "showAsBoundaries": false,
-            "boundaryThickness": 1.0,
-            "name": "highmag_tomos",
-            "opacity": 0.3,
             "visible": true
           }
         }
@@ -5244,7 +5244,8 @@
       "sourceTransforms": [
         {
           "transformedGrid": {
-            "sources": [
+            "centerAtOrigin": true,
+            "nestedSources": [
               [
                 "tomo_37_hm"
               ],
@@ -5289,29 +5290,28 @@
                 2,
                 1
               ]
-            ],
-            "centerAtOrigin": true
+            ]
           }
         }
       ],
+      "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
           0.0,
           0.136273923076923,
-          1.1176330441373202E-17,
+          1.1176330441373202e-17,
           -0.27012164882669776,
           -0.136273923076923,
           0.0,
-          -1.2393698389457338E-17,
+          -1.2393698389457338e-17,
           0.5200283306296853,
-          -1.2393698389457349E-17,
-          -1.1176330441373203E-17,
+          -1.2393698389457349e-17,
+          -1.1176330441373203e-17,
           0.13627392307692304,
-          -5.2611312175733835E-17
+          -5.2611312175733835e-17
         ],
         "timepoint": 0
-      },
-      "uiSelectionGroup": "mobie-paper"
+      }
     },
     "all_sources": {
       "isExclusive": true,
@@ -7586,7 +7586,7 @@
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
             "lut": "glasbey",
             "name": "lm-tomogram-table",
             "opacity": 0.5,
@@ -12271,7 +12271,7 @@
           }
         },
         {
-          "sourceAnnotationDisplay": {
+          "regionDisplay": {
             "lut": "glasbey",
             "name": "highmag_tomos",
             "opacity": 0.5,
@@ -12310,7 +12310,7 @@
         {
           "transformedGrid": {
             "centerAtOrigin": true,
-            "sources": [
+            "nestedSources": [
               [
                 "tomo_37_hm"
               ],
