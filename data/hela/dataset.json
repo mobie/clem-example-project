@@ -289,7 +289,7 @@
             "name": "em-detail-a1",
             "opacity": 1,
             "sources": [
-              "em-detail-a1-A_4"
+              "em-detail-a1-A"
             ]
           }
         },
@@ -310,26 +310,6 @@
       ],
       "sourceTransforms": [
         {
-          "crop": {
-            "max": [
-              98.0,
-              -12.0,
-              1.0
-            ],
-            "min": [
-              76.0,
-              -34.0,
-              -1.0
-            ],
-            "sourceNamesAfterTransform": [
-              "em-detail-a1-A_crop"
-            ],
-            "sources": [
-              "em-detail-a1-A"
-            ]
-          }
-        },
-        {
           "affine": {
             "name": "MapScaleMat",
             "parameters": [
@@ -345,8 +325,6 @@
               0.0,
               99.62143853357243,
               0.0
-            ],"sourceNamesAfterTransform": [
-              "em-detail-a1-A"
             ],
             "sources": [
               "em-detail-a1-A"
@@ -370,9 +348,6 @@
               1.0,
               0.0
             ],
-            "sourceNamesAfterTransform": [
-              "em-detail-a1-A"
-            ],
             "sources": [
               "em-detail-a1-A"
             ]
@@ -394,9 +369,6 @@
               0.0,
               1.0,
               0.0
-            ],
-            "sourceNamesAfterTransform": [
-              "em-detail-a1-A"
             ],
             "sources": [
               "em-detail-a1-A"
@@ -420,8 +392,25 @@
               1.0,
               0.0
             ],
-            "sourceNamesAfterTransform": [
+            "sources": [
               "em-detail-a1-A"
+            ]
+          }
+        },
+        {
+          "crop": {
+            "max": [
+              98.0,
+              -12.0,
+              1.0
+            ],
+            "min": [
+              76.0,
+              -34.0,
+              -1.0
+            ],
+            "sourceNamesAfterTransform": [
+              "em-detail-a1-A_crop"
             ],
             "sources": [
               "em-detail-a1-A"
