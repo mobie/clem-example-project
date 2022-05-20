@@ -420,64 +420,6 @@
       ],
       "uiSelectionGroup": "test"
     },
-    "Test_crop" : {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              10,
-              41500
-            ],
-            "name": "em-detail-a1",
-            "opacity": 1,
-            "sources": [
-              "em-detail-a1-A"
-            ]
-          }
-        },
-        {
-          "imageDisplay": {
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              10,
-              41500
-            ],
-            "name": "em-detail-a1_crop",
-            "opacity": 1,
-            "sources": [
-              "em-detail-a1-A_crop"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "crop": {
-            "centerAtOrigin": false,
-            "max": [
-              95.0,
-              50.0,
-              1.0
-            ],
-            "min": [
-              75.0,
-              25.0,
-              -1.0
-            ],
-            "sourceNamesAfterTransform": [
-              "em-detail-a1-A_crop"
-            ],
-            "sources": [
-              "em-detail-a1-A"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "test"
-    },
     "Figure2a": {
       "isExclusive": true,
       "sourceDisplays": [
@@ -927,6 +869,23 @@
             "showImagesIn3d": false,
             "sources": [
               "em-detail-a1-A_crop"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              48000.0
+            ],
+            "name": "em-overview_crop",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "em-overview_crop"
             ],
             "visible": true
           }
@@ -2158,6 +2117,7 @@
         },
         {
           "crop": {
+            "centerAtOrigin": false,
             "max": [
               98.0,
               -12.0,
@@ -2178,14 +2138,15 @@
         },
         {
           "crop": {
+            "centerAtOrigin": false,
             "max": [
               98.0,
               -12.0,
               1.0
             ],
             "min": [
-              76.0,
-              -34.0,
+              87.0,
+              -23.0,
               -1.0
             ],
             "sourceNamesAfterTransform": [
