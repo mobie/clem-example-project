@@ -458,12 +458,12 @@
           "crop": {
             "max": [
               95.0,
-              25.0,
+              50.0,
               1.0
             ],
             "min": [
               75.0,
-              50.0,
+              25.0,
               -1.0
             ],
             "sourceNamesAfterTransform": [
