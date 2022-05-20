@@ -456,6 +456,7 @@
       "sourceTransforms": [
         {
           "crop": {
+            "centerAtOrigin": false,
             "max": [
               95.0,
               50.0,
