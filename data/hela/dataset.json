@@ -832,6 +832,40 @@
           }
         },
         {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              48000.0
+            ],
+            "name": "em-detail-a1_cropshift",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "em-detail-a1-A_cropshift"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              -3500.0,
+              27000.0
+            ],
+            "name": "em-overview_cropshift",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "em-overview_cropshift"
+            ],
+            "visible": true
+          }
+        },
+        {
           "regionDisplay": {
             "boundaryThickness": 3.0,
             "colorByColumn": "annotationColor",
@@ -2155,6 +2189,33 @@
             "sources": [
               "em-overview"
             ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              7.359710600762607,
+              0.7735367544698474,
+              0.0,
+              -315.6495792386542,
+              -0.7735367544698474,
+              7.359710600762607,
+              0.0,
+              -39.68887499462238,
+              0.0,
+              0.0,
+              7.400249944258174,
+              0.0
+            ],
+            "sourceNamesAfterTransform": [
+              "em-detail-a1-A_cropshift",
+              "em-overview_cropshift"
+            ],
+            "sources": [
+              "em-detail-a1-A_crop",
+              "em-overview_crop"
+            ],
+            "name": "cropshift"
           }
         }
       ],
