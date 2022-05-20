@@ -798,6 +798,40 @@
           }
         },
         {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              0.0,
+              48000.0
+            ],
+            "name": "em-detail-a1_crop",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "em-detail-a1-A_crop"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              -3500.0,
+              27000.0
+            ],
+            "name": "em-overview_crop",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "em-overview_crop"
+            ],
+            "visible": true
+          }
+        },
+        {
           "regionDisplay": {
             "boundaryThickness": 3.0,
             "colorByColumn": "annotationColor",
@@ -854,40 +888,6 @@
             "tables": [
               "default.tsv"
             ]
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              48000.0
-            ],
-            "name": "em-detail-a1_crop",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-detail-a1-A_crop"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              48000.0
-            ],
-            "name": "em-overview_crop",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-overview_crop"
-            ],
-            "visible": true
           }
         }
       ],
@@ -2146,7 +2146,7 @@
             ],
             "min": [
               87.0,
-              -23.0,
+              -34.0,
               -1.0
             ],
             "sourceNamesAfterTransform": [
