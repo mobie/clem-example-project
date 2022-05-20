@@ -811,7 +811,7 @@
             "sources": [
               "em-detail-a1-A_crop"
             ],
-            "visible": true
+            "visible": false
           }
         },
         {
@@ -828,7 +828,7 @@
             "sources": [
               "em-overview_crop"
             ],
-            "visible": true
+            "visible": false
           }
         },
         {
@@ -917,6 +917,32 @@
             "tableData": {
               "tsv": {
                 "relativePath": "tables/fluorescence"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
+          "regionDisplay": {
+            "boundaryThickness": 3.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "em-crop-annotations",
+            "opacity": 1.0,
+            "showAsBoundaries": true,
+            "sources": {
+              "0": [
+                "em-detail-a1-A_crop"
+              ],
+              "1": [
+                "em-detail-a2-A_cropshift"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/em-crop"
               }
             },
             "tables": [
@@ -2201,7 +2227,7 @@
               -0.7735367544698474,
               7.359710600762607,
               0.0,
-              -39.68887499462238,
+              -9.68887499462238,
               0.0,
               0.0,
               7.400249944258174,
