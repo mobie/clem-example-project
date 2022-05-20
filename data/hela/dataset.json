@@ -289,7 +289,7 @@
             "name": "em-detail-a1",
             "opacity": 1,
             "sources": [
-              "em-detail-a1-A"
+              "em-detail-a1-A_4"
             ]
           }
         },
@@ -326,6 +326,9 @@
               99.62143853357243,
               0.0
             ],
+            "sourceNamesAfterTransform": [
+              "em-detail-a1-A_1"
+            ],
             "sources": [
               "em-detail-a1-A"
             ]
@@ -348,8 +351,11 @@
               1.0,
               0.0
             ],
+            "sourceNamesAfterTransform": [
+              "em-detail-a1-A_2"
+            ],
             "sources": [
-              "em-detail-a1-A"
+              "em-detail-a1-A_1"
             ]
           }
         },
@@ -370,8 +376,11 @@
               1.0,
               0.0
             ],
+            "sourceNamesAfterTransform": [
+              "em-detail-a1-A_3"
+            ],
             "sources": [
-              "em-detail-a1-A"
+              "em-detail-a1-A_2"
             ]
           }
         },
@@ -392,8 +401,11 @@
               1.0,
               0.0
             ],
+            "sourceNamesAfterTransform": [
+              "em-detail-a1-A_4"
+            ],
             "sources": [
-              "em-detail-a1-A"
+              "em-detail-a1-A_3"
             ]
           }
         },
@@ -413,7 +425,7 @@
               "em-detail-a1-A_crop"
             ],
             "sources": [
-              "em-detail-a1-A"
+              "em-detail-a1-A_4"
             ]
           }
         }
