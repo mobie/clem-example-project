@@ -275,151 +275,6 @@
   },
   "timepoints": 1,
   "views": {
-    "Test_A1" : {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              10,
-              41500
-            ],
-            "name": "em-detail-a1",
-            "opacity": 1,
-            "sources": [
-              "em-detail-a1-A"
-            ]
-          }
-        },
-        {
-          "imageDisplay": {
-            "color": "r=0,g=255,b=255,a=255",
-            "contrastLimits": [
-              10,
-              41500
-            ],
-            "name": "em-detail-a1_crop",
-            "opacity": 1,
-            "sources": [
-              "em-detail-a1-A_crop"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.18777152869337194,
-              0.9821399838237337,
-              0.0,
-              0.0,
-              1.0032799126909004,
-              0.16846097748363031,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              99.62143853357243,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a1-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              37.7088,
-              0.0,
-              1.0,
-              0.0,
-              -87.641,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a1-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9993908270190963,
-              -0.034899496702500976,
-              0.0,
-              0.3903355098501322,
-              0.034899496702500976,
-              0.9993908270190963,
-              0.0,
-              -11.545341271935712,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a1-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manual_shift_a1",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              -2.4988357318902317,
-              0.0,
-              1.0,
-              0.0,
-              -7.688725328893014,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a1-A"
-            ]
-          }
-        },
-        {
-          "crop": {
-            "max": [
-              98.0,
-              -12.0,
-              1.0
-            ],
-            "min": [
-              76.0,
-              -34.0,
-              -1.0
-            ],
-            "sourceNamesAfterTransform": [
-              "em-detail-a1-A_crop"
-            ],
-            "sources": [
-              "em-detail-a1-A"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "test"
-    },
     "Figure2a": {
       "isExclusive": true,
       "sourceDisplays": [
@@ -935,6 +790,9 @@
             "sources": {
               "0": [
                 "em-detail-a1-A_crop"
+              ],
+              "1": [
+                "em-detail-a2-A_cropshift"
               ]
             },
             "tableData": {
