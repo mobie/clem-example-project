@@ -790,28 +790,8 @@
             "sources": {
               "0": [
                 "em-detail-a1-A_crop"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/em-crop"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "regionDisplay": {
-            "boundaryThickness": 3.0,
-            "colorByColumn": "annotationColor",
-            "lut": "argbColumn",
-            "name": "em-crop-annotations",
-            "opacity": 1.0,
-            "showAsBoundaries": true,
-            "sources": {
-              "0": [
+              ],
+              "1": [
                 "em-detail-a1-A_cropshift"
               ]
             },
@@ -2105,7 +2085,7 @@
               -9.68887499462238,
               0.0,
               0.0,
-              7.400249944258174,
+              1.0,
               0.0
             ],
             "sourceNamesAfterTransform": [
