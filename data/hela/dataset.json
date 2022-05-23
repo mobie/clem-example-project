@@ -691,8 +691,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              0.0,
-              48000.0
+              26000.0,
+              36000.0
             ],
             "name": "em-detail-a1_cropshift",
             "opacity": 1.0,
@@ -708,8 +708,8 @@
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              -3500.0,
-              27000.0
+              12500.0,
+              20000.0
             ],
             "name": "em-overview_cropshift",
             "opacity": 1.0,
@@ -2056,11 +2056,11 @@
             "centerAtOrigin": false,
             "max": [
               98.0,
-              -12.0,
+              -23.0,
               1.0
             ],
             "min": [
-              87.0,
+              76.0,
               -34.0,
               -1.0
             ],
