@@ -4526,20 +4526,8 @@
             ],
             "showAsBoundaries": true,
             "sources": {
-              "0": [
-                "tomo_37_hm"
-              ],
               "1": [
                 "tomo_38_hm"
-              ],
-              "2": [
-                "tomo_40_hm"
-              ],
-              "3": [
-                "tomo_41_hm"
-              ],
-              "4": [
-                "tomo_54_hm"
               ]
             },
             "tableData": {
