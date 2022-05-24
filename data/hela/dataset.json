@@ -4513,7 +4513,46 @@
               "tomo_38_hm"
             ]
           }
+        },
+        {
+          "regionDisplay": {
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "hm-tomo38-annotation",
+            "opacity": 1.0,
+            "selectedRegionIds": [
+              "0;1"
+            ],
+            "showAsBoundaries": true,
+            "sources": {
+              "0": [
+                "tomo_37_hm"
+              ],
+              "1": [
+                "tomo_38_hm"
+              ],
+              "2": [
+                "tomo_40_hm"
+              ],
+              "3": [
+                "tomo_41_hm"
+              ],
+              "4": [
+                "tomo_54_hm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/highmag_tomos"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
         }
+
       ],
       "sourceTransforms": [
         {
