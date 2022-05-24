@@ -5147,6 +5147,26 @@
             ],
             "name": "shift_lower"
           }
+        },
+        {
+          "crop": {
+            "centerAtOrigin": false,
+            "max": [
+              237.5,
+              311.4,
+              1.0
+            ],
+            "min": [
+              227.1,
+              301.0,
+              -1.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0",
+              "fluorescence-a3-c1",
+              "fluorescence-a3-c2"
+            ]
+          }
         }
       ],
       "uiSelectionGroup": "mobie-paper",
