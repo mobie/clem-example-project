@@ -3638,6 +3638,31 @@
               "default.tsv"
             ]
           }
+        },
+        {
+          "regionDisplay": {
+            "boundaryThickness": 3.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "fluorescence-annotations",
+            "opacity": 1.0,
+            "showAsBoundaries": true,
+            "sources": {
+              "1": [
+                "fluorescence-a3-c0",
+                "fluorescence-a3-c1",
+                "fluorescence-a3-c2"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/fluorescence"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
         }
       ],
       "sourceTransforms": [
