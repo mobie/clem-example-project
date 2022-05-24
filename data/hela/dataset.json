@@ -2439,6 +2439,29 @@
               "default.tsv"
             ]
           }
+        },
+        {
+          "regionDisplay": {
+            "boundaryThickness": 3.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "em-detail-annotations",
+            "opacity": 1.0,
+            "showAsBoundaries": true,
+            "sources": {
+              "2": [
+                "em-detail-a3-A"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/em-detail"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
         }
       ],
       "sourceTransforms": [
