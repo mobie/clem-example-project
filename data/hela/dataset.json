@@ -4771,7 +4771,7 @@
         },
         {
           "regionDisplay": {
-            "boundaryThickness": 1.0,
+            "boundaryThickness": 0.2,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "lm-tomo-annotations",
