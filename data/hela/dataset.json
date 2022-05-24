@@ -2442,7 +2442,7 @@
         },
         {
           "regionDisplay": {
-            "boundaryThickness": 3.0,
+            "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "em-detail-annotations",
@@ -3641,7 +3641,7 @@
         },
         {
           "regionDisplay": {
-            "boundaryThickness": 3.0,
+            "boundaryThickness": 1.0,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "fluorescence-annotations",
