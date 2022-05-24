@@ -4531,7 +4531,7 @@
         },
         {
           "regionDisplay": {
-            "boundaryThickness": 0.15,
+            "boundaryThickness": 0.08,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "hm-tomo38-annotation",
@@ -4650,6 +4650,21 @@
     "Figure2e": {
       "isExclusive": true,
       "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              32000,
+              37000
+            ],
+            "name": "tomo_38_lm_lower_slice",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_38_lm_lower"
+            ]
+          }
+        },
         {
           "imageDisplay": {
             "blendingMode": "sumOccluding",
@@ -5106,6 +5121,31 @@
             "sources": [
               "tomo_38_hm"
             ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              0.7,
+              0.0,
+              1.0,
+              0.0,
+              -0.7,
+              0.0,
+              0.0,
+              1.0,
+              -0.04
+            ],
+            "sourceNamesAfterTransform": [
+              "tomo_38_lm_lower"
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "name": "shift_lower"
           }
         }
       ],
