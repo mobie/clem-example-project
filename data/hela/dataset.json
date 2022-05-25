@@ -2074,6 +2074,7 @@
         },
         {
           "affine": {
+            "name": "cropshift",
             "parameters": [
               7.359710600762607,
               0.7735367544698474,
@@ -2095,8 +2096,7 @@
             "sources": [
               "em-detail-a1-A_crop",
               "em-overview_crop"
-            ],
-            "name": "cropshift"
+            ]
           }
         }
       ],
@@ -4603,7 +4603,6 @@
             ]
           }
         }
-
       ],
       "sourceTransforms": [
         {
@@ -4652,12 +4651,13 @@
         },
         {
           "affine": {
+            "name": "shift_lower",
             "parameters": [
               1.0,
-              -6.938893903907228E-18,
+              -6.938893903907228e-18,
               0.0,
               0.3792459382050879,
-              6.938893903907228E-18,
+              6.938893903907228e-18,
               1.0,
               0.0,
               -0.3835411927777841,
@@ -4671,8 +4671,7 @@
             ],
             "sources": [
               "tomo_38_hm"
-            ],
-            "name": "shift_lower"
+            ]
           }
         }
       ],
@@ -4681,16 +4680,16 @@
         "normalizedAffine": [
           0.17362921206979706,
           0.07105664654822018,
-          1.0604116247274842E-17,
+          1.0604116247274842e-17,
           -62.05716025810931,
           0.07105664654822022,
           -0.17362921206979712,
-          5.4613997046227145E-18,
+          5.4613997046227145e-18,
           36.64803035550667,
-          5.916259248626979E-18,
-          -1.663947913676338E-18,
+          5.916259248626979e-18,
+          -1.663947913676338e-18,
           -0.18760637063452104,
-          -6.668905197625975E-5
+          -6.668905197625975e-05
         ],
         "timepoint": 0
       }
@@ -5196,6 +5195,7 @@
         },
         {
           "affine": {
+            "name": "shift_lower",
             "parameters": [
               1.0,
               0.0,
@@ -5215,8 +5215,7 @@
             ],
             "sources": [
               "tomo_38_lm"
-            ],
-            "name": "shift_lower"
+            ]
           }
         },
         {
@@ -5245,16 +5244,16 @@
         "normalizedAffine": [
           0.03780364819065342,
           0.025745882981639323,
-          1.151989793583003E-18,
+          1.151989793583003e-18,
           -16.702170071856646,
           0.025745882981639323,
           -0.03780364819065342,
-          5.481549868401314E-18,
+          5.481549868401314e-18,
           5.55845661686597,
-          4.0377079220887856E-18,
-          -3.882188066051318E-18,
+          4.0377079220887856e-18,
+          -3.882188066051318e-18,
           -0.045738018179922874,
-          4.683646155371935E-4
+          0.0004683646155371935
         ],
         "timepoint": 0
       }
@@ -12422,6 +12421,257 @@
         }
       ],
       "uiSelectionGroup": "bookmark"
+    },
+    "slice-grid-tomo38": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              20,
+              240
+            ],
+            "name": "tomo_38_hm-slice-grid",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_38_hm_z0",
+              "tomo_38_hm_z1",
+              "tomo_38_hm_z2",
+              "tomo_38_hm_z3",
+              "tomo_38_hm_z4",
+              "tomo_38_hm_z5",
+              "tomo_38_hm_z6",
+              "tomo_38_hm_z7"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sourceNamesAfterTransform": [
+              "tomo_38_hm_z0"
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -11.25
+            ],
+            "sourceNamesAfterTransform": [
+              "tomo_38_hm_z1"
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -22.5
+            ],
+            "sourceNamesAfterTransform": [
+              "tomo_38_hm_z2"
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -33.75
+            ],
+            "sourceNamesAfterTransform": [
+              "tomo_38_hm_z3"
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -45.0
+            ],
+            "sourceNamesAfterTransform": [
+              "tomo_38_hm_z4"
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -56.25
+            ],
+            "sourceNamesAfterTransform": [
+              "tomo_38_hm_z5"
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -67.5
+            ],
+            "sourceNamesAfterTransform": [
+              "tomo_38_hm_z6"
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              -78.75
+            ],
+            "sourceNamesAfterTransform": [
+              "tomo_38_hm_z7"
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        },
+        {
+          "transformedGrid": {
+            "nestedSources": [
+              [
+                "tomo_38_hm_z0"
+              ],
+              [
+                "tomo_38_hm_z1"
+              ],
+              [
+                "tomo_38_hm_z2"
+              ],
+              [
+                "tomo_38_hm_z3"
+              ],
+              [
+                "tomo_38_hm_z4"
+              ],
+              [
+                "tomo_38_hm_z5"
+              ],
+              [
+                "tomo_38_hm_z6"
+              ],
+              [
+                "tomo_38_hm_z7"
+              ]
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "slice-grid"
     },
     "tomo_37_hm": {
       "isExclusive": false,
