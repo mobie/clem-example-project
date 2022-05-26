@@ -6,7 +6,7 @@
       0.0
     ]
   },
-  "description": "A correlative electron microscopy sample of a HeLa cell."
+  "description": "A correlative electron microscopy sample of a HeLa cell.",
   "is2D": false,
   "sources": {
     "em-detail-a1-A": {
