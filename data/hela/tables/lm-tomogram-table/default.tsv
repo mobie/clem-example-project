@@ -1,7 +1,7 @@
-region_id	source	annotationColor
-0	tomo_37_lm	255-0-146-255
-1	tomo_38_lm	255-0-146-255
-2	tomo_40_lm	255-0-146-255
-3	tomo_41_lm	255-0-146-255
-4	tomo_53_lm	255-0-146-255
-5	tomo_54_lm	255-0-146-255
+region_id	source	annotationColor	endoplasmic reticulum	endosomes	golgi	intermediate filament	lipid droplet	lysosome	microtubule	mitochondrion
+0	tomo_37_lm	255-0-146-255	0	0	1	0	1	0	1	0
+1	tomo_38_lm	255-0-146-255	1	0	1	1	0	1	0	1
+2	tomo_40_lm	255-0-146-255	0	1	1	0	0	0	0	0
+3	tomo_41_lm	255-0-146-255	0	1	1	1	0	0	0	0
+4	tomo_53_lm	255-0-146-255	0	0	1	0	1	0	1	0
+5	tomo_54_lm	255-0-146-255	1	0	0	0	0	0	1	1
