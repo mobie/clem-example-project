@@ -12423,6 +12423,108 @@
       ],
       "uiSelectionGroup": "bookmark"
     },
+    "new-table-view": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "name": "new-table-view_images",
+            "opacity": 1.0,
+            "sources": [
+              "tomo_37_lm",
+              "tomo_38_lm",
+              "tomo_40_lm",
+              "tomo_41_lm",
+              "tomo_53_lm"
+            ]
+          }
+        },
+        {
+          "regionDisplay": {
+            "lut": "glasbey",
+            "name": "new-table-view",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "tomo_37_lm"
+              ],
+              "1": [
+                "tomo_38_lm"
+              ],
+              "2": [
+                "tomo_40_lm"
+              ],
+              "3": [
+                "tomo_41_lm"
+              ],
+              "4": [
+                "tomo_53_lm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "./data/hela/tables/lm-tomogram-table"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "transformedGrid": {
+            "nestedSources": [
+              [
+                "tomo_37_lm"
+              ],
+              [
+                "tomo_38_lm"
+              ],
+              [
+                "tomo_40_lm"
+              ],
+              [
+                "tomo_41_lm"
+              ],
+              [
+                "tomo_53_lm"
+              ]
+            ],
+            "positions": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ]
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "table-test"
+    },
     "slice-grid-tomo38": {
       "isExclusive": true,
       "sourceDisplays": [

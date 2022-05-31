@@ -155,6 +155,27 @@ def panel_f():
     mobie.metadata.write_dataset_metadata(DS_FOLDER, metadata)
 
 
+# def create_grid_view(
+#     dataset_folder, view_name, sources,
+#     table_folder=None,
+#     display_groups=None,
+#     display_group_settings=None,
+#     positions=None,
+#     menu_name="bookmark",
+#     overwrite=False,
+#     view_file=None,
+#     return_view=False,
+# ):
+def table_panel_new():
+    # TODO I am not sure if these are the correct 5 tomos, need to check with martin or check in MoBIE
+    sources = [["tomo_37_lm"], ["tomo_38_lm"], ["tomo_40_lm"], ["tomo_41_lm"], ["tomo_53_lm"]]
+    positions = [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5]]
+    mobie.create_grid_view(
+        "./data/hela", view_name="new-table-view", sources=sources,
+        table_folder="./data/hela/tables/lm-tomogram-table",
+        positions=positions, menu_name="table-test", overwrite=True)
+
+
 def main():
     # panel_a()
     # panel_b()
@@ -162,7 +183,8 @@ def main():
     # panel_d()
     # panel_e()
     # panel_f()
-    mobie.validation.validate_dataset(DS_FOLDER, require_data=False)
+    table_panel_new()
+    mobie.validation.validate_dataset(DS_FOLDER, require_local_data=False)
 
 
 if __name__ == "__main__":
