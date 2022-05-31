@@ -12469,7 +12469,7 @@
             },
             "tableData": {
               "tsv": {
-                "relativePath": "./data/hela/tables/lm-tomogram-table"
+                "relativePath": "tables/lm-tomogram-table"
               }
             },
             "tables": [

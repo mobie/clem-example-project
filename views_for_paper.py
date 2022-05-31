@@ -172,7 +172,7 @@ def table_panel_new():
     positions = [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5]]
     mobie.create_grid_view(
         "./data/hela", view_name="new-table-view", sources=sources,
-        table_folder="./data/hela/tables/lm-tomogram-table",
+        table_folder="tables/lm-tomogram-table",
         positions=positions, menu_name="table-test", overwrite=True)
 
 
