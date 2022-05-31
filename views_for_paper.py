@@ -169,7 +169,7 @@ def panel_f():
 def table_panel_new():
     # TODO I am not sure if these are the correct 5 tomos, need to check with martin or check in MoBIE
     sources = [["tomo_37_lm"], ["tomo_38_lm"], ["tomo_40_lm"], ["tomo_41_lm"], ["tomo_53_lm"]]
-    positions = [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5]]
+    positions = [[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]]
     mobie.create_grid_view(
         "./data/hela", view_name="new-table-view", sources=sources,
         table_folder="tables/lm-tomogram-table",
