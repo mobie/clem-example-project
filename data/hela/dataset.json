@@ -3336,9 +3336,6 @@
             ],
             "showAsBoundaries": true,
             "sources": {
-              "0": [
-                "tomo_37_lm"
-              ],
               "1": [
                 "tomo_38_lm"
               ]
