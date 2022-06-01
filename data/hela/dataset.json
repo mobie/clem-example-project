@@ -3942,6 +3942,32 @@
         },
         {
           "regionDisplay": {
+            "boundaryThickness": 0.12,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "lm-tomo-annotations",
+            "opacity": 1.0,
+            "selectedRegionIds": [
+              "0;1"
+            ],
+            "showAsBoundaries": true,
+            "sources": {
+              "1": [
+                "tomo_38_lm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/lm-tomogram-table"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
+          "regionDisplay": {
             "sources": {
               "1": [
                 "tomo_38_hm"
@@ -4548,18 +4574,18 @@
       "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
-          0.02636746102920486,
-          2.9441967404753398E-18,
-          -4.6024574425701444E-4,
-          -6.049228659630263,
-          -2.900164854835571E-18,
-          0.02637147753296625,
-          2.5482786545366494E-18,
-          -7.943478349657228,
-          4.6024574425701444E-4,
-          -2.497275683572983E-18,
-          0.02636746102920486,
-          -0.10752289491845746
+          0.0,
+          0.1167266426263847,
+          0.03989117185700653,
+          -35.57706324421577,
+          -0.1233548324588581,
+          0.0,
+          0.0,
+          28.622931135725246,
+          0.0,
+          -0.039891171857006566,
+          0.11672664262638477,
+          12.261421106363514
         ],
         "timepoint": 0
       }
