@@ -654,74 +654,6 @@
           }
         },
         {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              48000.0
-            ],
-            "name": "em-detail-a1_crop",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-detail-a1-A_crop"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              -3500.0,
-              27000.0
-            ],
-            "name": "em-overview_crop",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-overview_crop"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              26000.0,
-              36000.0
-            ],
-            "name": "em-detail-a1_cropshift",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-detail-a1-A_cropshift"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              12500.0,
-              20000.0
-            ],
-            "name": "em-overview_cropshift",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-overview_cropshift"
-            ],
-            "visible": true
-          }
-        },
-        {
           "regionDisplay": {
             "boundaryThickness": 3.0,
             "colorByColumn": "annotationColor",
@@ -773,32 +705,6 @@
             "tableData": {
               "tsv": {
                 "relativePath": "tables/fluorescence"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "regionDisplay": {
-            "boundaryThickness": 3.0,
-            "colorByColumn": "annotationColor",
-            "lut": "argbColumn",
-            "name": "em-crop-annotations",
-            "opacity": 1.0,
-            "showAsBoundaries": true,
-            "sources": {
-              "0": [
-                "em-detail-a1-A_crop"
-              ],
-              "1": [
-                "em-detail-a1-A_cropshift"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/em-crop"
               }
             },
             "tables": [
@@ -2072,50 +1978,23 @@
               "em-overview"
             ]
           }
-        },
-        {
-          "affine": {
-            "name": "cropshift",
-            "parameters": [
-              7.359710600762607,
-              0.7735367544698474,
-              0.0,
-              -375.6495792386542,
-              -0.7735367544698474,
-              7.359710600762607,
-              0.0,
-              60.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sourceNamesAfterTransform": [
-              "em-detail-a1-A_cropshift",
-              "em-overview_cropshift"
-            ],
-            "sources": [
-              "em-detail-a1-A_crop",
-              "em-overview_crop"
-            ]
-          }
         }
       ],
       "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
-          0.0010339292702165176,
-          -0.00010708845543171251,
-          -7.453483999744215e-20,
-          -0.200649039467715,
-          -0.00010708845543171251,
-          -0.0010339292702165176,
-          8.265345511037524e-20,
-          0.08048246963889055,
-          -8.265345511037524e-20,
-          -7.453483999744221e-20,
-          -0.0010394602797111645,
-          6.519629799523802e-17
+          0.0011373221972381699,
+          -1.1779730097488375E-4,
+          0.0,
+          -0.21618269341448634,
+          -1.1779730097488375E-4,
+          -0.0011373221972381699,
+          0.0,
+          0.15670779993611306,
+          0.0,
+          0.0,
+          -0.0011434063076822803,
+          0.0
         ],
         "timepoint": 0
       }
@@ -3349,1368 +3228,19 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              290.0,
-              23000.0
-            ],
-            "name": "em-overview",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
             "sources": [
-              "em-overview"
+              "em-detail-a3-A"
             ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150.0,
               45700.0
             ],
+            "showImagesIn3d": false,
             "name": "em-detail-a3",
             "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "em-detail-a3-A"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "tomo_37_lm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_37_lm"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30.0,
-              240.0
-            ],
-            "name": "tomo_37_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_37_hm"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "tomo_38_lm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_38_lm"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "name": "tomo_38_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_38_hm"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "tomo_40_lm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_40_lm"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "name": "tomo_40_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_40_hm"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "tomo_41_lm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_41_lm"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "name": "tomo_41_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_41_hm"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "tomo_54_lm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_54_lm"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              20.0,
-              240.0
-            ],
-            "name": "tomo_54_hm",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_54_hm"
-            ],
-            "visible": false
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=255,g=0,b=0,a=255",
-            "contrastLimits": [
-              40.0,
-              240.0
-            ],
-            "name": "fluorescence-a3-c0",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "fluorescence-a3-c0"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=0,g=255,b=0,a=255",
-            "contrastLimits": [
-              14.0,
-              273.0
-            ],
-            "name": "fluorescence-a3-c1",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "fluorescence-a3-c1"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sum",
-            "color": "r=0,g=0,b=255,a=255",
-            "contrastLimits": [
-              0.0,
-              320.0
-            ],
-            "name": "fluorescence-a3-c2",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "fluorescence-a3-c2"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "regionDisplay": {
-            "boundaryThickness": 1.0,
-            "colorByColumn": "annotationColor",
-            "lut": "argbColumn",
-            "name": "lm-tomo-annotations",
-            "opacity": 1.0,
-            "selectedRegionIds": [
-              "0;1"
-            ],
-            "showAsBoundaries": true,
-            "sources": {
-              "0": [
-                "tomo_37_lm"
-              ],
-              "1": [
-                "tomo_38_lm"
-              ],
-              "2": [
-                "tomo_40_lm"
-              ],
-              "3": [
-                "tomo_41_lm"
-              ],
-              "4": [
-                "tomo_54_lm"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
-          "regionDisplay": {
-            "boundaryThickness": 1.0,
-            "colorByColumn": "annotationColor",
-            "lut": "argbColumn",
-            "name": "fluorescence-annotations",
-            "opacity": 1.0,
-            "showAsBoundaries": true,
-            "sources": {
-              "1": [
-                "fluorescence-a3-c0",
-                "fluorescence-a3-c1",
-                "fluorescence-a3-c2"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/fluorescence"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.10198378825464686,
-              -0.9710562907353596,
-              0.0,
-              0.0,
-              -0.9846441741918877,
-              0.11862126451903302,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              29.30832356389215,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              481.249,
-              0.0,
-              1.0,
-              0.0,
-              493.667,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.18777152869337194,
-              0.9821399838237337,
-              0.0,
-              0.0,
-              1.0032799126909004,
-              0.16846097748363031,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              99.62143853357243,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a3-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              0.013245148924148945,
-              1.0039595803164605,
-              0.0,
-              0.0,
-              1.020668829539118,
-              -0.034661042654656964,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              -0.176157
-            ],
-            "sources": [
-              "tomo_37_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "RotScale",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              228.04282648432743,
-              0.0,
-              1.0,
-              0.0,
-              302.40902957105,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "tomo_37_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148945,
-              1.0039595803164607,
-              0.0,
-              239.93945962096353,
-              1.0206688295391182,
-              -0.034661042654656964,
-              0.0,
-              300.37466120697667,
-              0.0,
-              0.0,
-              1.0000000000000002,
-              -0.19147500000000006
-            ],
-            "sources": [
-              "tomo_38_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a3-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148945,
-              1.0039595803164607,
-              0.0,
-              207.1409635467861,
-              1.0206688295391182,
-              -0.034661042654656964,
-              0.0,
-              309.2354368782877,
-              0.0,
-              0.0,
-              1,
-              -0.227217
-            ],
-            "sources": [
-              "tomo_40_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148947,
-              1.0039595803164607,
-              0.0,
-              243.59201639109855,
-              1.0206688295391182,
-              -0.03466104265465697,
-              0.0,
-              303.91519667035317,
-              0.0,
-              0.0,
-              1.0000000000000004,
-              -0.07010100000000001
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148882,
-              1.0039595803164603,
-              0.0,
-              252.8752679880011,
-              1.0206688295391178,
-              -0.0346610426546569,
-              0.0,
-              317.6910257705539,
-              0.0,
-              0.0,
-              0.9999999999999999,
-              -0.19658099999999998
-            ],
-            "sources": [
-              "tomo_41_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148943,
-              1.0039595803164605,
-              0.0,
-              241.7822189205871,
-              1.020668829539118,
-              -0.034661042654656964,
-              0.0,
-              266.7355546014951,
-              0.0,
-              0.0,
-              1.0,
-              -0.171051
-            ],
-            "sources": [
-              "tomo_54_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148941,
-              1.0039595803164603,
-              -1.5407439555097887e-32,
-              210.88814494422707,
-              1.0206688295391178,
-              -0.03466104265465696,
-              -6.162975822039157e-33,
-              309.76654920034923,
-              6.494431150205682e-33,
-              1.5254831381639986e-32,
-              0.9999999999999999,
-              -0.05456108458253092
-            ],
-            "sources": [
-              "tomo_40_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148947,
-              1.0039595803164605,
-              0.0,
-              245.43477569072212,
-              1.0206688295391178,
-              -0.03466104265465697,
-              0.0,
-              270.2760900648716,
-              0.0,
-              0.0,
-              1.0,
-              -0.0747744
-            ],
-            "sources": [
-              "tomo_54_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148948,
-              1.0039595803164605,
-              0.0,
-              231.8498207892673,
-              1.0206688295391178,
-              -0.03466104265465697,
-              0.0,
-              306.3767267928424,
-              0.0,
-              0.0,
-              1.0,
-              -0.0747744
-            ],
-            "sources": [
-              "tomo_37_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a3-A"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148116,
-              1.0039595803164598,
-              2.548749782768702e-18,
-              256.63040379706877,
-              1.020668829539117,
-              -0.03466104265465613,
-              -1.1958521839956973e-17,
-              320.70611875945485,
-              1.2171931918963699e-17,
-              -2.973336597821522e-18,
-              0.9999999999999993,
-              -0.0841212000000085
-            ],
-            "sources": [
-              "tomo_41_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_37_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_37_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_38_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_40_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_40_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_41_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_54_lm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.23021139885087,
-              13.287015421562778,
-              0.0,
-              165.3568,
-              -13.287015421562778,
-              100.23021139885087,
-              0.0,
-              2243.2063,
-              0.0,
-              0.0,
-              15.423117146329398,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.23021139885087,
-              13.287015421562778,
-              0.0,
-              165.3568,
-              -13.287015421562778,
-              100.23021139885087,
-              0.0,
-              2243.2063,
-              0.0,
-              0.0,
-              15.423117146329398,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.23021139885087,
-              13.287015421562778,
-              0.0,
-              165.3568,
-              -13.287015421562778,
-              100.23021139885087,
-              0.0,
-              2243.2063,
-              0.0,
-              0.0,
-              15.423117146329398,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_54_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_41_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manual_shift_a3",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              1.7940359100750243,
-              0.0,
-              1.0,
-              0.0,
-              -6.6635619517072655,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-overview"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "mobie-paper",
-      "viewerTransform": {
-        "normalizedAffine": [
-          0.007369099508012444,
-          0.002822804366609596,
-          -8.608226601784813e-24,
-          -2.542001827154599,
-          0.002822804366609596,
-          -0.007369099508012444,
-          1.129273688688655e-22,
-          1.5599902154101721,
-          3.235696997058688e-23,
-          -1.085344125114014e-22,
-          -0.007891251614993622,
-          0.00023326630852750073
-        ],
-        "timepoint": 0
-      }
-    },
-    "Figure2d": {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              77,
-              228
-            ],
-            "name": "tomo_38_hm_lower_slice",
-            "opacity": 1.0,
-            "sources": [
-              "tomo_38_hm_lower"
-            ]
-          }
-        },
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              96,
-              187
-            ],
-            "name": "tomo_38_hm",
-            "opacity": 1.0,
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "regionDisplay": {
-            "boundaryThickness": 0.08,
-            "colorByColumn": "annotationColor",
-            "lut": "argbColumn",
-            "name": "hm-tomo38-annotation",
-            "opacity": 1.0,
-            "selectedRegionIds": [
-              "0;1"
-            ],
-            "showAsBoundaries": true,
-            "sources": {
-              "1": [
-                "tomo_38_hm"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/highmag_tomos"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "affine0",
-            "parameters": [
-              0.013245148924148947,
-              1.0039595803164607,
-              0.0,
-              243.59201639109855,
-              1.0206688295391182,
-              -0.03466104265465697,
-              0.0,
-              303.91519667035317,
-              0.0,
-              0.0,
-              1.0000000000000004,
-              -0.07010100000000001
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "shift_lower",
-            "parameters": [
-              1.0,
-              -6.938893903907228e-18,
-              0.0,
-              0.3792459382050879,
-              6.938893903907228e-18,
-              1.0,
-              0.0,
-              -0.3835411927777841,
-              0.0,
-              0.0,
-              0.9999999999999999,
-              -0.025133899550484264
-            ],
-            "sourceNamesAfterTransform": [
-              "tomo_38_hm_lower"
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "mobie-paper",
-      "viewerTransform": {
-        "normalizedAffine": [
-          0.17362921206979706,
-          0.07105664654822018,
-          1.0604116247274842e-17,
-          -62.05716025810931,
-          0.07105664654822022,
-          -0.17362921206979712,
-          5.4613997046227145e-18,
-          36.64803035550667,
-          5.916259248626979e-18,
-          -1.663947913676338e-18,
-          -0.18760637063452104,
-          -6.668905197625975e-05
-        ],
-        "timepoint": 0
-      }
-    },
-    "Figure2e": {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              32000,
-              35000
-            ],
-            "name": "tomo_38_lm_lower_slice",
-            "opacity": 1.0,
-            "sources": [
-              "tomo_38_lm_lower"
-            ]
+            "visible": true,
+            "blendingMode": "sumOccluding"
           }
         },
         {
@@ -4733,8 +3263,8 @@
             "blendingMode": "sumOccluding",
             "color": "white",
             "contrastLimits": [
-              0.0,
-              255.0
+              70.0,
+              235.0
             ],
             "name": "tomo_38_hm",
             "opacity": 1.0,
@@ -4816,32 +3346,31 @@
               "default.tsv"
             ]
           }
-        },
-        {
-          "regionDisplay": {
-            "boundaryThickness": 0.2,
-            "colorByColumn": "annotationColor",
-            "lut": "argbColumn",
-            "name": "lm-tomo-annotations",
-            "opacity": 1.0,
-            "showAsBoundaries": true,
-            "sources": {
-              "1": [
-                "tomo_38_lm"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
         }
       ],
       "sourceTransforms": [
+        {
+          "affine": {
+            "name": "MapScaleMat",
+            "parameters": [
+              -0.18777152869337194,
+              0.9821399838237337,
+              0.0,
+              0.0,
+              1.0032799126909004,
+              0.16846097748363031,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              99.62143853357243,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ]
+          }
+        },
         {
           "affine": {
             "name": "affine0",
@@ -4866,23 +3395,23 @@
         },
         {
           "affine": {
-            "name": "manualTransform",
+            "name": "Translation",
             "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
               0.0
             ],
             "sources": [
-              "tomo_38_lm"
+              "em-detail-a3-A"
             ]
           }
         },
@@ -4910,199 +3439,23 @@
         },
         {
           "affine": {
-            "name": "Translation",
+            "name": "affine0",
             "parameters": [
-              100.23021139885087,
-              13.287015421562778,
+              0.013245148924148882,
+              1.0039595803164603,
               0.0,
-              165.3568,
-              -13.287015421562778,
-              100.23021139885087,
+              252.8752679880011,
+              1.0206688295391178,
+              -0.0346610426546569,
               0.0,
-              2243.2063,
+              317.6910257705539,
               0.0,
               0.0,
-              15.423117146329398,
-              0.0
+              0.9999999999999999,
+              -0.19658099999999998
             ],
             "sources": [
-              "fluorescence-a3-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.23021139885087,
-              13.287015421562778,
-              0.0,
-              165.3568,
-              -13.287015421562778,
-              100.23021139885087,
-              0.0,
-              2243.2063,
-              0.0,
-              0.0,
-              15.423117146329398,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "Translation",
-            "parameters": [
-              100.23021139885087,
-              13.287015421562778,
-              0.0,
-              165.3568,
-              -13.287015421562778,
-              100.23021139885087,
-              0.0,
-              2243.2063,
-              0.0,
-              0.0,
-              15.423117146329398,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "MapScaleMat",
-            "parameters": [
-              -0.0018848506050240675,
-              0.009858721157622638,
-              0.0,
-              0.0,
-              0.010070923763591259,
-              0.001691011291980681,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c0"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "CLEMRegistration",
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              203.422,
-              0.0,
-              1.0,
-              0.0,
-              238.934,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c0"
+              "tomo_41_lm"
             ]
           }
         },
@@ -5124,7 +3477,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c0"
+              "em-detail-a3-A"
             ]
           }
         },
@@ -5146,29 +3499,7 @@
               0.0
             ],
             "sources": [
-              "fluorescence-a3-c1"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "name": "manualTransform",
-            "parameters": [
-              0.9986295347545744,
-              -0.05233595624294401,
-              -4.1003596830026926e-21,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              1.3753764017006825e-20,
-              -11.527112528741327,
-              3.3749238907939854e-21,
-              -1.3949511206377626e-20,
-              1.0000000000000002,
-              0.0
-            ],
-            "sources": [
-              "fluorescence-a3-c2"
+              "tomo_38_lm"
             ]
           }
         },
@@ -5196,45 +3527,264 @@
         },
         {
           "affine": {
-            "name": "shift_lower",
+            "name": "Translation",
             "parameters": [
-              1.0,
+              100.23021139885087,
+              13.287015421562778,
+              0.0,
+              165.3568,
+              -13.287015421562778,
+              100.23021139885087,
+              0.0,
+              2243.2063,
               0.0,
               0.0,
-              0.7,
-              0.0,
-              1.0,
-              0.0,
-              -0.7,
-              0.0,
-              0.0,
-              1.0,
-              -0.04
-            ],
-            "sourceNamesAfterTransform": [
-              "tomo_38_lm_lower"
+              15.423117146329398,
+              0.0
             ],
             "sources": [
-              "tomo_38_lm"
+              "fluorescence-a3-c0"
             ]
           }
         },
         {
-          "crop": {
-            "centerAtOrigin": false,
-            "max": [
-              237.0,
-              311.5,
-              1.0
-            ],
-            "min": [
-              227.2,
-              301.3,
-              -1.0
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              100.23021139885087,
+              13.287015421562778,
+              0.0,
+              165.3568,
+              -13.287015421562778,
+              100.23021139885087,
+              0.0,
+              2243.2063,
+              0.0,
+              0.0,
+              15.423117146329398,
+              0.0
             ],
             "sources": [
-              "fluorescence-a3-c0",
-              "fluorescence-a3-c1",
+              "fluorescence-a3-c1"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "Translation",
+            "parameters": [
+              100.23021139885087,
+              13.287015421562778,
+              0.0,
+              165.3568,
+              -13.287015421562778,
+              100.23021139885087,
+              0.0,
+              2243.2063,
+              0.0,
+              0.0,
+              15.423117146329398,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "MapScaleMat",
+            "parameters": [
+              -0.0018848506050240675,
+              0.009858721157622638,
+              0.0,
+              0.0,
+              0.010070923763591259,
+              0.001691011291980681,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "CLEMRegistration",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "MapScaleMat",
+            "parameters": [
+              -0.0018848506050240675,
+              0.009858721157622638,
+              0.0,
+              0.0,
+              0.010070923763591259,
+              0.001691011291980681,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "CLEMRegistration",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "MapScaleMat",
+            "parameters": [
+              -0.0018848506050240675,
+              0.009858721157622638,
+              0.0,
+              0.0,
+              0.010070923763591259,
+              0.001691011291980681,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "CLEMRegistration",
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926e-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825e-20,
+              -11.527112528741327,
+              3.3749238907939854e-21,
+              -1.3949511206377626e-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926e-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825e-20,
+              -11.527112528741327,
+              3.3749238907939854e-21,
+              -1.3949511206377626e-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "name": "manualTransform",
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926e-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825e-20,
+              -11.527112528741327,
+              3.3749238907939854e-21,
+              -1.3949511206377626e-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
               "fluorescence-a3-c2"
             ]
           }
@@ -5243,23 +3793,752 @@
       "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
-          0.03780364819065342,
-          0.025745882981639323,
-          1.151989793583003e-18,
-          -16.702170071856646,
-          0.025745882981639323,
-          -0.03780364819065342,
-          5.481549868401314e-18,
-          5.55845661686597,
-          4.0377079220887856e-18,
-          -3.882188066051318e-18,
-          -0.045738018179922874,
-          0.0004683646155371935
+          0.04577826743225647,
+          0.0,
+          0.0,
+          -10.586204316933669,
+          0.0,
+          0.04577129518039453,
+          0.0,
+          -14.11711457003791,
+          0.0,
+          -7.989409292223983E-4,
+          0.04577129518039453,
+          0.24532662513076042
         ],
         "timepoint": 0
       }
     },
-    "Figure2f": {
+    "Figure2d": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              150.0,
+              45700.0
+            ],
+            "showImagesIn3d": false,
+            "name": "em-detail-a3",
+            "opacity": 1.0,
+            "visible": true,
+            "blendingMode": "sumOccluding"
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              30000.0,
+              35000.0
+            ],
+            "showImagesIn3d": false,
+            "name": "tomo_38_lm",
+            "opacity": 1.0,
+            "visible": true,
+            "blendingMode": "sumOccluding"
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              70.0,
+              235.0
+            ],
+            "showImagesIn3d": false,
+            "name": "tomo_38_hm",
+            "opacity": 1.0,
+            "visible": true,
+            "blendingMode": "sumOccluding"
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "color": "r=255,g=0,b=0,a=255",
+            "contrastLimits": [
+              55.0,
+              400.0
+            ],
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c0",
+            "opacity": 0.7,
+            "visible": true,
+            "blendingMode": "sum"
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              40.0,
+              250.0
+            ],
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c1",
+            "opacity": 0.7,
+            "visible": true,
+            "blendingMode": "sum"
+          }
+        },
+        {
+          "imageDisplay": {
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "color": "r=0,g=0,b=255,a=255",
+            "contrastLimits": [
+              40.0,
+              400.0
+            ],
+            "showImagesIn3d": false,
+            "name": "fluorescence-a3-c2",
+            "opacity": 0.7,
+            "visible": true,
+            "blendingMode": "sum"
+          }
+        },
+        {
+          "regionDisplay": {
+            "sources": {
+              "1": [
+                "tomo_38_hm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/highmag_tomos"
+              }
+            },
+            "lut": "argbColumn",
+            "colorByColumn": "annotationColor",
+            "showScatterPlot": false,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "tables": [
+              "default.tsv"
+            ],
+            "showTable": true,
+            "showAsBoundaries": true,
+            "boundaryThickness": 0.12,
+            "name": "hm-tomo-annotations",
+            "opacity": 1.0,
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              -0.18777152869337194,
+              0.9821399838237337,
+              0.0,
+              0.0,
+              1.0032799126909004,
+              0.16846097748363031,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              599.62143853357243,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148945,
+              1.0039595803164607,
+              0.0,
+              239.93945962096353,
+              1.0206688295391182,
+              -0.034661042654656964,
+              0.0,
+              300.37466120697667,
+              0.0,
+              0.0,
+              1.0000000000000002,
+              -0.19147500000000006
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148947,
+              1.0039595803164607,
+              0.0,
+              243.59201639109855,
+              1.0206688295391182,
+              -0.03466104265465697,
+              0.0,
+              303.91519667035317,
+              0.0,
+              0.0,
+              1.0000000000000004,
+              -0.07010100000000001
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.013245148924148882,
+              1.0039595803164603,
+              0.0,
+              252.8752679880011,
+              1.0206688295391178,
+              -0.0346610426546569,
+              0.0,
+              317.6910257705539,
+              0.0,
+              0.0,
+              0.9999999999999999,
+              -0.19658099999999998
+            ],
+            "sources": [
+              "tomo_41_lm"
+            ],
+            "name": "affine0"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              100.23021139885087,
+              13.287015421562778,
+              0.0,
+              165.3568,
+              -13.287015421562778,
+              100.23021139885087,
+              0.0,
+              2243.2063,
+              0.0,
+              0.0,
+              515.423117146329398,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              100.23021139885087,
+              13.287015421562778,
+              0.0,
+              165.3568,
+              -13.287015421562778,
+              100.23021139885087,
+              0.0,
+              2243.2063,
+              0.0,
+              0.0,
+              515.423117146329398,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              100.23021139885087,
+              13.287015421562778,
+              0.0,
+              165.3568,
+              -13.287015421562778,
+              100.23021139885087,
+              0.0,
+              2243.2063,
+              0.0,
+              0.0,
+              515.423117146329398,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "Translation"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              -0.0018848506050240675,
+              0.009858721157622638,
+              0.0,
+              0.0,
+              0.010070923763591259,
+              0.001691011291980681,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "CLEMRegistration"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              -0.0018848506050240675,
+              0.009858721157622638,
+              0.0,
+              0.0,
+              0.010070923763591259,
+              0.001691011291980681,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "CLEMRegistration"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              -0.0018848506050240675,
+              0.009858721157622638,
+              0.0,
+              0.0,
+              0.010070923763591259,
+              0.001691011291980681,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "MapScaleMat"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              0.0,
+              203.422,
+              0.0,
+              1.0,
+              0.0,
+              238.934,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "CLEMRegistration"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              0.9986295347545744,
+              -0.05233595624294401,
+              -4.1003596830026926E-21,
+              3.21857843709725,
+              0.05233595624294401,
+              0.9986295347545744,
+              1.3753764017006825E-20,
+              -11.527112528741327,
+              3.3749238907939854E-21,
+              -1.3949511206377626E-20,
+              1.0000000000000002,
+              0.0
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              2.8252622808101657,
+              2.4216030374969355,
+              1.0771788782637598E-15,
+              -1162.3173890108444,
+              -5.488356504903847E-16,
+              -1.1063276047855829E-15,
+              3.7210574070528732,
+              301.5196368089258,
+              2.4216030374969355,
+              -2.8252622808101657,
+              -7.286964411447862E-16,
+              304.9515262466143
+            ],
+            "sources": [
+              "em-detail-a3-A"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              2.825262280810166,
+              2.421603037496936,
+              1.07717887826376E-15,
+              -1162.3173890108444,
+              -5.488356504903848E-16,
+              -1.106327604785583E-15,
+              3.7210574070528737,
+              301.5196368089258,
+              2.421603037496936,
+              -2.825262280810166,
+              -7.286964411447863E-16,
+              304.9515262466143
+            ],
+            "sources": [
+              "tomo_38_lm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              2.825262280810166,
+              2.421603037496936,
+              1.07717887826376E-15,
+              -1162.3173890108444,
+              -5.488356504903848E-16,
+              -1.106327604785583E-15,
+              3.7210574070528737,
+              301.5196368089258,
+              2.421603037496936,
+              -2.825262280810166,
+              -7.286964411447863E-16,
+              304.9515262466143
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              2.825262280810166,
+              2.421603037496936,
+              1.07717887826376E-15,
+              -1162.3173890108444,
+              -5.488356504903848E-16,
+              -1.106327604785583E-15,
+              3.7210574070528737,
+              301.5196368089258,
+              2.421603037496936,
+              -2.825262280810166,
+              -7.286964411447863E-16,
+              304.9515262466143
+            ],
+            "sources": [
+              "fluorescence-a3-c0"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              2.825262280810166,
+              2.421603037496936,
+              1.07717887826376E-15,
+              -1162.3173890108444,
+              -5.488356504903848E-16,
+              -1.106327604785583E-15,
+              3.7210574070528737,
+              301.5196368089258,
+              2.421603037496936,
+              -2.825262280810166,
+              -7.286964411447863E-16,
+              304.9515262466143
+            ],
+            "sources": [
+              "fluorescence-a3-c1"
+            ],
+            "name": "manualTransform"
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              2.825262280810166,
+              2.421603037496936,
+              1.07717887826376E-15,
+              -1162.3173890108444,
+              -5.488356504903848E-16,
+              -1.106327604785583E-15,
+              3.7210574070528737,
+              301.5196368089258,
+              2.421603037496936,
+              -2.825262280810166,
+              -7.286964411447863E-16,
+              304.9515262466143
+            ],
+            "sources": [
+              "fluorescence-a3-c2"
+            ],
+            "name": "manualTransform"
+          }
+        }
+      ],
+      "uiSelectionGroup": "mobie-paper",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.02636746102920486,
+          2.9441967404753398E-18,
+          -4.6024574425701444E-4,
+          -6.049228659630263,
+          -2.900164854835571E-18,
+          0.02637147753296625,
+          2.5482786545366494E-18,
+          -7.943478349657228,
+          4.6024574425701444E-4,
+          -2.497275683572983E-18,
+          0.02636746102920486,
+          -0.10752289491845746
+        ],
+        "timepoint": 0
+      }
+    },
+    "Figure2e": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -7277,7 +6556,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "bookmark",
+      "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
           -0.00022955361474360155,
@@ -12422,108 +11701,6 @@
         }
       ],
       "uiSelectionGroup": "bookmark"
-    },
-    "new-table-view": {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "new-table-view_images",
-            "opacity": 1.0,
-            "sources": [
-              "tomo_37_lm",
-              "tomo_38_lm",
-              "tomo_40_lm",
-              "tomo_41_lm",
-              "tomo_53_lm"
-            ]
-          }
-        },
-        {
-          "regionDisplay": {
-            "lut": "glasbey",
-            "name": "new-table-view",
-            "opacity": 0.5,
-            "sources": {
-              "0": [
-                "tomo_37_lm"
-              ],
-              "1": [
-                "tomo_38_lm"
-              ],
-              "2": [
-                "tomo_40_lm"
-              ],
-              "3": [
-                "tomo_41_lm"
-              ],
-              "4": [
-                "tomo_53_lm"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "transformedGrid": {
-            "nestedSources": [
-              [
-                "tomo_37_lm"
-              ],
-              [
-                "tomo_38_lm"
-              ],
-              [
-                "tomo_40_lm"
-              ],
-              [
-                "tomo_41_lm"
-              ],
-              [
-                "tomo_53_lm"
-              ]
-            ],
-            "positions": [
-              [
-                1,
-                0
-              ],
-              [
-                2,
-                0
-              ],
-              [
-                3,
-                0
-              ],
-              [
-                4,
-                0
-              ],
-              [
-                5,
-                0
-              ]
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "table-test"
     },
     "slice-grid-tomo38": {
       "isExclusive": true,
