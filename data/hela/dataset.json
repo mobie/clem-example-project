@@ -3326,6 +3326,32 @@
         },
         {
           "regionDisplay": {
+            "boundaryThickness": 1.0,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "lm-tomo-annotations",
+            "opacity": 1.0,
+            "selectedRegionIds": [
+              "0;1"
+            ],
+            "showAsBoundaries": true,
+            "sources": {
+              "0": [
+                "tomo_38_lm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/lm-tomogram-table"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
+          "regionDisplay": {
             "boundaryThickness": 0.2,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
