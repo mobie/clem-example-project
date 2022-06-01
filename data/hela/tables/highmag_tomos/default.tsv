@@ -1,7 +1,7 @@
-region_id	source	annotationColor	endoplasmic reticulum	endosomes	golgi	intermediate filament	lipid droplet	lysosome	microtubule	mitochondrion
-0	tomo_37_hm	0-255-146-0	0	0	1	0	1	0	1	0
-1	tomo_38_hm	255-255-146-0	1	0	1	1	0	1	0	1
-2	tomo_40_hm	0-255-146-0	0	1	1	0	0	0	0	0
-3	tomo_41_hm	0-255-146-0	0	1	1	1	0	0	0	0
-4	tomo_53_hm	0-255-146-0	0	0	1	0	1	0	1	0
-5	tomo_54_hm	0-255-146-0	1	0	0	0	0	0	1	1
+region_id	source	autophagosome	endo/lysosome	endoplasmic reticulum	filaments bundle	golgi	microtubule	mitochondrion	ribosomes
+0	tomo_37_hm	no	yes	no	no	yes	yes	no	yes
+1	tomo_38_hm	yes	yes	yes	yes	yes	no	no	yes
+2	tomo_40_hm	no	yes	no	no	yes	no	no	yes
+3	tomo_41_hm	no	yes	no	yes	yes	no	no	yes
+4	tomo_53_hm	yes	yes	no	yes	yes	yes	no	no
+5	tomo_54_hm	no	no	yes	yes	no	yes	yes	no
