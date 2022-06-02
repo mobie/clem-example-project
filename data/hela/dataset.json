@@ -4667,7 +4667,7 @@
             "showAsBoundaries": true,
             "sources": {
               "1": [
-                "tomo_38_lm"
+                "tomo_38_hm"
               ]
             },
             "tableData": {
@@ -6622,7 +6622,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "mobie-paper",
+      "uiSelectionGroup": "bookmark",
       "viewerTransform": {
         "normalizedAffine": [
           -0.00022955361474360155,
