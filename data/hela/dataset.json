@@ -4687,19 +4687,19 @@
             "centerAtOrigin": true,
             "nestedSources": [
               [
-                "tomo_37_lm"
+                "tomo_37_hm"
               ],
               [
-                "tomo_38_lm"
+                "tomo_38_hm"
               ],
               [
-                "tomo_40_lm"
+                "tomo_40_hm"
               ],
               [
-                "tomo_41_lm"
+                "tomo_41_hm"
               ],
               [
-                "tomo_54_lm"
+                "tomo_54_hm"
               ]
             ],
             "positions": [
