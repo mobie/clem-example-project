@@ -4617,7 +4617,7 @@
         {
           "regionDisplay": {
             "boundaryThickness": 0.25,
-            "colorByColumn": "mitochondrion",
+            "colorByColumn": "mito",
             "lut": "glasbey",
             "name": "Fig2_e",
             "opacity": 0.5,

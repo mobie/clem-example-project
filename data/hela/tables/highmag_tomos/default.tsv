@@ -1,4 +1,4 @@
-region_id	source	ER	golgi	MT	mito	ribo	filament bundles	autophagosome	endo/lysosome	annotationColor
+region_id	source	ER	golgi	MT	mito	ribo	filaments	autophagosome	endo/lysosome	annotationColor
 0	tomo_37_hm	no	yes	yes	no	yes	no	no	yes	0-255-146-0
 1	tomo_38_hm	yes	yes	no	no	yes	yes	yes	yes	255-255-146-0
 2	tomo_40_hm	no	yes	no	no	yes	no	no	yes	0-255-146-0
