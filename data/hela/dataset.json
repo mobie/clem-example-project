@@ -4659,7 +4659,7 @@
         },
         {
           "regionDisplay": {
-            "boundaryThickness": 0.5,
+            "boundaryThickness": 0.25,
             "colorByColumn": "annotationColor",
             "lut": "argbColumn",
             "name": "tomo38-highlight",
