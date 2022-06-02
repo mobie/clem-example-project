@@ -4687,7 +4687,7 @@
             "name": "rotate90",
             "parameters": [
               0.0,
-              -1.0,
+              1.0,
               0.0,
               0.0,
               1.0,
@@ -4700,7 +4700,11 @@
               0.0
             ],
             "sources": [
-              "tomo_38_hm"
+              "tomo_38_hm",
+              "tomo_40_hm",
+              "tomo_37_hm",
+              "tomo_54_hm",
+              "tomo_41_hm"
             ]
           }
         },
