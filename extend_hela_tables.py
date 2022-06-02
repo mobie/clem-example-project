@@ -43,7 +43,17 @@ def update_hela_table(table):
     tab.to_csv(table, index=False, sep="\t")
 
 
+def restore_annotation_color(table, is_lowmag):
+    tab = pd.read_csv(table, sep="\t")
+    color = "255-0-146-255" if is_lowmag else "0-255-146-0"
+    tab["annotationColor"] = [color] * len(tab)
+    tab.to_csv(table, index=False, sep="\t")
+
+
 # extend_hela_table("./data/hela/tables/highmag_tomos/default.tsv")
 # extend_hela_table("./data/hela/tables/lm-tomogram-table/default.tsv")
-update_hela_table("./data/hela/tables/highmag_tomos/default.tsv")
-update_hela_table("./data/hela/tables/lm-tomogram-table/default.tsv")
+# update_hela_table("./data/hela/tables/highmag_tomos/default.tsv")
+# update_hela_table("./data/hela/tables/lm-tomogram-table/default.tsv")
+
+restore_annotation_color("./data/hela/tables/lm-tomogram-table/default.tsv", True)
+restore_annotation_color("./data/hela/tables/highmag_tomos/default.tsv", False)
