@@ -156,15 +156,35 @@ def panel_f():
 
 
 # tomo 53 is the one not in the field of view
-# tomo XX should get the orange or blue border
-# make giulia's new contrast limits
-def panel_e_new():
+def panel_e_intiial():
     sources = [["tomo_37_lm"], ["tomo_38_lm"], ["tomo_40_lm"], ["tomo_41_lm"], ["tomo_54_lm"]]
     positions = [[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]]
     mobie.create_grid_view(
         "./data/hela", view_name="Fig2_e", sources=sources,
         table_folder="tables/lm-tomogram-table", menu_name="mobie-paper",
         positions=positions, overwrite=True)
+
+
+# tomo 38 should get the blue border
+def panel_e_update():
+    ds = "./data/hela"
+    meta = mobie.metadata.read_dataset_metadata(ds)
+    views = meta["views"]
+    view = views["Figure2e"]
+    sources = {"1": ["tomo_38_lm"]}
+
+    table_data = {"tsv": {"relativePath": "tables/lm-tomogram-table"}}
+    tables = ["default.tsv"]
+
+    new_region_dp = mobie.metadata.get_region_display(
+        name="tomo38-highlight", sources=sources, table_data=table_data, tables=tables,
+        colorByColumn="annotationColor", lut="argbColumn"
+    )
+    view["sourceDisplays"] = [new_region_dp] + view["sourceDisplays"]
+
+    views["Figure2e"] = view
+    meta["views"] = views
+    mobie.metadata.write_dataset_metadata(ds, meta)
 
 
 def main():
@@ -174,7 +194,8 @@ def main():
     # panel_d()
     # panel_e()
     # panel_f()
-    panel_e_new()
+    # panel_e_initial()
+    panel_e_update()
     mobie.validation.validate_dataset(DS_FOLDER, require_local_data=False)
 
 

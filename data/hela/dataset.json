@@ -4591,10 +4591,40 @@
       }
     },
     "Figure2e": {
-      "uiSelectionGroup": "mobie-paper",
+      "isExclusive": true,
       "sourceDisplays": [
         {
+          "regionDisplay": {
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "tomo38-highlight",
+            "opacity": 0.5,
+            "sources": {
+              "1": [
+                "tomo_38_lm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/lm-tomogram-table"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        },
+        {
           "imageDisplay": {
+            "blendingMode": "sumOccluding",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              31966.0,
+              34597.0
+            ],
+            "name": "Fig2_e_images",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
             "sources": [
               "tomo_38_lm",
               "tomo_40_lm",
@@ -4602,20 +4632,24 @@
               "tomo_54_lm",
               "tomo_41_lm"
             ],
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              31966.0,
-              34597.0
-            ],
-            "showImagesIn3d": false,
-            "name": "Fig2_e_images",
-            "opacity": 1.0,
-            "visible": true,
-            "blendingMode": "sumOccluding"
+            "visible": true
           }
         },
         {
           "regionDisplay": {
+            "boundaryThickness": 0.5,
+            "colorByColumn": "mitochondrion",
+            "lut": "glasbey",
+            "name": "Fig2_e",
+            "opacity": 0.5,
+            "randomColorSeed": 52,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": true,
+            "showScatterPlot": false,
+            "showTable": true,
             "sources": {
               "0": [
                 "tomo_37_lm"
@@ -4638,22 +4672,9 @@
                 "relativePath": "tables/lm-tomogram-table"
               }
             },
-            "lut": "glasbey",
-            "colorByColumn": "mitochondrion",
-            "showScatterPlot": false,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
             "tables": [
               "default.tsv"
             ],
-            "showTable": true,
-            "showAsBoundaries": true,
-            "boundaryThickness": 0.5,
-            "randomColorSeed": 52,
-            "name": "Fig2_e",
-            "opacity": 0.5,
             "visible": true
           }
         }
@@ -4661,6 +4682,7 @@
       "sourceTransforms": [
         {
           "transformedGrid": {
+            "centerAtOrigin": true,
             "nestedSources": [
               [
                 "tomo_37_lm"
@@ -4699,11 +4721,11 @@
                 5,
                 0
               ]
-            ],
-            "centerAtOrigin": true
+            ]
           }
         }
       ],
+      "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
           0.016129032258064516,
@@ -4720,8 +4742,7 @@
           0.0
         ],
         "timepoint": 0
-      },
-      "isExclusive": true
+      }
     },
     "all_sources": {
       "isExclusive": true,
