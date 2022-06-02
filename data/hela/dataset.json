@@ -276,108 +276,6 @@
   },
   "timepoints": 1,
   "views": {
-    "Fig2_e": {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              30000.0,
-              35000.0
-            ],
-            "name": "Fig2_e_images",
-            "opacity": 1.0,
-            "sources": [
-              "tomo_37_lm",
-              "tomo_38_lm",
-              "tomo_40_lm",
-              "tomo_41_lm",
-              "tomo_54_lm"
-            ]
-          }
-        },
-        {
-          "regionDisplay": {
-            "lut": "glasbey",
-            "name": "Fig2_e",
-            "opacity": 0.5,
-            "sources": {
-              "0": [
-                "tomo_37_lm"
-              ],
-              "1": [
-                "tomo_38_lm"
-              ],
-              "2": [
-                "tomo_40_lm"
-              ],
-              "3": [
-                "tomo_41_lm"
-              ],
-              "5": [
-                "tomo_54_lm"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "transformedGrid": {
-            "nestedSources": [
-              [
-                "tomo_37_lm"
-              ],
-              [
-                "tomo_38_lm"
-              ],
-              [
-                "tomo_40_lm"
-              ],
-              [
-                "tomo_41_lm"
-              ],
-              [
-                "tomo_54_lm"
-              ]
-            ],
-            "positions": [
-              [
-                1,
-                0
-              ],
-              [
-                2,
-                0
-              ],
-              [
-                3,
-                0
-              ],
-              [
-                4,
-                0
-              ],
-              [
-                5,
-                0
-              ]
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "mobie-paper"
-    },
     "Figure2a": {
       "isExclusive": true,
       "sourceDisplays": [
@@ -4693,71 +4591,69 @@
       }
     },
     "Figure2e": {
-      "isExclusive": true,
+      "uiSelectionGroup": "mobie-paper",
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "sources": [
+              "tomo_38_lm",
+              "tomo_40_lm",
+              "tomo_37_lm",
+              "tomo_54_lm",
+              "tomo_41_lm"
+            ],
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              110.178,
-              216.64800000000002
+              31966.0,
+              34597.0
             ],
-            "name": "highmag_tomos_images",
-            "opacity": 1.0,
             "showImagesIn3d": false,
-            "sources": [
-              "tomo_38_hm",
-              "tomo_40_hm",
-              "tomo_37_hm",
-              "tomo_53_hm",
-              "tomo_54_hm",
-              "tomo_41_hm"
-            ],
-            "visible": true
+            "name": "Fig2_e_images",
+            "opacity": 1.0,
+            "visible": true,
+            "blendingMode": "sumOccluding"
           }
         },
         {
           "regionDisplay": {
-            "boundaryThickness": 1.0,
-            "lut": "glasbey",
-            "name": "highmag_tomos",
-            "opacity": 0.3,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showAsBoundaries": false,
-            "showScatterPlot": false,
-            "showTable": true,
             "sources": {
               "0": [
-                "tomo_37_hm"
+                "tomo_37_lm"
               ],
               "1": [
-                "tomo_38_hm"
+                "tomo_38_lm"
               ],
               "2": [
-                "tomo_40_hm"
+                "tomo_40_lm"
               ],
               "3": [
-                "tomo_41_hm"
-              ],
-              "4": [
-                "tomo_53_hm"
+                "tomo_41_lm"
               ],
               "5": [
-                "tomo_54_hm"
+                "tomo_54_lm"
               ]
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/highmag_tomos"
+                "relativePath": "tables/lm-tomogram-table"
               }
             },
+            "lut": "glasbey",
+            "colorByColumn": "mitochondrion",
+            "showScatterPlot": false,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
             "tables": [
               "default.tsv"
             ],
+            "showTable": true,
+            "showAsBoundaries": true,
+            "boundaryThickness": 0.5,
+            "randomColorSeed": 52,
+            "name": "Fig2_e",
+            "opacity": 0.5,
             "visible": true
           }
         }
@@ -4765,33 +4661,25 @@
       "sourceTransforms": [
         {
           "transformedGrid": {
-            "centerAtOrigin": true,
             "nestedSources": [
               [
-                "tomo_37_hm"
+                "tomo_37_lm"
               ],
               [
-                "tomo_38_hm"
+                "tomo_38_lm"
               ],
               [
-                "tomo_40_hm"
+                "tomo_40_lm"
               ],
               [
-                "tomo_41_hm"
+                "tomo_41_lm"
               ],
               [
-                "tomo_53_hm"
-              ],
-              [
-                "tomo_54_hm"
+                "tomo_54_lm"
               ]
             ],
             "positions": [
               [
-                0,
-                0
-              ],
-              [
                 1,
                 0
               ],
@@ -4800,39 +4688,40 @@
                 0
               ],
               [
-                0,
-                1
+                3,
+                0
               ],
               [
-                1,
-                1
+                4,
+                0
               ],
               [
-                2,
-                1
+                5,
+                0
               ]
-            ]
+            ],
+            "centerAtOrigin": true
           }
         }
       ],
-      "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
+          0.016129032258064516,
           0.0,
-          0.136273923076923,
-          1.1176330441373202e-17,
-          -0.27012164882669776,
-          -0.136273923076923,
           0.0,
-          -1.2393698389457338e-17,
-          0.5200283306296853,
-          -1.2393698389457349e-17,
-          -1.1176330441373203e-17,
-          0.13627392307692304,
-          -5.2611312175733835e-17
+          -0.6014296187683285,
+          0.0,
+          0.016129032258064516,
+          0.0,
+          0.011136363636363637,
+          0.0,
+          0.0,
+          0.016129032258064516,
+          0.0
         ],
         "timepoint": 0
-      }
+      },
+      "isExclusive": true
     },
     "all_sources": {
       "isExclusive": true,
