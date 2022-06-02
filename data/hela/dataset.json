@@ -4605,11 +4605,11 @@
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_38_lm",
-              "tomo_40_lm",
-              "tomo_37_lm",
-              "tomo_54_lm",
-              "tomo_41_lm"
+              "tomo_38_hm",
+              "tomo_40_hm",
+              "tomo_37_hm",
+              "tomo_54_hm",
+              "tomo_41_hm"
             ],
             "visible": true
           }
@@ -4631,24 +4631,24 @@
             "showTable": true,
             "sources": {
               "0": [
-                "tomo_37_lm"
+                "tomo_37_hm"
               ],
               "1": [
-                "tomo_38_lm"
+                "tomo_38_hm"
               ],
               "2": [
-                "tomo_40_lm"
+                "tomo_40_hm"
               ],
               "3": [
-                "tomo_41_lm"
+                "tomo_41_hm"
               ],
               "5": [
-                "tomo_54_lm"
+                "tomo_54_hm"
               ]
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
+                "relativePath": "tables/highmag_tomos"
               }
             },
             "tables": [
@@ -4666,13 +4666,13 @@
             "opacity": 1.0,
             "showAsBoundaries": true,
             "sources": {
-              "2": [
+              "1": [
                 "tomo_38_lm"
               ]
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
+                "relativePath": "tables/highmag_tomos"
               }
             },
             "tables": [
@@ -4687,19 +4687,19 @@
             "centerAtOrigin": true,
             "nestedSources": [
               [
-                "tomo_37_lm"
+                "tomo_37_hm"
               ],
               [
-                "tomo_38_lm"
+                "tomo_38_hm"
               ],
               [
-                "tomo_40_lm"
+                "tomo_40_hm"
               ],
               [
-                "tomo_41_lm"
+                "tomo_41_hm"
               ],
               [
-                "tomo_54_lm"
+                "tomo_54_hm"
               ]
             ],
             "positions": [
