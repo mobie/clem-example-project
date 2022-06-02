@@ -4594,27 +4594,6 @@
       "isExclusive": true,
       "sourceDisplays": [
         {
-          "regionDisplay": {
-            "colorByColumn": "annotationColor",
-            "lut": "argbColumn",
-            "name": "tomo38-highlight",
-            "opacity": 0.5,
-            "sources": {
-              "1": [
-                "tomo_38_lm"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        },
-        {
           "imageDisplay": {
             "blendingMode": "sumOccluding",
             "color": "r=255,g=255,b=255,a=255",
@@ -4637,7 +4616,7 @@
         },
         {
           "regionDisplay": {
-            "boundaryThickness": 0.5,
+            "boundaryThickness": 0.75,
             "colorByColumn": "mitochondrion",
             "lut": "glasbey",
             "name": "Fig2_e",
@@ -4676,6 +4655,29 @@
               "default.tsv"
             ],
             "visible": true
+          }
+        },
+        {
+          "regionDisplay": {
+            "boundaryThickness": 0.5,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "tomo38-highlight",
+            "opacity": 1.0,
+            "showAsBoundaries": true,
+            "sources": {
+              "1": [
+                "tomo_38_lm"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/lm-tomogram-table"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
           }
         }
       ],
