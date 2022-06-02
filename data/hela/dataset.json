@@ -4605,11 +4605,11 @@
             "opacity": 1.0,
             "showImagesIn3d": false,
             "sources": [
-              "tomo_38_lm",
-              "tomo_40_lm",
-              "tomo_37_lm",
-              "tomo_54_lm",
-              "tomo_41_lm"
+              "tomo_38_hm",
+              "tomo_40_hm",
+              "tomo_37_hm",
+              "tomo_54_hm",
+              "tomo_41_hm"
             ],
             "visible": true
           }
@@ -4631,24 +4631,24 @@
             "showTable": true,
             "sources": {
               "0": [
-                "tomo_37_lm"
+                "tomo_37_hm"
               ],
               "1": [
-                "tomo_38_lm"
+                "tomo_38_hm"
               ],
               "2": [
-                "tomo_40_lm"
+                "tomo_40_hm"
               ],
               "3": [
-                "tomo_41_lm"
+                "tomo_41_hm"
               ],
               "5": [
-                "tomo_54_lm"
+                "tomo_54_hm"
               ]
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
+                "relativePath": "tables/highmag_tomos"
               }
             },
             "tables": [
@@ -4666,13 +4666,13 @@
             "opacity": 1.0,
             "showAsBoundaries": true,
             "sources": {
-              "2": [
-                "tomo_38_lm"
+              "1": [
+                "tomo_38_hm"
               ]
             },
             "tableData": {
               "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
+                "relativePath": "tables/highmag_tomos"
               }
             },
             "tables": [
@@ -11767,257 +11767,6 @@
         }
       ],
       "uiSelectionGroup": "bookmark"
-    },
-    "slice-grid-tomo38": {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "color": "white",
-            "contrastLimits": [
-              20,
-              240
-            ],
-            "name": "tomo_38_hm-slice-grid",
-            "opacity": 1.0,
-            "sources": [
-              "tomo_38_hm_z0",
-              "tomo_38_hm_z1",
-              "tomo_38_hm_z2",
-              "tomo_38_hm_z3",
-              "tomo_38_hm_z4",
-              "tomo_38_hm_z5",
-              "tomo_38_hm_z6",
-              "tomo_38_hm_z7"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sourceNamesAfterTransform": [
-              "tomo_38_hm_z0"
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              -11.25
-            ],
-            "sourceNamesAfterTransform": [
-              "tomo_38_hm_z1"
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              -22.5
-            ],
-            "sourceNamesAfterTransform": [
-              "tomo_38_hm_z2"
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              -33.75
-            ],
-            "sourceNamesAfterTransform": [
-              "tomo_38_hm_z3"
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              -45.0
-            ],
-            "sourceNamesAfterTransform": [
-              "tomo_38_hm_z4"
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              -56.25
-            ],
-            "sourceNamesAfterTransform": [
-              "tomo_38_hm_z5"
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              -67.5
-            ],
-            "sourceNamesAfterTransform": [
-              "tomo_38_hm_z6"
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "affine": {
-            "parameters": [
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              -78.75
-            ],
-            "sourceNamesAfterTransform": [
-              "tomo_38_hm_z7"
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "transformedGrid": {
-            "nestedSources": [
-              [
-                "tomo_38_hm_z0"
-              ],
-              [
-                "tomo_38_hm_z1"
-              ],
-              [
-                "tomo_38_hm_z2"
-              ],
-              [
-                "tomo_38_hm_z3"
-              ],
-              [
-                "tomo_38_hm_z4"
-              ],
-              [
-                "tomo_38_hm_z5"
-              ],
-              [
-                "tomo_38_hm_z6"
-              ],
-              [
-                "tomo_38_hm_z7"
-              ]
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "slice-grid"
     },
     "tomo_37_hm": {
       "isExclusive": false,
