@@ -171,7 +171,7 @@ def panel_e_update():
     meta = mobie.metadata.read_dataset_metadata(ds)
     views = meta["views"]
     view = views["Figure2e"]
-    sources = {"1": ["tomo_38_lm"]}
+    sources = {"2": ["tomo_38_lm"]}
 
     table_data = {"tsv": {"relativePath": "tables/lm-tomogram-table"}}
     tables = ["default.tsv"]
