@@ -3534,33 +3534,6 @@
               "fluorescence-a3-c2"
             ]
           }
-        },
-        {
-          "affine": {
-            "name": "matchOverview",
-            "parameters": [
-              0.9986,
-              0.0,
-              0.0,
-              3.21857843709725,
-              0.05233595624294401,
-              0.9986295347545744,
-              0.0,
-              -11.527112528741327,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "em-detail-a3-A",
-              "tomo_38_lm",
-              "tomo_38_hm",
-              "fluorescence-a3-c0",
-              "fluorescence-a3-c1",
-              "fluorescence-a3-c2"
-            ]
-          }
         }
       ],
       "uiSelectionGroup": "mobie-paper",
