@@ -276,7 +276,7 @@
   },
   "timepoints": 1,
   "views": {
-    "Figure2a": {
+    "Figure1d_i": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -1999,7 +1999,7 @@
         "timepoint": 0
       }
     },
-    "Figure2b": {
+    "Figure1d_ii": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -3223,7 +3223,7 @@
         "timepoint": 0
       }
     },
-    "Figure2c": {
+    "Figure1d_iii": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -3554,7 +3554,7 @@
         "timepoint": 0
       }
     },
-    "Figure2d": {
+    "Figure1d_iii_inset": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -4305,188 +4305,6 @@
           -0.039891171857006566,
           0.11672664262638477,
           12.261421106363514
-        ],
-        "timepoint": 0
-      }
-    },
-    "Figure2e": {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "sumOccluding",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              90.0,
-              197.0
-            ],
-            "name": "Fig2_e_images",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_38_hm",
-              "tomo_40_hm",
-              "tomo_37_hm",
-              "tomo_54_hm",
-              "tomo_41_hm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "regionDisplay": {
-            "boundaryThickness": 0.25,
-            "colorByColumn": "mito",
-            "lut": "glasbey",
-            "name": "Fig2_e",
-            "opacity": 0.5,
-            "randomColorSeed": 52,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showAsBoundaries": true,
-            "showScatterPlot": false,
-            "showTable": true,
-            "sources": {
-              "0": [
-                "tomo_37_hm"
-              ],
-              "1": [
-                "tomo_38_hm"
-              ],
-              "2": [
-                "tomo_40_hm"
-              ],
-              "3": [
-                "tomo_41_hm"
-              ],
-              "5": [
-                "tomo_54_hm"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/highmag_tomos"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "regionDisplay": {
-            "boundaryThickness": 0.12,
-            "colorByColumn": "annotationColor",
-            "lut": "argbColumn",
-            "name": "tomo38-highlight",
-            "opacity": 1.0,
-            "showAsBoundaries": true,
-            "sources": {
-              "1": [
-                "tomo_38_hm"
-              ]
-            },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/highmag_tomos"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "rotate90",
-            "parameters": [
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "tomo_38_hm",
-              "tomo_40_hm",
-              "tomo_37_hm",
-              "tomo_54_hm",
-              "tomo_41_hm"
-            ]
-          }
-        },
-        {
-          "transformedGrid": {
-            "centerAtOrigin": true,
-            "nestedSources": [
-              [
-                "tomo_37_hm"
-              ],
-              [
-                "tomo_38_hm"
-              ],
-              [
-                "tomo_40_hm"
-              ],
-              [
-                "tomo_41_hm"
-              ],
-              [
-                "tomo_54_hm"
-              ]
-            ],
-            "positions": [
-              [
-                1,
-                0
-              ],
-              [
-                2,
-                0
-              ],
-              [
-                3,
-                0
-              ],
-              [
-                4,
-                0
-              ],
-              [
-                5,
-                0
-              ]
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "mobie-paper",
-      "viewerTransform": {
-        "normalizedAffine": [
-          0.0506,
-          0.0,
-          0.0,
-          -0.5766105303913911,
-          0.0,
-          0.0506,
-          0.0,
-          -0.0208949449042787,
-          0.0,
-          0.0,
-          0.0506,
-          -1.253362659616744E-4
         ],
         "timepoint": 0
       }
