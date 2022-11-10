@@ -138,6 +138,15 @@
         }
       }
     },
+    "hm_tomograms": {
+      "regions": {
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/hm_tomograms"
+          }
+        }
+      }
+    },
     "lm-fluorescence-overview": {
       "image": {
         "imageData": {
@@ -146,6 +155,15 @@
           },
           "bdv.n5.s3": {
             "relativePath": "images/remote/lm-fluorescence-overview.xml"
+          }
+        }
+      }
+    },
+    "lm_tomograms": {
+      "regions": {
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/lm_tomograms"
           }
         }
       }
@@ -202,9 +220,6 @@
             "opacity": 0.5,
             "sources": [
               "em-segmentation"
-            ],
-            "tables": [
-              "default.tsv"
             ]
           }
         }
@@ -216,7 +231,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               23765,
@@ -237,7 +252,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               128,
@@ -258,7 +273,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               23153,
@@ -279,7 +294,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               128,
@@ -300,7 +315,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               128,
@@ -321,7 +336,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               128,
@@ -342,7 +357,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               128,
@@ -363,7 +378,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               24194,
@@ -384,7 +399,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               128,
@@ -405,7 +420,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               27588.000000000004,
@@ -436,14 +451,7 @@
                 "em-tomogram-30_hm"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/hm_tomograms"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "hm_tomograms"
           }
         }
       ],
@@ -474,7 +482,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               723.8000000000001,
@@ -517,14 +525,7 @@
                 "em-tomogram-30_lm"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm_tomograms"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "lm_tomograms"
           }
         }
       ],

@@ -5,15 +5,9 @@
   ],
   "defaultDataset": "hela",
   "description": "Correlative electron microscopy data from the Schwab Lab at EMBL Heidelberg.",
-  "imageDataFormats": [
-    "bdv.n5",
-    "ome.zarr",
-    "ome.zarr.s3",
-    "bdv.n5.s3"
-  ],
   "references": [
     "https://doi.org/10.1083/jcb.201009037",
     "https://doi.org/10.1038/nmeth.1486"
   ],
-  "specVersion": "0.2.0"
+  "specVersion": "0.3.0"
 }

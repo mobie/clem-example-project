@@ -9,6 +9,15 @@
   "description": "A correlative electron microscopy sample of a HeLa cell.",
   "is2D": false,
   "sources": {
+    "em-detail": {
+      "regions": {
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/em-detail"
+          }
+        }
+      }
+    },
     "em-detail-a1-A": {
       "image": {
         "imageData": {
@@ -53,6 +62,15 @@
           },
           "ome.zarr.s3": {
             "s3Address": "https://s3.embl.de/yeast-clem/hela/images/ome-zarr/em-overview.ome.zarr"
+          }
+        }
+      }
+    },
+    "fluorescence": {
+      "regions": {
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/fluorescence"
           }
         }
       }
@@ -125,6 +143,24 @@
           },
           "bdv.n5.s3": {
             "relativePath": "images/bdv-n5-s3/fluorescence-a3-FMR-c2.xml"
+          }
+        }
+      }
+    },
+    "highmag_tomos": {
+      "regions": {
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/highmag_tomos"
+          }
+        }
+      }
+    },
+    "lm-tomogram-table": {
+      "regions": {
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/lm-tomogram-table"
           }
         }
       }
@@ -298,7 +334,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150.0,
@@ -315,7 +351,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -332,7 +368,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30.0,
@@ -349,7 +385,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -366,7 +402,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -383,7 +419,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -400,7 +436,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -417,7 +453,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -434,7 +470,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -451,7 +487,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -468,7 +504,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -536,7 +572,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               10.0,
@@ -553,7 +589,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
@@ -570,7 +606,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -587,7 +623,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -672,14 +708,7 @@
                 "em-detail-a3-A"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/em-detail"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "em-detail"
           }
         },
         {
@@ -702,14 +731,7 @@
                 "fluorescence-a3-c2"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/fluorescence"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "fluorescence"
           }
         }
       ],
@@ -2021,7 +2043,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150.0,
@@ -2038,7 +2060,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -2055,7 +2077,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30.0,
@@ -2072,7 +2094,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -2089,7 +2111,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -2106,7 +2128,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -2123,7 +2145,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -2140,7 +2162,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -2157,7 +2179,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -2174,7 +2196,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -2191,7 +2213,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -2272,14 +2294,7 @@
                 "fluorescence-a3-c2"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/fluorescence"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "fluorescence"
           }
         },
         {
@@ -2310,14 +2325,7 @@
                 "tomo_54_lm"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "lm-tomogram-table"
           }
         },
         {
@@ -2333,14 +2341,7 @@
                 "em-detail-a3-A"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/em-detail"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "em-detail"
           }
         }
       ],
@@ -3228,7 +3229,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150.0,
@@ -3245,7 +3246,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000,
@@ -3260,7 +3261,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               70.0,
@@ -3340,14 +3341,7 @@
                 "tomo_38_lm"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "lm-tomogram-table"
           }
         },
         {
@@ -3363,14 +3357,7 @@
                 "tomo_38_hm"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/highmag_tomos"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "highmag_tomos"
           }
         }
       ],
@@ -3539,20 +3526,20 @@
       "uiSelectionGroup": "mobie-paper",
       "viewerTransform": {
         "normalizedAffine": [
-            0.059370847578292335,
-            0.0,
-            0.0,
-            -14.460730505353297,
-            0.0,
-            0.059370847578292335,
-            0.0,
-            -18.12299725093554,
-            0.0,
-            0.0,
-            0.059370847578292335,
-            0.0
+          0.059370847578292335,
+          0.0,
+          0.0,
+          -14.460730505353297,
+          0.0,
+          0.059370847578292335,
+          0.0,
+          -18.12299725093554,
+          0.0,
+          0.0,
+          0.059370847578292335,
+          0.0
         ],
-        "timepoint":0
+        "timepoint": 0
       }
     },
     "Figure1d_iii_inset": {
@@ -3560,7 +3547,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150.0,
@@ -3577,7 +3564,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -3594,7 +3581,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               70.0,
@@ -3676,14 +3663,7 @@
                 "tomo_38_lm"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "lm-tomogram-table"
           }
         },
         {
@@ -3705,14 +3685,7 @@
                 "tomo_38_hm"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/highmag_tomos"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ],
+            "tableSource": "highmag_tomos",
             "visible": true
           }
         }
@@ -4332,7 +4305,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150.0,
@@ -4349,7 +4322,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -4366,7 +4339,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30.0,
@@ -4383,7 +4356,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -4400,7 +4373,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -4417,7 +4390,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -4434,7 +4407,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -4451,7 +4424,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -4468,7 +4441,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -4485,7 +4458,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -4502,7 +4475,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -4570,7 +4543,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               10.0,
@@ -4587,7 +4560,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
@@ -4604,7 +4577,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -4621,7 +4594,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -6227,7 +6200,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150.0,
@@ -6244,7 +6217,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -6261,7 +6234,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30.0,
@@ -6278,7 +6251,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -6295,7 +6268,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -6312,7 +6285,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -6329,7 +6302,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -6346,7 +6319,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -6363,7 +6336,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -6380,7 +6353,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -6397,7 +6370,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -6465,7 +6438,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               10.0,
@@ -6482,7 +6455,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
@@ -6499,7 +6472,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -6516,7 +6489,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -6607,14 +6580,7 @@
                 "tomo_54_lm"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/lm-tomogram-table"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "lm-tomogram-table"
           }
         }
       ],
@@ -8157,7 +8123,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
@@ -8174,7 +8140,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -8191,7 +8157,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               50.0,
@@ -8917,7 +8883,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150.0,
@@ -8934,7 +8900,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -8951,7 +8917,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30.0,
@@ -8968,7 +8934,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -8985,7 +8951,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -9002,7 +8968,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -9019,7 +8985,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -9036,7 +9002,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -9053,7 +9019,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -9070,7 +9036,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -9087,7 +9053,7 @@
         },
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20.0,
@@ -10765,7 +10731,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               10,
@@ -10876,7 +10842,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               0.0,
@@ -10987,7 +10953,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               150,
@@ -11865,7 +11831,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30,
@@ -11908,14 +11874,7 @@
                 "tomo_54_hm"
               ]
             },
-            "tableData": {
-              "tsv": {
-                "relativePath": "tables/highmag_tomos"
-              }
-            },
-            "tables": [
-              "default.tsv"
-            ]
+            "tableSource": "highmag_tomos"
           }
         }
       ],
@@ -11953,7 +11912,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30,
@@ -12020,7 +11979,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000.0,
@@ -12109,7 +12068,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20,
@@ -12176,7 +12135,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000,
@@ -12243,7 +12202,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20,
@@ -12310,7 +12269,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               30000.0,
@@ -12377,7 +12336,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20,
@@ -12444,7 +12403,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000,
@@ -12511,7 +12470,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20,
@@ -12600,7 +12559,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "white",
             "contrastLimits": [
               30000.0,
@@ -12689,7 +12648,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               20,
@@ -12756,7 +12715,7 @@
       "sourceDisplays": [
         {
           "imageDisplay": {
-            "blendingMode": "sumOccluding",
+            "blendingMode": "alpha",
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
               30000,
