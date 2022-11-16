@@ -4283,7 +4283,7 @@
         "timepoint": 0
       }
     },
-    "fig2f": {
+    "Paneltest1": {
       "uiSelectionGroup": "mobie-paper",
       "sourceDisplays": [
         {
@@ -4425,7 +4425,7 @@
       },
       "isExclusive": true
     },
-    "2f": {
+    "Paneltest2": {
       "uiSelectionGroup": "mobie-paper",
       "sourceDisplays": [
         {
