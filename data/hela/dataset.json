@@ -312,7 +312,7 @@
   },
   "timepoints": 1,
   "views": {
-    "Figure1d_i": {
+    "SupplFig1a": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -2021,7 +2021,7 @@
         "timepoint": 0
       }
     },
-    "Figure1d_ii": {
+    "SupplFig1b": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -3224,7 +3224,7 @@
         "timepoint": 0
       }
     },
-    "Figure1d_iii": {
+    "SupplFig1c": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -3542,7 +3542,7 @@
         "timepoint": 0
       }
     },
-    "Figure1d_iii_inset": {
+    "SupplFig1d": {
       "isExclusive": true,
       "sourceDisplays": [
         {
