@@ -4282,6 +4282,178 @@
         "timepoint": 0
       }
     },
+    "SupplFig1e": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "blendingMode": "alpha",
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              90.0,
+              197.0
+            ],
+            "name": "Fig2_e_images",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "tomo_38_hm",
+              "tomo_40_hm",
+              "tomo_37_hm",
+              "tomo_54_hm",
+              "tomo_41_hm"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "regionDisplay": {
+            "boundaryThickness": 0.25,
+            "colorByColumn": "mito",
+            "lut": "glasbey",
+            "name": "Fig2_e",
+            "opacity": 0.5,
+            "randomColorSeed": 52,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": true,
+            "showScatterPlot": false,
+            "showTable": true,
+            "sources": {
+              "0": [
+                "tomo_37_hm"
+              ],
+              "1": [
+                "tomo_38_hm"
+              ],
+              "2": [
+                "tomo_40_hm"
+              ],
+              "3": [
+                "tomo_41_hm"
+              ],
+              "5": [
+                "tomo_54_hm"
+              ]
+            },
+            "tableSource": "highmag_tomos",
+            "visible": true
+          }
+        },
+        {
+          "regionDisplay": {
+            "boundaryThickness": 0.12,
+            "colorByColumn": "annotationColor",
+            "lut": "argbColumn",
+            "name": "tomo38-highlight",
+            "opacity": 1.0,
+            "randomColorSeed": 42,
+            "scatterPlotAxes": [
+              "anchor_x",
+              "anchor_y"
+            ],
+            "showAsBoundaries": true,
+            "showScatterPlot": false,
+            "showTable": true,
+            "sources": {
+              "1": [
+                "tomo_38_hm"
+              ]
+            },
+            "tableSource": "highmag_tomos",
+            "visible": true
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "name": "rotate90",
+            "parameters": [
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "tomo_38_hm"
+            ]
+          }
+        },
+        {
+          "transformedGrid": {
+            "centerAtOrigin": true,
+            "nestedSources": [
+              [
+                "tomo_37_hm"
+              ],
+              [
+                "tomo_38_hm"
+              ],
+              [
+                "tomo_40_hm"
+              ],
+              [
+                "tomo_41_hm"
+              ],
+              [
+                "tomo_54_hm"
+              ]
+            ],
+            "positions": [
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "mobie-paper",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.050619812527758164,
+          -1.8878399670909767e-34,
+          4.603717826819866e-18,
+          -0.5766105303913911,
+          -1.8878399670909767e-34,
+          0.050619812527758164,
+          4.151518785962014e-18,
+          -0.0208949449042787,
+          -4.603717826819866e-18,
+          -4.151518785962014e-18,
+          0.050619812527758164,
+          -0.0001253362659616744
+        ],
+        "timepoint": 0
+      }
+    },
     "all_sources_with_table": {
       "isExclusive": true,
       "sourceDisplays": [
@@ -10880,178 +11052,6 @@
         }
       ],
       "uiSelectionGroup": "tomogram"
-    },
-    "awrgdfgs": {
-      "isExclusive": true,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "blendingMode": "alpha",
-            "color": "r=255,g=255,b=255,a=255",
-            "contrastLimits": [
-              90.0,
-              197.0
-            ],
-            "name": "Fig2_e_images",
-            "opacity": 1.0,
-            "showImagesIn3d": false,
-            "sources": [
-              "tomo_38_hm",
-              "tomo_40_hm",
-              "tomo_37_hm",
-              "tomo_54_hm",
-              "tomo_41_hm"
-            ],
-            "visible": true
-          }
-        },
-        {
-          "regionDisplay": {
-            "boundaryThickness": 0.25,
-            "colorByColumn": "mito",
-            "lut": "glasbey",
-            "name": "Fig2_e",
-            "opacity": 0.5,
-            "randomColorSeed": 52,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showAsBoundaries": true,
-            "showScatterPlot": false,
-            "showTable": true,
-            "sources": {
-              "0": [
-                "tomo_37_hm"
-              ],
-              "1": [
-                "tomo_38_hm"
-              ],
-              "2": [
-                "tomo_40_hm"
-              ],
-              "3": [
-                "tomo_41_hm"
-              ],
-              "5": [
-                "tomo_54_hm"
-              ]
-            },
-            "tableSource": "highmag_tomos",
-            "visible": true
-          }
-        },
-        {
-          "regionDisplay": {
-            "boundaryThickness": 0.12,
-            "colorByColumn": "annotationColor",
-            "lut": "argbColumn",
-            "name": "tomo38-highlight",
-            "opacity": 1.0,
-            "randomColorSeed": 42,
-            "scatterPlotAxes": [
-              "anchor_x",
-              "anchor_y"
-            ],
-            "showAsBoundaries": true,
-            "showScatterPlot": false,
-            "showTable": true,
-            "sources": {
-              "1": [
-                "tomo_38_hm"
-              ]
-            },
-            "tableSource": "highmag_tomos",
-            "visible": true
-          }
-        }
-      ],
-      "sourceTransforms": [
-        {
-          "affine": {
-            "name": "rotate90",
-            "parameters": [
-              0.0,
-              -1.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              1.0,
-              0.0
-            ],
-            "sources": [
-              "tomo_38_hm"
-            ]
-          }
-        },
-        {
-          "transformedGrid": {
-            "centerAtOrigin": true,
-            "nestedSources": [
-              [
-                "tomo_37_hm"
-              ],
-              [
-                "tomo_38_hm"
-              ],
-              [
-                "tomo_40_hm"
-              ],
-              [
-                "tomo_41_hm"
-              ],
-              [
-                "tomo_54_hm"
-              ]
-            ],
-            "positions": [
-              [
-                1,
-                0
-              ],
-              [
-                2,
-                0
-              ],
-              [
-                3,
-                0
-              ],
-              [
-                4,
-                0
-              ],
-              [
-                5,
-                0
-              ]
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "waefdz",
-      "viewerTransform": {
-        "normalizedAffine": [
-          0.050619812527758164,
-          -1.8878399670909767e-34,
-          4.603717826819866e-18,
-          -0.5766105303913911,
-          -1.8878399670909767e-34,
-          0.050619812527758164,
-          4.151518785962014e-18,
-          -0.0208949449042787,
-          -4.603717826819866e-18,
-          -4.151518785962014e-18,
-          0.050619812527758164,
-          -0.0001253362659616744
-        ],
-        "timepoint": 0
-      }
     }
   }
 }
