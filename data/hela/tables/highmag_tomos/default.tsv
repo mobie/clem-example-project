@@ -1,7 +1,7 @@
 region_id	source	ER	mito	MT	golgi	ribo	filaments	autophagosome	endo/lysosome	annotationColor
 0	tomo_37_hm	no	no	yes	yes	yes	no	no	yes	255-146-0-0
-1	tomo_38_hm	yes	no	no	yes	yes	yes	yes	yes	255-146-0-0
-2	tomo_40_hm	no	no	no	yes	yes	no	no	yes	255-146-0-255
+1	tomo_38_hm	yes	no	no	yes	yes	yes	yes	yes	255-146-0-255
+2	tomo_40_hm	no	no	no	yes	yes	no	no	yes	255-146-0-0
 3	tomo_41_hm	no	no	no	yes	yes	yes	no	yes	255-146-0-0
 4	tomo_53_hm	no	no	yes	yes	no	yes	yes	yes	255-146-0-0
 5	tomo_54_hm	yes	yes	yes	no	no	yes	no	no	255-146-0-0
